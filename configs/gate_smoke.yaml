@@ -1,0 +1,36 @@
+# Correctness-only learner gate. Numbers from this config are never reported as
+# scientific results.
+stage: gate_smoke
+regimes_subset: [winter_weekday]
+method_seeds_subset: [91]
+
+network:
+  hidden_layers: 2
+  width: 16
+  reference_quadrature_points: 8
+
+policy_evaluation:
+  adam_max_steps: 40
+  adam_batch_size: 128
+  lbfgs_max_iter: 0
+  boundary_points: 128
+  certification_points: 256
+  tuning_validation_points: 128
+  eval_every_steps: 20
+  early_stop_patience_evals: 3
+
+adaptive_refinement:
+  enabled: false
+  candidate_pool_size: 128
+  refresh_every_steps: 100
+  top_quantile: 0.98
+  max_buffer_size: 256
+
+policy_iteration:
+  max_iterations: 1
+
+experiment_a:
+  grids:
+    - [21, 21, 25]
+    - [31, 31, 37]
+  eval_points: 1000

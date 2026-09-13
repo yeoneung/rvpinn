@@ -1,0 +1,34 @@
+# Experiment definitions and preregistered seeds
+seeds:
+  data_processing: 1101
+  calibration: 1201
+  training_design: 2101
+  adaptive_candidate: 2201
+  tuning_validation: 3101
+  final_certification: 4101
+  test_simulation: 5101
+  bootstrap: 6101
+  method_seeds: [0, 1, 2, 3, 4]
+
+experiment_a:
+  grids:
+    - [51, 81, 49]        # coarse, convergence diagnostic
+    - [101, 161, 97]
+    - [201, 321, 193]
+  eval_points: 100000
+  reference_state: {t: 0.0, s: 0.5, y: 0.0}
+
+robustness:
+  m_sigma: [0.5, 1.0, 1.5, 2.0]
+  price_spike_percentile: 99.5
+  price_spike_durations_h: [1, 2, 3, 4]
+  efficiency_error_pp: [-5, -2, 0, 2, 5]
+  capacity_error_pct: [-20, -10, 0, 10, 20]
+  rho_shift: [-0.2, 0.0, 0.2]
+  gamma_R: [0.6, 1.0, 1.4]
+
+statistics:
+  bootstrap_replicates: 10000
+  block_length_days: 7
+  cvar_alpha: 0.95
+  holm_alpha: 0.05

@@ -1,0 +1,16 @@
+{
+  "label": "exploratory nested scenario-count sensitivity",
+  "scenario_counts": [
+    2,
+    8,
+    16
+  ],
+  "scenario_streams": [
+    7301,
+    7302,
+    7303
+  ],
+  "scenario_pool_size": 16,
+  "high_fee_15s_triggered": true,
+  "high_fee_15s_complete": true
+}

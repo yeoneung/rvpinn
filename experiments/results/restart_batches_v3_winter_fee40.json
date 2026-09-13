@@ -1,0 +1,382 @@
+{
+  "deployment_version": "hard-band-aligned-v1",
+  "action_search_version": "closed-feasible-grid-v1",
+  "tag": "v3_winter_fee40",
+  "region": "confirmatory",
+  "regime": "winter_weekday",
+  "partition": "test",
+  "n_days": 30,
+  "restart_margin_eur_per_day": 0.1,
+  "fallback": "zero_action",
+  "fallback_validation_mean_common_cost": 1581.812980297694,
+  "restarts": [
+    {
+      "seed": 0,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed0/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1306.7169561599906
+    },
+    {
+      "seed": 1,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed1/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1368.7866956854825
+    },
+    {
+      "seed": 2,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed2/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1303.9358200800455
+    },
+    {
+      "seed": 3,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed3/iter03.pt",
+      "selected_iteration": 3,
+      "validation_mean_common_cost": 1375.0957578114997
+    },
+    {
+      "seed": 4,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed4/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1304.766855729717
+    },
+    {
+      "seed": 5,
+      "batch": 1,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed5/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1332.119755108437
+    },
+    {
+      "seed": 6,
+      "batch": 1,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed6/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1298.372786438439
+    },
+    {
+      "seed": 7,
+      "batch": 1,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed7/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1304.457339148631
+    },
+    {
+      "seed": 8,
+      "batch": 1,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed8/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1305.2293010723815
+    },
+    {
+      "seed": 9,
+      "batch": 1,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed9/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1323.2121978422704
+    },
+    {
+      "seed": 10,
+      "batch": 2,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed10/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1342.1585715041438
+    },
+    {
+      "seed": 11,
+      "batch": 2,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed11/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1296.3447960000478
+    },
+    {
+      "seed": 12,
+      "batch": 2,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed12/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1373.936527272994
+    },
+    {
+      "seed": 13,
+      "batch": 2,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed13/iter03.pt",
+      "selected_iteration": 3,
+      "validation_mean_common_cost": 1343.8442567380023
+    },
+    {
+      "seed": 14,
+      "batch": 2,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed14/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1313.7156816557829
+    },
+    {
+      "seed": 15,
+      "batch": 3,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed15/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1310.9930004015662
+    },
+    {
+      "seed": 16,
+      "batch": 3,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed16/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1306.8996362061619
+    },
+    {
+      "seed": 17,
+      "batch": 3,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed17/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1308.534327301898
+    },
+    {
+      "seed": 18,
+      "batch": 3,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed18/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1320.146309901345
+    },
+    {
+      "seed": 19,
+      "batch": 3,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed19/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1366.4143494585408
+    },
+    {
+      "seed": 20,
+      "batch": 4,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed20/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1298.701157376334
+    },
+    {
+      "seed": 21,
+      "batch": 4,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed21/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1315.1989579156711
+    },
+    {
+      "seed": 22,
+      "batch": 4,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed22/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1318.4816691447586
+    },
+    {
+      "seed": 23,
+      "batch": 4,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed23/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1365.9561689666707
+    },
+    {
+      "seed": 24,
+      "batch": 4,
+      "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed24/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1323.0046034401096
+    }
+  ],
+  "batch_selections": [
+    {
+      "batch": 0,
+      "selected_kind": "trained_policy",
+      "selected_seed": 2,
+      "selected_validation_mean_common_cost": 1303.9358200800455,
+      "decisions": [
+        {
+          "candidate_seed": 0,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 275.09602413770335,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 1,
+          "incumbent_before": 0,
+          "improvement_eur_per_day": -62.06973952549197,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 2,
+          "incumbent_before": 0,
+          "improvement_eur_per_day": 2.7811360799450995,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 3,
+          "incumbent_before": 2,
+          "improvement_eur_per_day": -71.15993773145419,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 4,
+          "incumbent_before": 2,
+          "improvement_eur_per_day": -0.8310356496715485,
+          "decision": "retain_incumbent"
+        }
+      ]
+    },
+    {
+      "batch": 1,
+      "selected_kind": "trained_policy",
+      "selected_seed": 6,
+      "selected_validation_mean_common_cost": 1298.372786438439,
+      "decisions": [
+        {
+          "candidate_seed": 5,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 249.69322518925696,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 6,
+          "incumbent_before": 5,
+          "improvement_eur_per_day": 33.74696866999784,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 7,
+          "incumbent_before": 6,
+          "improvement_eur_per_day": -6.084552710191929,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 8,
+          "incumbent_before": 6,
+          "improvement_eur_per_day": -6.8565146339424246,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 9,
+          "incumbent_before": 6,
+          "improvement_eur_per_day": -24.839411403831264,
+          "decision": "retain_incumbent"
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "selected_kind": "trained_policy",
+      "selected_seed": 11,
+      "selected_validation_mean_common_cost": 1296.3447960000478,
+      "decisions": [
+        {
+          "candidate_seed": 10,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 239.65440879355015,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 11,
+          "incumbent_before": 10,
+          "improvement_eur_per_day": 45.81377550409593,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 12,
+          "incumbent_before": 11,
+          "improvement_eur_per_day": -77.59173127294616,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 13,
+          "incumbent_before": 11,
+          "improvement_eur_per_day": -47.49946073795445,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 14,
+          "incumbent_before": 11,
+          "improvement_eur_per_day": -17.370885655735037,
+          "decision": "retain_incumbent"
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "selected_kind": "trained_policy",
+      "selected_seed": 16,
+      "selected_validation_mean_common_cost": 1306.8996362061619,
+      "decisions": [
+        {
+          "candidate_seed": 15,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 270.81997989612773,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 16,
+          "incumbent_before": 15,
+          "improvement_eur_per_day": 4.09336419540432,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 17,
+          "incumbent_before": 16,
+          "improvement_eur_per_day": -1.634691095736116,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 18,
+          "incumbent_before": 16,
+          "improvement_eur_per_day": -13.246673695183063,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 19,
+          "incumbent_before": 16,
+          "improvement_eur_per_day": -59.5147132523789,
+          "decision": "retain_incumbent"
+        }
+      ]
+    },
+    {
+      "batch": 4,
+      "selected_kind": "trained_policy",
+      "selected_seed": 20,
+      "selected_validation_mean_common_cost": 1298.701157376334,
+      "decisions": [
+        {
+          "candidate_seed": 20,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 283.1118229213598,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 21,
+          "incumbent_before": 20,
+          "improvement_eur_per_day": -16.49780053933705,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 22,
+          "incumbent_before": 20,
+          "improvement_eur_per_day": -19.780511768424503,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 23,
+          "incumbent_before": 20,
+          "improvement_eur_per_day": -67.25501159033661,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 24,
+          "incumbent_before": 20,
+          "improvement_eur_per_day": -24.303446063775482,
+          "decision": "retain_incumbent"
+        }
+      ]
+    }
+  ],
+  "daily_file": "./experiments/results/learned_daily_v3_winter_fee40.parquet"
+}

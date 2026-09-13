@@ -1,0 +1,66 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Scenario-count cost decomposition, averaged over dates and available randomization units. Fees are in EUR/h and cost components in EUR/day.}
+\label{tab:supp-round2-components}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrlrrrrr}
+\toprule
+Fee & $M$ & Limit & Method & Bill & Band fee & Degradation & Terminal & Total \\
+\midrule
+40 & -- & -- & Offline learned & 897.1 & 436.5 & 155.1 & 0.37 & 1489.1 \\
+40 & 2 & 5 s & Stochastic MIQP & 907.9 & 320.0 & 226.2 & 2.06 & 1456.1 \\
+40 & 8 & 5 s & Stochastic MIQP & 892.7 & 668.6 & 117.3 & 1.70 & 1680.3 \\
+40 & 16 & 5 s & Stochastic MIQP & 886.6 & 760.4 & 60.0 & 1.11 & 1708.1 \\
+80 & -- & -- & Offline learned & 900.5 & 603.3 & 265.5 & 0.42 & 1769.7 \\
+80 & 16 & 5 s & Stochastic MIQP & 886.6 & 1521.8 & 59.2 & 1.85 & 2469.5 \\
+80 & 16 & 15 s & Stochastic MIQP & 896.6 & 1318.2 & 125.2 & 2.17 & 2342.1 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Scenario-stream and solver diagnostics. Fees are in EUR/h; stream columns are mean costs in EUR/day. Finite gap is the share of calls with finite primal and dual bounds and an ordinary reported gap; the mean gap is conditional on that event. TL is time-limit frequency.}
+\label{tab:supp-round2-solvers}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrrrrrrrrr}
+\toprule
+Fee & $M$ & Limit & Stream 1 & Stream 2 & Stream 3 & Incumbent & Finite gap & Mean gap & TL & P95 solve \\
+\midrule
+40 & 2 & 5 s & 1456.4 & 1456.0 & 1455.9 & 100.0\% & 100.0\% & 0.38\% & 7.8\% & 4.52 s \\
+40 & 8 & 5 s & 1682.3 & 1681.0 & 1677.5 & 100.0\% & 96.4\% & 821.36\% & 78.9\% & 4.98 s \\
+40 & 16 & 5 s & 1708.1 & 1707.9 & 1708.3 & 100.0\% & 49.4\% & 614.81\% & 96.6\% & 4.98 s \\
+80 & 16 & 5 s & 2468.0 & 2468.5 & 2471.9 & 100.0\% & 48.5\% & 897.50\% & 96.8\% & 4.98 s \\
+80 & 16 & 15 s & 2340.9 & 2336.6 & 2348.8 & 100.0\% & 97.7\% & 1167.00\% & 96.4\% & 14.98 s \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Distribution of paired daily component differences at 40 EUR/h. Entries are learned minus comparator in EUR/day; learned batches and scenario streams are averaged within date.}
+\label{tab:supp-round2-component-distribution}
+\begin{tabular}{llrrrr}
+\toprule
+Comparator & Component & Mean & P10 & Median & P90 \\
+\midrule
+No-learning reference & Bill & 17.0 & 13.3 & 17.3 & 20.7 \\
+No-learning reference & Band fee & -367.5 & -434.0 & -367.0 & -310.6 \\
+No-learning reference & Degradation & 148.6 & 118.8 & 147.9 & 181.9 \\
+No-learning reference & Terminal & 0.2 & -0.1 & -0.1 & 0.1 \\
+No-learning reference & Total & -201.7 & -231.5 & -202.5 & -167.6 \\
+\addlinespace
+Stochastic MIQP ($M=16$) & Bill & 10.6 & 6.6 & 10.9 & 15.0 \\
+Stochastic MIQP ($M=16$) & Band fee & -323.9 & -385.0 & -326.7 & -282.2 \\
+Stochastic MIQP ($M=16$) & Degradation & 95.1 & 73.2 & 93.6 & 119.2 \\
+Stochastic MIQP ($M=16$) & Terminal & -0.7 & -1.8 & -0.7 & 0.0 \\
+Stochastic MIQP ($M=16$) & Total & -218.9 & -285.0 & -214.8 & -163.1 \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\end{table}

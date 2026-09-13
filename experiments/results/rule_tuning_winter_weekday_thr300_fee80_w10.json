@@ -1,0 +1,16 @@
+{
+  "q_lo": 0.0,
+  "q_hi": 1.0,
+  "val_mean_common_cost": 2493.812980297697,
+  "selected_kind": "zero_action",
+  "region": "confirmatory",
+  "regime": "winter_weekday",
+  "partition": "validation",
+  "n_validation_days": 30,
+  "threshold_kw": 300.0,
+  "fee_per_hour": 80.0,
+  "smoothing_width_kw": 10.0,
+  "c_lo": -0.18611999999999998,
+  "c_hi": 0.40224,
+  "test_mean_common_cost": 2621.264629789473
+}

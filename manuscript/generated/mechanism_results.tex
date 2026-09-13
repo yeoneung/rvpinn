@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Seasonal replication at 40 EUR/h. Costs are daily means in EUR/day. Winter averages five validation-selected batches; each other season uses one five-restart batch.}
+\label{tab:seasons}
+\begin{tabular}{lrrrrr}
+\toprule
+Season & No storage & Convex & CM MIQP & Stoch. MIQP & Offline \\
+\midrule
+Winter & 1750.6 & 1750.6 & 1464.8 & 1456.0 & 1489.1 \\
+Spring & 1342.6 & 1342.7 & 996.1 & 990.9 & 1008.4 \\
+Summer & 1232.2 & 1232.3 & 933.4 & 930.9 & 951.7 \\
+Autumn & 1345.4 & 1345.5 & 1001.8 & 995.3 & 1049.7 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+ At the 80 EUR/h anchor, increasing the per-solve limit from 5 to 15 seconds changed mean daily cost by 0.7 EUR for conditional-mean MIQP and -1.4 EUR for two-stage stochastic MIQP; this descriptive sensitivity analysis is separate from the primary comparison. Across the four seasonal regimes, zero action was retained in 0 of 8 complete five-restart batches.

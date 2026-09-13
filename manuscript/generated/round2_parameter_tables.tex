@@ -1,0 +1,47 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Fixed physical, economic, controller, and computational parameters. Values are calibrated from training data or specified by the common experimental design.}
+\label{tab:supp-fixed-parameters}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+Quantity & Value \\
+\midrule
+Battery energy; charge/discharge limits & 1000 kWh; 500/500 kW \\
+SoC bounds; initial/target SoC & [0.10, 0.90]; 0.50/0.50 \\
+Charge/discharge efficiency; taper width & 0.95/0.95; 0.05 SoC \\
+Horizon; control/simulation interval & 24 h; 15/5 min \\
+Base power; renewable scaling & 500 kW; $\gamma_R=1.2$ \\
+Export fraction; throughput cost & $\alpha_s=0.50$; $\lambda_1=0.0375$ EUR/kWh \\
+Terminal coefficient; terminal target & $\lambda_T=10,819.79$ EUR/SoC$^2$; $s_{\rm tar}=0.50$ \\
+Tariff threshold; fee anchors; smooth widths & 300 kW; 20/40/80 EUR/h; 5/10/20 kW \\
+Hard deployment search; quadrature & 1,025-point structural grid; $3\times3$ Gauss--Hermite \\
+Primary online-MIQP budget; target gap & 5 s per solve; 1\% \\
+Solver feasibility tolerance; binary separation & $10^{-9}$; $10^{-5}$ kW \\
+Scenario sensitivity & $M=2,8,16$; three nested streams; pool size 16 \\
+Network; Fourier harmonics & 5 layers $\times$ 96; 1, 2, 3 \\
+Training per PI round & at most 2,000 Adam and 80 L-BFGS steps \\
+PI rounds; selection margin & 4; 0.10 EUR/day \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Weekday OU calibration and central-fee neural output scale $\beta$ by season. Mean-reversion rates are per hour; diffusion scales are in kW/$\sqrt{\mathrm{h}}$ and EUR/kWh/$\sqrt{\mathrm{h}}$; $\beta$ is in EUR/h.}
+\label{tab:supp-ou-parameters}
+\begin{tabularx}{\linewidth}{l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}Xrr}
+\toprule
+Season & Load error $(\kappa_y,\sigma_y,[y_{\min},y_{\max}])$ & Price error $(\kappa_p,\sigma_p,[p_{\min},p_{\max}])$ & $\rho$ & $\beta$ (EUR/h) \\
+\midrule
+Winter & (0.0579, 33.28, [-536.6, 533.9]) & (0.0394, 0.00580, [-0.0657, 0.1696]) & 0.132 & 301.55 \\
+Spring & (0.0607, 38.07, [-420.8, 720.7]) & (0.0779, 0.00276, [-0.0331, 0.0759]) & 0.176 & 295.45 \\
+Summer & (0.0288, 24.42, [-565.0, 603.5]) & (0.0449, 0.00449, [-0.0461, 0.1279]) & 0.122 & 297.98 \\
+Autumn & (0.0582, 38.55, [-424.6, 639.9]) & (0.0889, 0.00602, [-0.0508, 0.1111]) & 0.118 & 298.73 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The winter, spring, summer, and autumn weekday calibrations use 2,856, 3,048, 3,072, 3,072 training hours, respectively. 
+For the two outer winter fees, the neural output scales are 300.95 (20 EUR/h) and 302.75 (80 EUR/h). The hard-band binary separation is $10^{-5}$ kW. State-domain reflection bounds, hourly profiles, and every remaining calibrated coefficient are stored in the machine-readable parameter file.

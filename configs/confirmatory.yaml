@@ -1,0 +1,37 @@
+# Frozen version-3 learned-controller budget. Chosen from the decision gate,
+# before running the complete IT_NORD holdout comparison.
+stage: confirmatory
+
+network:
+  hidden_layers: 5
+  width: 96
+  reference_baseline: zero_action_conditional_mean
+  reference_quadrature_points: 24
+
+policy_evaluation:
+  adam_max_steps: 2000
+  adam_batch_size: 2048
+  lbfgs_max_iter: 80
+  boundary_points: 4096
+  certification_points: 16384
+  tuning_validation_points: 8192
+  eval_every_steps: 400
+  early_stop_patience_evals: 5
+
+adaptive_refinement:
+  enabled: false
+  candidate_pool_size: 8192
+  refresh_every_steps: 800
+  top_quantile: 0.98
+  max_buffer_size: 16384
+
+policy_iteration:
+  max_iterations: 4
+
+policy_selection:
+  criterion: paired_historical_validation_hard_common_cost
+  min_mean_improvement_eur_per_day: 0.10
+
+statistics:
+  bootstrap_replicates: 10000
+  block_length_days: 7

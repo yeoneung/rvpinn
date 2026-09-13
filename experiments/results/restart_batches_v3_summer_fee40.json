@@ -1,0 +1,90 @@
+{
+  "deployment_version": "hard-band-aligned-v1",
+  "action_search_version": "closed-feasible-grid-v1",
+  "tag": "v3_summer_fee40",
+  "region": "confirmatory",
+  "regime": "summer_weekday",
+  "partition": "test",
+  "n_days": 30,
+  "restart_margin_eur_per_day": 0.1,
+  "fallback": "zero_action",
+  "fallback_validation_mean_common_cost": 1344.441601957535,
+  "restarts": [
+    {
+      "seed": 0,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_summer_fee40/confirmatory/summer_weekday/seed0/iter03.pt",
+      "selected_iteration": 3,
+      "validation_mean_common_cost": 1052.539842002373
+    },
+    {
+      "seed": 1,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_summer_fee40/confirmatory/summer_weekday/seed1/iter03.pt",
+      "selected_iteration": 3,
+      "validation_mean_common_cost": 1046.1724343023386
+    },
+    {
+      "seed": 2,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_summer_fee40/confirmatory/summer_weekday/seed2/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1031.796894762315
+    },
+    {
+      "seed": 3,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_summer_fee40/confirmatory/summer_weekday/seed3/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1032.7657399564682
+    },
+    {
+      "seed": 4,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_summer_fee40/confirmatory/summer_weekday/seed4/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1028.8837128648884
+    }
+  ],
+  "batch_selections": [
+    {
+      "batch": 0,
+      "selected_kind": "trained_policy",
+      "selected_seed": 4,
+      "selected_validation_mean_common_cost": 1028.8837128648884,
+      "decisions": [
+        {
+          "candidate_seed": 0,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 291.9017599551621,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 1,
+          "incumbent_before": 0,
+          "improvement_eur_per_day": 6.367407700034391,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 2,
+          "incumbent_before": 1,
+          "improvement_eur_per_day": 14.37553954002351,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 3,
+          "incumbent_before": 2,
+          "improvement_eur_per_day": -0.9688451941531184,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 4,
+          "incumbent_before": 2,
+          "improvement_eur_per_day": 2.913181897426739,
+          "decision": "accept"
+        }
+      ]
+    }
+  ],
+  "daily_file": "./experiments/results/learned_daily_v3_summer_fee40.parquet"
+}

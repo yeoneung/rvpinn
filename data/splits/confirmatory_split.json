@@ -1,0 +1,47 @@
+{
+  "zone": "IT_NORD",
+  "selection_basis": "four consecutive complete years and a major previously unused bidding zone",
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "per_year_missing_fraction": {
+    "2015": 0.011074323552917,
+    "2016": 0.00022768670309653916,
+    "2017": 0.00022831050228310502,
+    "2018": 0.0014840182648401827,
+    "2019": 0.00022831050228310502,
+    "2020": 1.0
+  },
+  "split": {
+    "train": [
+      "2016-01-01",
+      "2018-01-01"
+    ],
+    "val": [
+      "2018-01-01",
+      "2019-01-01"
+    ],
+    "test": [
+      "2019-01-01",
+      "2020-01-01"
+    ]
+  },
+  "tz": "Europe/Rome",
+  "missing_before": {
+    "load": 0.0,
+    "price": 0.0002851927903262606,
+    "renew": 0.0002566735112936345
+  },
+  "missing_after": {
+    "load": 0.0,
+    "price": 0.0,
+    "renew": 0.0
+  },
+  "n_hours": 35040,
+  "source_sha256": "6a7f2bc571314cbf9c321cc03437691cd4be95c3a6f075e60ff99e8035c704c8",
+  "outcome_inspected_before_freeze": false,
+  "protocol_amendment": "DE_LU failed the coverage-only eligibility check before any controller outcome"
+}

@@ -1,0 +1,69 @@
+{
+  "deployment_version": "hard-band-aligned-v1",
+  "action_search_version": "closed-feasible-grid-v1",
+  "criterion": "paired historical validation mean of hard common cost",
+  "partition": "validation",
+  "region": "confirmatory",
+  "regime": "winter_weekday",
+  "n_days": 30,
+  "margin_eur_per_day": 0.1,
+  "summaries": [
+    {
+      "iteration": 0,
+      "checkpoint": "./checkpoints/v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter00.pt",
+      "n_days": 30,
+      "mean_common_cost": 2389.501372847607,
+      "mean_terminal_penalty": 0.7996444752373009
+    },
+    {
+      "iteration": 1,
+      "checkpoint": "./checkpoints/v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter01.pt",
+      "n_days": 30,
+      "mean_common_cost": 2180.2059962140074,
+      "mean_terminal_penalty": 1.6096236697507202
+    },
+    {
+      "iteration": 2,
+      "checkpoint": "./checkpoints/v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt",
+      "n_days": 30,
+      "mean_common_cost": 1771.809263053567,
+      "mean_terminal_penalty": 1.3867981280102613
+    },
+    {
+      "iteration": 3,
+      "checkpoint": "./checkpoints/v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter03.pt",
+      "n_days": 30,
+      "mean_common_cost": 1817.8255756610713,
+      "mean_terminal_penalty": 0.36169106587304894
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_iteration": 0,
+      "decision": "initialize_incumbent"
+    },
+    {
+      "candidate_iteration": 1,
+      "incumbent_before": 0,
+      "paired_mean_improvement": 209.29537663359952,
+      "margin": 0.1,
+      "decision": "accept"
+    },
+    {
+      "candidate_iteration": 2,
+      "incumbent_before": 1,
+      "paired_mean_improvement": 408.39673316044036,
+      "margin": 0.1,
+      "decision": "accept"
+    },
+    {
+      "candidate_iteration": 3,
+      "incumbent_before": 2,
+      "paired_mean_improvement": -46.01631260750423,
+      "margin": 0.1,
+      "decision": "retain_incumbent"
+    }
+  ],
+  "selected_iteration": 2,
+  "selected_checkpoint": "./checkpoints/v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt"
+}

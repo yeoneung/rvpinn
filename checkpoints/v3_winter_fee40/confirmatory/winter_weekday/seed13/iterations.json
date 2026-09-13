@@ -1,0 +1,106 @@
+[
+  {
+    "iteration": 0,
+    "train_info": {
+      "tuneval": {
+        "rms": 17.463946832682076,
+        "max": 137.39848515306483,
+        "p99": 65.1277931518306,
+        "mean": 11.574438087577352
+      },
+      "best_adam_step": 2000,
+      "wall_s": 56.238887548446655,
+      "peak_mem_mb": 811.388671875
+    },
+    "tuneval_policy_residual": {
+      "rms": 17.463946832682076,
+      "max": 137.39848515306483,
+      "p99": 65.1277931518306,
+      "mean": 11.574438087577352
+    },
+    "hjb_residual_max_tuneval": 4655.409273882327,
+    "greedy_error_tuneval": 4658.5106177345115,
+    "policy_change_norm": 1.0,
+    "rollout_cost_crn": 1830.0943842276133,
+    "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed13/iter00.pt",
+    "history_len": 5
+  },
+  {
+    "iteration": 1,
+    "train_info": {
+      "tuneval": {
+        "rms": 36.75776448048183,
+        "max": 663.3524532417288,
+        "p99": 117.31487954915292,
+        "mean": 24.899200025808966
+      },
+      "best_adam_step": 2000,
+      "wall_s": 57.497856855392456,
+      "peak_mem_mb": 2251.5751953125
+    },
+    "tuneval_policy_residual": {
+      "rms": 36.75776448048183,
+      "max": 663.3524532417288,
+      "p99": 117.31487954915292,
+      "mean": 24.899200025808966
+    },
+    "hjb_residual_max_tuneval": 663.3524532417288,
+    "greedy_error_tuneval": 337.94219053255074,
+    "policy_change_norm": 2.0000000000000004,
+    "rollout_cost_crn": 1700.7508134645554,
+    "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed13/iter01.pt",
+    "history_len": 5
+  },
+  {
+    "iteration": 2,
+    "train_info": {
+      "tuneval": {
+        "rms": 29.699169478703844,
+        "max": 509.3049958366911,
+        "p99": 94.4020156961182,
+        "mean": 21.060659624279808
+      },
+      "best_adam_step": 2000,
+      "wall_s": 57.24610924720764,
+      "peak_mem_mb": 2251.5751953125
+    },
+    "tuneval_policy_residual": {
+      "rms": 29.699169478703844,
+      "max": 509.3049958366911,
+      "p99": 94.4020156961182,
+      "mean": 21.060659624279808
+    },
+    "hjb_residual_max_tuneval": 509.3049958366911,
+    "greedy_error_tuneval": 206.61487134207485,
+    "policy_change_norm": 2.0000000000000004,
+    "rollout_cost_crn": 1652.7498834186808,
+    "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed13/iter02.pt",
+    "history_len": 5
+  },
+  {
+    "iteration": 3,
+    "train_info": {
+      "tuneval": {
+        "rms": 25.678555456374106,
+        "max": 423.6008027561162,
+        "p99": 85.89021652109051,
+        "mean": 17.84991658482698
+      },
+      "best_adam_step": 2000,
+      "wall_s": 57.33819532394409,
+      "peak_mem_mb": 2251.5751953125
+    },
+    "tuneval_policy_residual": {
+      "rms": 25.678555456374106,
+      "max": 423.6008027561162,
+      "p99": 85.89021652109051,
+      "mean": 17.84991658482698
+    },
+    "hjb_residual_max_tuneval": 423.6008027561162,
+    "greedy_error_tuneval": 84.15046837646358,
+    "policy_change_norm": 2.0,
+    "rollout_cost_crn": 1657.3968628968923,
+    "checkpoint": "./checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed13/iter03.pt",
+    "history_len": 5
+  }
+]

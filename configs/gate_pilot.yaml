@@ -1,0 +1,35 @@
+# Decision-accuracy gate: larger than a smoke test, smaller than the frozen
+# confirmatory budget. These results diagnose the learner and are not primary
+# evidence.
+stage: decision_gate_pilot
+
+network:
+  hidden_layers: 5
+  width: 96
+  reference_quadrature_points: 24
+
+policy_evaluation:
+  adam_max_steps: 2000
+  adam_batch_size: 2048
+  lbfgs_max_iter: 80
+  boundary_points: 4096
+  certification_points: 16384
+  tuning_validation_points: 8192
+  eval_every_steps: 400
+  early_stop_patience_evals: 5
+
+adaptive_refinement:
+  enabled: false
+  candidate_pool_size: 8192
+  refresh_every_steps: 800
+  top_quantile: 0.98
+  max_buffer_size: 16384
+
+policy_iteration:
+  max_iterations: 4
+
+experiment_a:
+  grids:
+    - [21, 21, 25]
+    - [31, 31, 37]
+  eval_points: 5000

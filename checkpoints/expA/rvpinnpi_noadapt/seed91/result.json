@@ -1,0 +1,55 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "train_info": {
+        "tuneval": {
+          "rms": 7450.939557857012,
+          "max": 21986.529612657545,
+          "p99": 19647.042003462895,
+          "mean": 5030.592146564149
+        },
+        "best_adam_step": 40,
+        "wall_s": 0.42955970764160156,
+        "peak_mem_mb": 46.7841796875
+      },
+      "tuneval_policy_residual": {
+        "rms": 7450.939557857012,
+        "max": 21986.529612657545,
+        "p99": 19647.042003462895,
+        "mean": 5030.592146564149
+      },
+      "hjb_residual_max_tuneval": 26578.458824363486,
+      "greedy_error_tuneval": 10256.48461454724,
+      "policy_change_norm": 1.0000000000000002,
+      "rollout_cost_crn": 664.2167750112588,
+      "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed91/iter00.pt",
+      "history_len": 2
+    }
+  ],
+  "selected_iteration": 0,
+  "selected_checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed91/iter00.pt",
+  "selection_criterion": "hard_common_crn_rollout_cost",
+  "selection_min_improvement_eur_per_day": 0.1,
+  "certification": {
+    "policy_residual": {
+      "rms": 7381.906281377208,
+      "max": 22105.359366827404,
+      "p99": 20074.897795706627,
+      "mean": 4979.625500443128
+    },
+    "hjb_residual": {
+      "rms": 8899.536623597147,
+      "max": 27483.065680416414,
+      "p99": 26037.53899219919,
+      "mean": 6348.151719677751
+    },
+    "neumann_vy_max_normalized": 14.22565279896331,
+    "neumann_vp_max_normalized": 0.0,
+    "lipschitz_sensitivity_L": 468359.59122853243,
+    "fill_distance_unit_cube": 0.13639045449646517,
+    "lipschitz_corrected_sensitivity_estimate": 91362.8431958546,
+    "label": "independent validation maximum + Lipschitz-corrected sensitivity estimate",
+    "n_points": 256
+  }
+}

@@ -1,0 +1,1188 @@
+{
+  "checkpoints": {
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed0/iter00.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "c21e6754003295540501d337940499032c3042a53cea17b76878daf6e5c1cc6d"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed0/iter01.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "dedc34444b06fd340888f973dc5b8386e93123eb7587e0d79e62695a15234478"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed0/iter02.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "5f1efe670aad2636090c36fc7f0a93c858667caa6acc4b006c337ed54f7a9342"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed0/iter03.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "217d5034df5e4ceb3cff252822d7eba491f86fd56a204b1d25c61860b7e7de66"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed1/iter00.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "5a91ce308898637458a035e24a99085461b213a857ae7810f0f3bd8ba21522f0"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed1/iter01.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "c2e9c16365d8aff60632788a387aef3b13ed2e64910b23267085f366f64223a9"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed1/iter02.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "307ba5cfa610b431583d6e69f8af8351e5c0f1cc4baa0a0091e0f59c6c76efd8"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed1/iter03.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "d197386a9aab448acb98eb8dc29fba810f31565abcd07b77fe8debec24647e88"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter00.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "5d28cc4bccb096fe248878c65cd763686579246df67b4167720fbcbdeb142d11"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter01.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "81400ff8e6b522f68d64094d29036058d37bcd51547887615d26264dba2e46d7"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter02.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "2d332eb1b8ceb0fb8961616ed32f224dd5484e64aee4046b22040a8bead126cb"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter03.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "beee43b43e62583e3cbc777ff536c07e24cfed4d59007b4fe3016b59c989b5e1"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed3/iter00.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "52c1f0fa7ade9cd5f25c18598b4205d2ff337b81aed64662bfc0d94a1fc0c51f"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed3/iter01.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "60c3f6b86e6b91744d1d1b0875b2c7c055cbdb33b2bab09226046723e489eaa3"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed3/iter02.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "048a86da9a03d3c022c62cee63237282cbba5ed6d12441a4c91e2f43cbbdca7b"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed3/iter03.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "abbf3ab77200d37f773a9d7f7c31113745b67a07a3c69a713b53f70f6ae89251"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed4/iter00.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "9316c0cace2dc683447fc9cf5400f8de93e08edf0b25fbc26a5dd3543258b2f0"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed4/iter01.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "b6acb3a01310c7e0bfa62633dd35269457a50c71bdf42dbd21907bc8e46d9c95"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed4/iter02.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "d5627f6de60288d2b1bacc49bf6d6959fc8ddd431d0deeae97251731a00f86b4"
+    },
+    "v3_autumn_fee40/confirmatory/autumn_weekday/seed4/iter03.pt": {
+      "out_scale": 298.72852172101227,
+      "sha256": "42486bff0bf3134bb56185ae4621021df4b0d4e11d6691021df80c789ceaa702"
+    },
+    "v3_sens_t250_f20_w10/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "cd7b70918cf936502ea830227d87e230e464ce2ad49d5c4c359f3b88a58a2e81"
+    },
+    "v3_sens_t250_f20_w10/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "a61330f7158ee0c0c94de5d18a4775d7643d2bba30542a15fdae072a13069fa6"
+    },
+    "v3_sens_t250_f20_w10/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "47c1a64431a07a638166bccdb1de52a12c046548025a73291478069092e8021b"
+    },
+    "v3_sens_t250_f20_w10/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "1c909b135127b4ac35063ba801f5950074457bdb0dd6ba72afa29e7224eb2abc"
+    },
+    "v3_sens_t250_f20_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "227155feb96d762c64619531601c38c4ec9e1e1853d5a921e13b1a33b7a68ff3"
+    },
+    "v3_sens_t250_f20_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "f7283fe21bdac3091b12fb4e0f4ae48836f583a4cd10adb4ba66c335d1c8c22b"
+    },
+    "v3_sens_t250_f20_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "a94a44c45f2d7d009953fb9dccfeea456f8f4ef7518484b5ca710cbe3f86d45a"
+    },
+    "v3_sens_t250_f20_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "59fb68af0259714f67ee949d0bb9da22d604c797d9b4d3e45f053860f190835d"
+    },
+    "v3_sens_t250_f20_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "83ceefbf0e4a93faa6a5abbb537ce847d65ef8d66b18687b6a1a27777cd12798"
+    },
+    "v3_sens_t250_f20_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "484b33e00d0d611e6092ee6fd652f0a38b6be50b0234ece83029e263d3a60ec5"
+    },
+    "v3_sens_t250_f20_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "ff5ca16ffeb7110d30c0044b11e381105ffd50f0ec073808cfca744a1b2d2b7b"
+    },
+    "v3_sens_t250_f20_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "6fe85c1471313d8b20565b92c9e4f3fa04151d7bff1d8957d56976fdd8230cef"
+    },
+    "v3_sens_t250_f40_w10/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "0d632f2ec4897ed0dcebc91edf747d4c0f0b4b959bb7e5bbc464b5d24d8f4734"
+    },
+    "v3_sens_t250_f40_w10/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "a88fff7c9a84572d50659bb70f41f3072ad0f7ab82c9435a53120216fbda9cb6"
+    },
+    "v3_sens_t250_f40_w10/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "5eedcc44016a14a4857316c6232143a5fb5a839ec433401ee4150fa98dfd29ee"
+    },
+    "v3_sens_t250_f40_w10/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "3e23c32a204f90a45301d33367995080377b8ec73fb1efa81c18adcf97bf3995"
+    },
+    "v3_sens_t250_f40_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "671b866647f11440eb61c1430e7889b9a3cca5883dd56aec96fc5be190c7bffc"
+    },
+    "v3_sens_t250_f40_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "693d4e24ced83de2a7a754b147956accad7334e26959af460c548e396a166b2a"
+    },
+    "v3_sens_t250_f40_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "5d319925f5e81c87673c1cfb8ce538c41f81da9d5d45e6128831277cb64f3dc8"
+    },
+    "v3_sens_t250_f40_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "ec293a99231024105dd0306ff32e83148515361dcee76c6f55e3a3d67b45aef6"
+    },
+    "v3_sens_t250_f40_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "2a4009875d5d4b8d7535edfe62bd5959017760131025928105699e95c22bdebb"
+    },
+    "v3_sens_t250_f40_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "7d370d44e153889330b54032c537669509c5f0d096bf2080554f56d0a916d5ee"
+    },
+    "v3_sens_t250_f40_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "96d81e757bfb574826b4d02869ff52c3a10c670e4d30f8ec69bd48ae6dc1770a"
+    },
+    "v3_sens_t250_f40_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "d375c07839796c5bac9b0a4182d604436d153c330f2b4fa8e25ee99c7c43bbe2"
+    },
+    "v3_sens_t250_f80_w10/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "88ec5385784ce2ea26cfa6aa68a5f505163b17a0ffb804cb8fd20793ca96b8ad"
+    },
+    "v3_sens_t250_f80_w10/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "2443cdae694ddd6fc7554ed203f996591434c9a2b9089d8837348c16803f777c"
+    },
+    "v3_sens_t250_f80_w10/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "d98032565116d607d3aba78a158e9460f63d454a7b4de49e76caef81f2d34491"
+    },
+    "v3_sens_t250_f80_w10/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "9270befb1c5f3a001f6c2b94b85a60a0be8f92a3d9e7fc74c000549aa63e668d"
+    },
+    "v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "d03f3168a524a38053a417aeee9331c86c66a2cf728204ad899c92f924489b7b"
+    },
+    "v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "ab3c42e0b6e1c7aabb1215e7c659535a8f7b85eeaf95c59b82c3c5a124a3fb46"
+    },
+    "v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "2966e7ffbd3a8d8af39a750814d30c4c2c2d5896bd204b0b42040bb384d9eaa3"
+    },
+    "v3_sens_t250_f80_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "c7e53903675902be5660ca4be3da44bd7608cb8770e0cfd96a59f8290f234907"
+    },
+    "v3_sens_t250_f80_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "c7058760fe72e0bcd940194cc537a538a93aa1193e74cd6adddcfa31e630f59c"
+    },
+    "v3_sens_t250_f80_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "df86a5f98881d6d71b053c906c6f638f0da3ab45a0218fb0c6c0709ea0bb4f42"
+    },
+    "v3_sens_t250_f80_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "7c6eff5e2fded0910bd8bf54d59f49c2a6450ad56eefdc591923d56e5850ab40"
+    },
+    "v3_sens_t250_f80_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "0b6adb6a6ced6d5f4db6e10910c4f0a9cd04725e9ba34a323502dc9bafb06135"
+    },
+    "v3_sens_t300_f20_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "858e93b7c27fd2efcb84e6b8181e77df23140ab468764619e1b805175146ac10"
+    },
+    "v3_sens_t300_f20_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "a9da403bfd43a05e23c012e5962537407ac8eaeaf0631b2f67168c6ea3688a23"
+    },
+    "v3_sens_t300_f20_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "72fc64d0d1f4c4b537d30af1815f3cc11e7bd357928d3413c81a03f81ed3d22a"
+    },
+    "v3_sens_t300_f20_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "166e2b4ca9715d95715dd32f34ff7bfd1a46c587e653cbb6c5475a7e3b02ba20"
+    },
+    "v3_sens_t300_f20_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "5bfc99add870b1537ec27782d10c7d07f68f5a6b0f9fc0f7212645959eb14552"
+    },
+    "v3_sens_t300_f20_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "d0f734a16455242bfa7b09ba6bb52d73d80d6f008058ccfba9a39c2bda9cbbbd"
+    },
+    "v3_sens_t300_f20_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "cceac95d0755977525bf3d67b77f66bc36344781121096c18f4c07197f23af16"
+    },
+    "v3_sens_t300_f20_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "ec51d360d20c30e1b1716c0ae6e4690f7504327da0368db23f6dc1167251bc9a"
+    },
+    "v3_sens_t300_f40_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "9523484fc65d2bbc2dc76e12bd755fc61572b53ad7602f6244a8144038faca36"
+    },
+    "v3_sens_t300_f40_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "d3f97ea1f7cdc8810c68acd0c563b4b5e3ddf5bce09924ed72197f3a2bbdaed9"
+    },
+    "v3_sens_t300_f40_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "e57b9f4a09e92baf37b699bdbf644578210617e1e03c7d2779f073cc22e5df7f"
+    },
+    "v3_sens_t300_f40_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "ce938c928c00b4b32e38cfd751c805c812779181db39b73ca53d80bab800f71c"
+    },
+    "v3_sens_t300_f40_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "247050e0c5a042d1867a1ca210ebbb3a9b555bc14c77edcb0db5ebad252eaa83"
+    },
+    "v3_sens_t300_f40_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "63657a671216c16b5e83fdc1edd397336aed9f3e49deddd676698fd0fa84b7fd"
+    },
+    "v3_sens_t300_f40_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "b68b9249d71a2491514ad606e9ade18edc4ceb5631e3fbc65fb54cf900d50783"
+    },
+    "v3_sens_t300_f40_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "e782a0f3dd7f80d6abaafd35f3a4bccf4a16a92170fa9a37eb237ce32941239b"
+    },
+    "v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "3b0f30cc6d181e7a665fc6c3fb9d9e294cbd9581db9dee28610848e3dc672138"
+    },
+    "v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "df80eca0d223e3c2f8f79861e167d7535362c5f4c1f023a56ff0aa9281807339"
+    },
+    "v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "010185abdf36c3ddec3e34087d2aeb76ed11950e6361461e8eabb54e981df8ca"
+    },
+    "v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "6b47f7cdcaaf1a7f36b7b0d3c3c6d4327186a6bf4b1aababf6390cc43782865f"
+    },
+    "v3_sens_t300_f80_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "0e74ba5d0d182cdd643c18baacf159df6854a8a36decfa5cae62362819c062de"
+    },
+    "v3_sens_t300_f80_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "1452cb8e90baa9b491af04f8e037817bd92c62eb15de6708e30c2967bb0baf2c"
+    },
+    "v3_sens_t300_f80_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "6ef251cbb4f3ed165aed73deba3b1272ade73df82e6d7427e292c185d2a47525"
+    },
+    "v3_sens_t300_f80_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "cc0a22aee50f10408847ecfe1ffe49a86378f43840578c46c42dea015e92985b"
+    },
+    "v3_sens_t350_f20_w10/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "b711aa3e3f28994d9e3a83f402516e31f096a12910421d6178d3d55dfd087f9b"
+    },
+    "v3_sens_t350_f20_w10/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "205177a7cc2ac70786dc0f55475511d6f6efeddf2cf7267a23e89a7a56019eba"
+    },
+    "v3_sens_t350_f20_w10/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "6543ffd3abce06bf495d340467c32cd0da176c6504c6c4e8d25be5b7effd0eed"
+    },
+    "v3_sens_t350_f20_w10/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "1407eabfbd274aadb5ccdc6da8b9c142f3e681deb759d6fbbe946d893e34a2fa"
+    },
+    "v3_sens_t350_f20_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "7f8411b4d4b966635ef5f00f5991bdf3f16383e8a75e8991c65e60e2ed39e127"
+    },
+    "v3_sens_t350_f20_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "71af246d8578eb93c407da6c2551f665d8da43d7bb65d716d4d0ddced871d914"
+    },
+    "v3_sens_t350_f20_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "c29ca1496d71a980d0ea5953a5a6846961652c311d313fc34a1e77e164e05e46"
+    },
+    "v3_sens_t350_f20_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "bb2f5c815efb7b6e27ce93fb7f946e52380dc6eecbee3de92da8f67f1e018b8c"
+    },
+    "v3_sens_t350_f20_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "6bb03021de7475e705bbfb340ce2e43bf978c7d8ab191dcdaeb90dd338babd53"
+    },
+    "v3_sens_t350_f20_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "63a95894184d16853418026d61fff6109c3ba08291ff3dd8a4052a8c2277dda2"
+    },
+    "v3_sens_t350_f20_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "00e120697b48c01aa4c5e76c33afc8a7b2b0d240f3f284af957acdd35425b101"
+    },
+    "v3_sens_t350_f20_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "a67f26e8d11ba5e1842368eb0b320102b914b3f162a4a1c02854e489820ecc9a"
+    },
+    "v3_sens_t350_f40_w10/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "c1d17c0e08247295de0c187a5bd3c10ff952a35b54d606b72193b5f0532086c9"
+    },
+    "v3_sens_t350_f40_w10/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "675aee560f97d3c71893e76cdba17b55a6ad531108b5d0602e99428ae3460b7d"
+    },
+    "v3_sens_t350_f40_w10/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "9aed7681ae39c9ab2971aacf018a08181c92cef07666be83461dc4e116359e6f"
+    },
+    "v3_sens_t350_f40_w10/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "2b6e1fc4977600c9cb6025b1c087178fb6230770f651a69f72b27d2e7e1539f9"
+    },
+    "v3_sens_t350_f40_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "fd1b22608bc85cfda22ba93315b5eef5da73c7429f4269965eeb0f008582bbb3"
+    },
+    "v3_sens_t350_f40_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "18c26945682a59f9f90922e26ad11ec4b9422a24c0fc608f85702fdcc112f7e3"
+    },
+    "v3_sens_t350_f40_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "edca5ba8d87b10571cc87c6782719add015d4f63be9f87594e82a8f62d8cb7f3"
+    },
+    "v3_sens_t350_f40_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "4901d212d6eae99fb4da2c4f9584ee9f3e8957c68a8a7ea8dd2abbd18e77fa18"
+    },
+    "v3_sens_t350_f40_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "f6c9811e03e8194e5bb9a8ff01277442bdece640f86750b9882aa9762f8c23a6"
+    },
+    "v3_sens_t350_f40_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "e7dc1820ad48325efb0936bae661c6a28103c505b539c91a5f920d830d2edc4d"
+    },
+    "v3_sens_t350_f40_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "00412abe003602838603991fbe9093230d830de9d19d7bb552d27ac112724838"
+    },
+    "v3_sens_t350_f40_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "a0adeb6b1bfcdb05aa868348b5ff519bbb600bb1251d17f2886d681b7714ff9c"
+    },
+    "v3_sens_t350_f80_w10/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "b4ebb3e29419db1c1a49bce6fbbbecf80e6ee9d2217c2d66edd407c6193115ae"
+    },
+    "v3_sens_t350_f80_w10/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "8f4feb52b1ab2923440019e63a2e3b110b908dd846240e9b5c6829ecb2a8685e"
+    },
+    "v3_sens_t350_f80_w10/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "1d67056c0a8568aa479ab5c52756f0dbb07160497a8b207b6165b6a716159b8d"
+    },
+    "v3_sens_t350_f80_w10/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "b87443f2ce7170552580d57beaa5e47d8759fb6401980abc47e7827ed3684016"
+    },
+    "v3_sens_t350_f80_w20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "9a3c47986498b1beb686b533dbc02a39be6a3a83e9909976c9ba39c972b49711"
+    },
+    "v3_sens_t350_f80_w20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "5a84ac56e7212e94a042a600c9fce5bc6c6d5294106418f66656c32d3644638f"
+    },
+    "v3_sens_t350_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "59aafe772e46ebb8c89ee8b72c86b38d9cd244bc3f70a475f84219bb4b9d2e86"
+    },
+    "v3_sens_t350_f80_w20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "f6cc6f63c4653b9eacf77375d5e1e6e15ec35fb21a0c86f1e7b5dc561aada346"
+    },
+    "v3_sens_t350_f80_w5/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "c6678056818708d05368d8e004fd0a914ccdb548c77c18014e35ebe66178809a"
+    },
+    "v3_sens_t350_f80_w5/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "fe0a322bfad7750c2eabb3f4be97581aa46517b62c0ffcc282bb07de75c32e36"
+    },
+    "v3_sens_t350_f80_w5/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "6e33fd93476fc97df57e08bda9b0552e95a8752922dbcd465e1331f630bfef5c"
+    },
+    "v3_sens_t350_f80_w5/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "6ba15537c185b2021bbfd401eed7eafac49cf7963cda56e939db1f251cd1a112"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed0/iter00.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "02d3af93a79028264f5305f4234a82d7788857cb77497b14199d4ecb991e6fad"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed0/iter01.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "1b059f3c9efd3c21d383011d6b857f8450d32454edcbb31df8468d849f4f70db"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed0/iter02.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "19dbdde152850f1ac2f7caf519e33fc3b95dcad6083a7c364569cd233f310f03"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed0/iter03.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "aead7151435e730eb2ae9bcb5dc9c4c812d0e58eebf8c08827a7f565924b8f2d"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed1/iter00.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "d0e537c14a220c618d4b8e6e575809572363bf16c63c65e783a9ae2712392afc"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed1/iter01.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "e11a58e2d54533e60715b1ee75bb4d3958e65c694ae1f6bd7e4b13ca0d1db7ba"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed1/iter02.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "69f53bd5e60c2d483d9214671e18917edcd0f5945e0a520cd0593c708b1c8d1c"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed1/iter03.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "b7cc0f3c83699b20761b93d7d4e55babd2fc7d56b64da075715226e9b21f913a"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed2/iter00.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "b28f025f58be47b5ca8b053487bec91f6d0bc586f9281dff94d2764442d0b885"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed2/iter01.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "7ee7981f44f6cc87786114dcb50f05f9a4257fbe70cc5861ac135cc49dece537"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed2/iter02.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "4d4bc298a7c515a28263411a4aa1b8b99433e87ddaf943701fca3927ce92a0bd"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed2/iter03.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "a139293ccb53db66c0c08ca456fb02d555fa9a4a4c57044250addf93a89b0e49"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed3/iter00.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "b569d95847a925ab4640317c928b174fefa1cfda075cb25bf34096816b6ddda6"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed3/iter01.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "2fe224bbc7c50299a9c429433fa8f19fd041e8cbd971521716e5fdd7c90ab9c8"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed3/iter02.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "a2f89baabd4e90bbdf1fe3b8778b0647c26e56ab6699e75520cc051d571babd8"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed3/iter03.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "3e497095b06f820b1a40f3b7bb61b5506364ec4e6a09075b8eb8a69e50216e54"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed4/iter00.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "d31bc1c3014d676da5794ebe116ee5c228cfe7e7151e6c9c40f98f9bf773ac5d"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed4/iter01.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "0bf79d3ecc0b481ca2427d08bff49902bba0e8656506940b3796b394b66108f4"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed4/iter02.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "2e64181dde2356e5209fadf53915572e3914545b9df0513360d94c557a271617"
+    },
+    "v3_spring_fee40/confirmatory/spring_weekday/seed4/iter03.pt": {
+      "out_scale": 295.4508197395267,
+      "sha256": "109409e07b524fa24eb1c38fe6e8e0d32ab69bd73a506aaacbb97c7cf4b016cd"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed0/iter00.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "39d8812b4553b8e9ecc3bf321287abb894627b435feb9eb7147cc2df9acdf7d3"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed0/iter01.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "0bda9521384320b26cb6571014481822faccf5586f52b7bfdf5775724563cec2"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed0/iter02.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "2d27695a9ef40d9312dfa7107dbb6526bfbed7bb0a21ba23558f7e628a50c6d9"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed0/iter03.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "7bffa7e2b99f42341bf3c125b54f882fcb9fcd54455e47c54e9bf177deff145b"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed1/iter00.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "6fe85c37174351354a720c4d690f227b1ced314c751021c9ee17d91df17ae96e"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed1/iter01.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "34471240f6f753db8bdaef9ce63f71e02d8e6bb2f1f676c52dc3d0e06494dbf9"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed1/iter02.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "436f68acfa95644fa29c91fdfc74c22802c4e67d2e759275bd8316e838c1c3e0"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed1/iter03.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "44bca534a735a87faa32d9ec376265a18f586b5bfbbc09487942f4b62e31ec3a"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed2/iter00.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "f06353e8b0a1a99c2058c215eec0784b2f755a4e64940a7e0fd97ed13e7d36cd"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed2/iter01.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "f848357200397757b5d8ad0f6c03674fe8aad34233d30e4a4ce2b37b1f6acd08"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed2/iter02.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "bc573305000b264b77d95415a6917c4e889116433961f4c015eed733f042ec94"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed2/iter03.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "e360589df2823d54baf005958a21e155d486d2b20d8a603792554375b6869f17"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed3/iter00.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "d3c72b69d803884121b69dae1ff0cb4ca010d29ebe728dc4c300b11534e96f38"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed3/iter01.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "47ae4ffc16a680c93850e32c7965590a3a28dae38ff4deeb6f5c38d61404af61"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed3/iter02.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "993719ef82a48d76ab91dbe81a27eb41ac78773d60124ede9fde844e61390dae"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed3/iter03.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "f097b84913a10bcb865340e6f77446604db55632c6b5d4ec151f83ecc8915a1a"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed4/iter00.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "ba210328830a87e6de0391c72ab0535fc5c689cce7eeb62dfb42b475627b0bec"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed4/iter01.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "49cc30c6ab93ce39c4c2cb9d6413d6ffe6492b5091e9445c5cc1f121d7f6301d"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed4/iter02.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "69a96bb3699922ddd2c2b070f8fef1713b5141a736f9aaa7c40fae624dd1727e"
+    },
+    "v3_summer_fee40/confirmatory/summer_weekday/seed4/iter03.pt": {
+      "out_scale": 297.9820146507643,
+      "sha256": "dda3e500a9780b7f501f8f1fa191c12d1dc89b5aeff327b85df07046f339a590"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "82b2a220c9ff4a564ca5b73568198fbfc431be95e23577fda51341ff95b216c3"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "0ba1ac95375465ffa58ecb6d8e51912352c036c86189d497489dd6fe7531eb5a"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "a3f161d09a06d72616507fdfc7ba559e46c59dff0f994eba0724ccd13d08d1be"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "cf9dc5ac06f32569ce6d4d104b4e0e146e6f5c578b4544bb7827941810e53d25"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed1/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "b837a136dcaa002ab0356bab5df5a9a92da6386f895e51889d5a5335a22cbed9"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed1/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "a9ebf77f2dee6198dda984669b67fbf3ce87d7125f95e307e3e52d20ce46af91"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed1/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "525a436fbb89f0bd5bb9100631a36a06d0d91f7d8a17a41b18066594b7c5e30f"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed1/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "c45c099c134af5002bb8665093bb62ae89e5f8f8e4bc3d6ee7553936cbfa18e6"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed2/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "d3d1de7548b84cad148b0a8b165e8ba3b0a5524e5082c0c903a417b563f2da24"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed2/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "89cd04fdfb28bbc163b37b3e26424ab1505358f3f6dd716d853cf1474227dc5d"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed2/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "c899cc6e30c990b32ff04650fa6ee7204b5f8a9af59ed606fe2864c78c0b4593"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed2/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "b5e796bb25b604ea34a02743950faad915da7c36b404870fae95c126722fc844"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed3/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "e119d905a4c06a7c7a0498849fe168fca3e9d8d02fb8cc20fb890dc142d452f1"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed3/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "8dabe1f1ce031abb1d4e6909f314b42e5ca16d61ac4db630a5d67c6903793035"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed3/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "19dcf9c3dd348f5a4c84af8c1ac68fba1fe061beba4dba309d1a8a8f6e711a87"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed3/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "e5a310e995424c69829b438e7d17fafe0a003744b50390d1526137635dd5500b"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed4/iter00.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "e5b5596936d078d62084cdbc19aaacd945b424cabdb2122dada5831466030922"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed4/iter01.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "1e529b6f3a3bc761bf91c1382e4e51edf229b6a1e928c7ffedad037487a35c9e"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed4/iter02.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "8e710c00484687afdc1257232ceb6fd4c7169a0a5255d800647e74aded22349f"
+    },
+    "v3_winter_fee20/confirmatory/winter_weekday/seed4/iter03.pt": {
+      "out_scale": 300.9548513873451,
+      "sha256": "2d3be429b15cf61cfe010c319ec5fa6e526c2dee6354f88dd23bbcf35dc43f0b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "562ac3b913d5d278d33834621cb7a756db771b3c4041e8191f48fca7f8b93de7"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "1508285953bbd1a2a914ace1cfaf548a0deeeda04d9f2043b04d6e9c08119685"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "4dcff930ff2cc46f81788cd242fed22ca6bd012bd8fb0ebbac48a342dcd0d0be"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "3f042c89db0f4ecdecccd2dd7b735c3f5874b65f1939f4cb310ce2d7dbb1d165"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed1/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "741c752d7d9710bcd406f2a3a8a9ddc9714e2567867d05450637617645a06259"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed1/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "b460344b85c1558e6056cdac952adeac177cef09b18aaf1527c4e26d26f704a4"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed1/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "9bebdf507159379c9b2c42b60ad370137d6ee6eb7481df2f56c7b64a921bd618"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed1/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "c455bf23649809ab78ebacf9e0a97414b2c4d3d190b859c5b481a6ac727036cc"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed10/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "a038c12389891bba44393c58ddb24a85c1594e441a9c232d32b71a7d327e9fbe"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed10/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "64954297b0887bb764da76eaaafce312b0a9795ae2bf33c5824852f72c9612cc"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed10/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "48c59e981e5ecb8302dee9a6fe67d28242309819cf08d25327eaeb800ec8eed4"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed10/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "253e78e442fc2d8bb2c133bb949c1228eb404dbe20349ae31cc83f896da5bf08"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed11/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "be95d0cea71827c93e40c83c0e868aef19a0d1f480458ee90ad2cc6f8352ef5c"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed11/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "4b216ecc69745b3c601b3bd43891e2487967b541dfd43f77c46a2ea249f4e91b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed11/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "ccd119ed38084ebe3fde6af82cfdcc71b47930f9b50b1402a6a982ae492df730"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed11/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "c17e2cc74315f0b32582c9895c6d9c2607498fa44b48839b2a1af037334e02cb"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed12/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "fc0698524aefa1846b8c9011d330d0313a2b6033c594a3540a7059ee2c3f3836"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed12/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "74b7bee4bfff7481c02815f70c66c8ca6f8af171e2248b084dc07181c9daf376"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed12/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "6019680cafdc0d0d1a29f5782bf4fb90c3f0f1c6f30d73e48ba6b6fb209e9c54"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed12/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "b41302532aca7846f94f8924a13304df5cd9670bc5887962f06f48b799891d63"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed13/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "707f93ee41cb33769e2863582a79750d15da70cdf6625ae9a55cf2d97e76f376"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed13/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "fce3880923f40c7855ad849ff59bd69d252f76afd49c50cae997ed272e11b4f7"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed13/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "6260e865ac74781bfc958e512781cdf313cd9e7e0adcc00d99ceed2b6385f15c"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed13/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "3efdfd6f3c189040f07f8861b2ebffdd6af8d4f9e7d9b1ad224b3334a2e2d102"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed14/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "87c579ba1e038e7a56388b28a83f1a6ac843ab98486fec66467e82a4dab973ca"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed14/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "de4c1d598ff6eda2c5ba0f38b3174cc93a3f76bd4d75892bba27edeb4176c52b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed14/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "98e704777fae2aac4e53061f06ceb1ea2b0501cf3f1150f32262df560dceecbe"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed14/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "956102e91393239f277b26ecf72a6bbed1ffe0752314829b14d2dd4ccc3dd57c"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed15/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "d068c6174155456352f86948447f5e49d56239522936359ccf56cb2a02f1f3cc"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed15/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "37f81264dbc6cce83873dd09e54b13c7b0a9c230253b3334d266aaa1382e9543"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed15/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "7e9d48640a7e8a4ba73ca840f7798372f8484493a74ffb48fee02c4e17351e78"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed15/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "737174b3cf9a828ec75926cae3d8d5ac4fa14e518de2f0ffa4b8d9af15a798d6"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed16/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "41b7f228f30413cc28b4ba6df3db052ee008447eedf15452f38a75437053cc05"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed16/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "17aa8112e2f508bfe34c409561292e0c71abd0ecc0e45ee7921ede3f07ff25a6"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed16/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "9077a4d932da48d13a32d8faa4ae7e33fa15321dd11a41fefd588c7284e73fb5"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed16/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "05c9eae92229b3088f8dc626a2f1f5c5fe2e9553953b6d29f497d6ea59f2a4eb"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed17/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "da0f52aa9dd612e9c1d32f39032cffe1aba2f0b66bcba39b4ac028da1ceab910"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed17/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "bfa8e234b6b364504ee834d448b563580803e28989b3c42f7170aa087c9b299d"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed17/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "5caa5cea859fa50d0eae4144fc8fadb79bea496c3c17f9c386e22402f57687d6"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed17/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "b98866d9a9a3c8450e348c1e5a0fd2827c3dd17ef09a9458f0c2692d35c9e408"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed18/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "b890e27d1f0324aab3d232aea0e39e32da903d58e76381346532adb30d7863a4"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed18/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "86c21095eaf8294290846e345db90bdac564509ba11a0450db33e13476f39e52"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed18/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "591e7150aed2fd2c3c5c8c97a46436c55d66d31cbc090239dfffa987bbada1f2"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed18/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "72e864606ce000d4505ac518c4b2fe9e243f292d8ee6fc51d2491f07ddda808d"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed19/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "512652e0a0dbb956bd48984aefdaa6f140bcec08c033128e758c1d7de85cfb09"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed19/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "4bd6aa3e032e38fdf8815e1c8548ca63b10170a6132ea75e07ba7e4dc76332b8"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed19/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "610662e1285e101ee43be70b1776c8cc71467dede9dace07552f293df17f8008"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed19/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "f0415e5b9da94795756b4ec97c2f1212d481507761b08c2e7a78b04c9651796a"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed2/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "2d3a4fe7595e99d89909d6d80f818333c824302d7111103ee49e6f18f98e5e64"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed2/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "235378b4a59b538f6824a6cb30cac80bc4646326c4f1f0290f94caeffc1dc338"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed2/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "c8ba3d2b4356c37b5b72a2d204bff2d23d54f40b053a5b382ad4aa3b2c07391c"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed2/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "57e8ceb38bf7bc80a0ec26b3e0a004e58c6204c8f1b3a97635ee9340c1c89e71"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed20/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "c586ac721ae96594ec002e93cd46739d42235fe0eecdf94e3d149266b55a80b3"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed20/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "247660bb2f5a131559ee1b80a9c693298cca0f79f2a094370b88d08179798c66"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed20/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "3846c7924f4b1dc862c30f93ad1298e974f6bcdf548df277b08bd03265f421d3"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed20/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "312ed0258720f8e83c1006c9ba20c95d608e7727ef65f6cd69034cc51b4c8806"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed21/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "09053853b8b188e9f1c629f1d7a7837162c8615b6fc994b02faee040708bb128"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed21/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "0ce5d477a574c2e24ae4e0841d6afb88427848864aea5cda052bad497f9d7613"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed21/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "f52403056dc5006ae42e4195e33ac4c178db0d50ff88683cb7e0e7dd7bdcdef7"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed21/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "47220a23b0d46c3c801d70fcc256779bc9e12d8c83ba4d672a0083aabf89ed3a"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed22/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "80d663a1c9eff8d70800839adceb7799889d2a5128900bc2c67cb5a3d62573e0"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed22/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "59cdbeee9f079ff7972dea3a31aa5a2189eb9860f0486ee7136267dc9d6edc0b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed22/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "13673d472f101fa92992695cd73de750cd640f29e90706e89cb2fb682a848a3d"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed22/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "cdf81ffcd307210a191fb3edbffd00b39b1ad6f2c82f0eace596f7ff92fb7453"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed23/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "39acddc9cee14baed4fc3d820d153448d7aba92035c5860d79a4e80619132c47"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed23/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "1ccaee4aa2b4e5f740a3a3f23842ff7772464a3d75a5cf2e3a2305e98dcf3cdc"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed23/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "e908e55779770864496489240db82d63904150ded3231b7f0ff5c9f247092f56"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed23/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "f998eda776595a5532191489252a077bcb2583f46c450d8cdff5bff31c56f320"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed24/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "21ec4658126d86938b0e3e2671edd8dd1c8cc0b2858abe1cc120ff1e3f9ae277"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed24/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "b6a05af8c8df8ec26d5763014b72e8be370cf5cf4335e86e3586bf3894038018"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed24/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "814dcbcef1d4c45504bd76bc9d7ffd8c7f83532602509c24b21bb313a0e1f49b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed24/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "a1d3efa2a60c67cbbe985c1e926b1d79f719e1b966171e933ba20896c8af6f71"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed3/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "d35d805f5a1f69e29f33ca94a36ce63e065f30e9fa9c3437c0b8a81e7f2ce6e9"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed3/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "204c2f0f1d9130aaa777102cb039893b0d1346f4783bc636a20aed414f429b16"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed3/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "cec56a7dbebdffa857f06893372e94a2c0d549059e3196aa346394f13968ab0e"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed3/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "7e9421b3e38f1e94c1638eb42fa0776a0d36f995a2522b46facd1a6a57578a92"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed4/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "a5adf4672e213187c8cc33180d32d56b39000560d53cac89ac74b6df1be6e3bb"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed4/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "35ec0d4ac82a08655e4881cf926729d56e3201239509acc87db24774354ff0d5"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed4/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "7a2905d9a024bfb2a5d924f384eda81f7c901bb42d31b2a1d023737dc4017ff3"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed4/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "bed3f2f43da92cf8b1fa6deeeb96988edf2fc6165ded9dd75742fd279c15d1cc"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed5/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "68e3132531f60af4967bb0456f1e451802587bccd0f685a4faced76edff5816e"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed5/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "43791884d5b3974249630d7154aeb74bb7998b7b8d090c9e4e67229e4a41f309"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed5/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "8c4bec52e962cffc224f30fccb0411ec37c8ce78a4a1afb46e8971f32dbe27d4"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed5/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "ff8a2e9e3fd4adc5a403baa57fd0050e66416c7b08ae7e67e67ca3b6dfd272e2"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed6/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "34b01a762589fac7d43f8376dac8c6936a774f3426cb0e58d0d31d055256e557"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed6/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "c719024ae5639159b0c975512a576b53dbba8ffd4d965a074560fec5c66992a4"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed6/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "d6d0b3c786f5450aba50eb405adcd26e3b1bf4016b32efe78f8b8753c6beb86b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed6/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "f70bcd325f58b044c5382bd1f1d2059d1cffa6592a4af68d405755ec1f874a4d"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed7/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "a61906ab4100945e6cfb9946267921fc4f11e697851ba789742f820ce13cf11a"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed7/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "f8b5bc55d2d693d4e0d04f20477fbfd370a26483126ac62d1c87dba4ec82a785"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed7/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "1ecdfcd74422c2c0ce1e2dfd8dd685cc94a218fb4d466400136c49d73fdba41a"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed7/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "663afd23115ca3e08bd8b9ee78fe0137c07922c3f8dc1c8c97248498b98e710b"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed8/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "26a1b7db5b975b2950e30b54a9105b2e617ff2717b936ca6b5d24b33be4ad825"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed8/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "81cc76169440bccf393dc75f0e28aee785d9ff9b7f74380474617deca2f80c35"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed8/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "6294f70517cbd0e1114ce6df50cbe1f688be46ac87fd1f15ad11ad01c64d1e61"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed8/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "6c70b18aa7b1f1254880b61dc9072b6d4804007901d2fb5ca7bf8aef717d3752"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed9/iter00.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "6553725e1caa739ee167dec552ce967eae859ccf4c6ab7ff657c153a789f8d3a"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed9/iter01.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "8e489503f9814fe1ed07d5b3ec505a7eeaed763099f9b355e5a2d9f5ee7e42ce"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed9/iter02.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "6ca71d98653ee620ee92029851a9eb29ba445a0f527417fbe498e0b1659e3c61"
+    },
+    "v3_winter_fee40/confirmatory/winter_weekday/seed9/iter03.pt": {
+      "out_scale": 301.55344852418597,
+      "sha256": "138b84fef51d2bc3268f7f35e499582cd9171ccceb9b4d4dfc83c94ac67158e4"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed0/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "ef88bac12c13a0853172ed9590e3b55e40fb49299216f22b12491c1ec897fba5"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed0/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "a955d7e839166df9f47c44812fc79135a62874a00b9665f70a37a7b39d1093d5"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed0/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "76ec4f58a29941c2fcc9fc126fad66b38039bfa2a8a92462c20ce44ae54b7533"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed0/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "b1b8abb3011defe15a78a545edf5757066d9f6b015b3efb5e7b3b3352a08521f"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed1/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "1170af4f9d29ea0c5e57beaa605ebbbde74850d800cc952e1702e2bdcfb22671"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed1/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "40443a648faa9b28500afa0bb804e769ba983812a1cc0e84823e53164e2b9d96"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed1/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "f4383528054673d03d574bbe0b9d9869cddc78fe9ef5895edcbae5837de9cc0d"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed1/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "27be99b39724ee920a4a5a011f0e6fc148f2c03c28a48d49c05883e7d56abfd4"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed2/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "83ba24bf6bb45a35a97ac2aba783b678b99893d5162e290dc3a85cc8f8b55c85"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed2/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "51d7eea29af86de044f646121df482059913324ad066bfdfb05df233b5ef772f"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed2/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "1324dbd7e49e5768667e4126fe021d20e9c42d8f3c2f641dc3f637ab893bac77"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed2/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "69db03d67e5453c812416930bc67c1ed2ecc7dbde03ee58fa3e8ebb26ab664e0"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed3/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "2ed28ad0c841b92ff0fe65d9be7aa589d831aae03a0d8b0faf2b4f5f3fcf6111"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed3/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "f32c425f8cf8e5a6792400ceb98238894184f10a6956b4f7aaf48b62f54ceff3"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed3/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "ece6e7c1737e655176e3d4b4caa80c0ab4e33c86107f0ce3b9aa98ff2589387c"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed3/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "de53201e7a28d89fa2af2b22c45c0a80811144e7d0d81fa8dba44a79008f975e"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed4/iter00.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "2d65461b63dd6ddb9b2cc92a8e76aa01a4e49d549efa494f300fa0b2a3dfecff"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed4/iter01.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "fa10f7b2439fe7a28e108aad24751eb382388eafc6da54952168db2d31f95aec"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed4/iter02.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "9b6277e12f90410a7a2a887983f722549bffd811c2333bebdd4a646649d75566"
+    },
+    "v3_winter_fee80/confirmatory/winter_weekday/seed4/iter03.pt": {
+      "out_scale": 302.7470921467763,
+      "sha256": "12bc1d41382b97ab20c47a12eea2db375e6d4f090acb4546cf06cc372f889326"
+    }
+  }
+}

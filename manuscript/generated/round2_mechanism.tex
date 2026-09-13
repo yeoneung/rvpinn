@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Cost decomposition on the protocol-selected representative winter day (2019-01-07). Costs are in EUR and exceedance duration in hours.}
+\label{tab:round2-mechanism}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Controller & Bill & Band fee & Degradation & Terminal & Total & Exceed h \\
+\midrule
+Offline learned policy & 872.3 & 440.0 & 109.1 & 0.08 & 1421.5 & 11.00 \\
+No-learning reference controller & 856.1 & 680.0 & 13.5 & 0.27 & 1549.9 & 17.00 \\
+Primary stochastic MIQP ($M=2$) & 879.6 & 280.0 & 188.7 & 0.01 & 1348.4 & 7.00 \\
+Stochastic MIQP ($M=16$) & 863.8 & 770.0 & 58.4 & 0.01 & 1692.2 & 19.25 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,21 @@
+{
+  "controller": "reference",
+  "date": "2019-01-07",
+  "deployment_version": "hard-band-aligned-v1",
+  "reported_economics_verified": true,
+  "trajectory_source": "same-policy reevaluation checked against reported day",
+  "policy_provenance": {},
+  "source_sha256": {
+    "round2_reference_daily.parquet": "e1b1cd7300c061a99b9cda89711354f6572fc984ca320678722a554136522ac1"
+  },
+  "bill": 856.1262227448577,
+  "capacity_fee": 680.0000000000008,
+  "degradation_cost": 13.538157778096878,
+  "terminal_penalty": 0.2720080772126477,
+  "common_cost": 1549.936388600168,
+  "exceed_hours": 17.00000000000003,
+  "throughput_kwh": 361.01754074925043,
+  "terminal_soc": 0.49498603338072344,
+  "latency_mean_ms": 0.12038437500000443,
+  "trajectory_sha256": "9ce929047622aae5085bedc251cccb96e926ffac0db3c1c2c0a564254c8eeddd"
+}

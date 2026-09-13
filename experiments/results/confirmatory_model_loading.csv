@@ -1,0 +1,8 @@
+fee,batch,selected_kind,selected_seed,model_loading_s
+20,0,trained_policy,1,0.09726699999999999
+40,0,trained_policy,2,0.0025858000000000825
+40,1,trained_policy,6,0.0025669000000001496
+40,2,trained_policy,11,0.0025551999999999797
+40,3,trained_policy,16,0.0026132000000000932
+40,4,trained_policy,20,0.002503799999999945
+80,0,trained_policy,2,0.0026026000000001215

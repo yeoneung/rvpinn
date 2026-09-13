@@ -1,0 +1,58 @@
+# Common-objective evaluation protocol. Zero action is the feasible incumbent
+# in validation-based restart selection. Freeze and selection provenance are
+# retained with the experiment metadata; all test comparisons use this rule.
+revision_v3:
+  common_objective:
+    positive_parts: exact
+    throughput_absolute_value: exact
+    include_energy_bill: true
+    include_linear_degradation: true
+    include_exact_band_fee: true
+    include_terminal_quadratic: true
+    include_quadratic_peak_regularizer: false
+    include_quadratic_action_regularizer: false
+    include_soc_centering_regularizer: false
+    terminal_lambda_source: training_scale
+
+  timing:
+    control_dt_min: 15
+    simulation_dt_min: 5
+    action_hold_min: 15
+
+  deployment:
+    optimize_over_deployed_set: true
+    hard_tariff_candidates: [lower_endpoint, zero, threshold_crossing, upper_endpoint]
+    observation_boundary_map: reflection
+
+  policy_selection:
+    criterion: paired_hard_economic_validation_cost
+    common_random_numbers: true
+    restarts_per_batch: 5
+    independent_batches_target: 5
+    feasible_fallback: zero_action
+    residual_role: diagnostic_tiebreaker_only
+
+  confirmatory_site:
+    zone: IT_NORD
+    selection_basis: four_consecutive_complete_years_and_major_unused_bidding_zone
+    train_years: [2016, 2017]
+    validation_years: [2018]
+    test_years: [2019]
+    amendment: DE_LU_rejected_for_one_eligible_year_before_any_outcome_run
+
+  confirmatory_tariff:
+    threshold_kw: 300.0
+    smoothing_width_kw: 10.0
+    fees_eur_per_hour: [20.0, 40.0, 80.0]
+
+  primary_comparators:
+    - learned_value_policy
+    - deterministic_conditional_mean_exact_band_miqp
+    - stochastic_two_stage_exact_band_miqp
+
+  inference:
+    primary_estimand: paired_mean_daily_common_cost_difference
+    primary_claim: superiority
+    noninferiority_margin: null
+    confidence_level: 0.95
+    block_length_days: 7

@@ -1,0 +1,15 @@
+{
+  "label": "exploratory learned-continuation attribution analysis",
+  "fees": [
+    20,
+    40,
+    80
+  ],
+  "n_days_per_fee": 30,
+  "central_training_batches": 5,
+  "learned_superior_fees": [
+    20,
+    40,
+    80
+  ]
+}

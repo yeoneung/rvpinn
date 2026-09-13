@@ -1,0 +1,31 @@
+{
+  "controller": "learned",
+  "date": "2019-01-07",
+  "deployment_version": "hard-band-aligned-v1",
+  "reported_economics_verified": true,
+  "trajectory_source": "same-policy reevaluation checked against reported day",
+  "policy_provenance": {
+    "kind": "trained_policy",
+    "batch": 0,
+    "seed": 2,
+    "iteration": 2,
+    "device": "cuda",
+    "checkpoint": "checkpoints/v3_winter_fee40/confirmatory/winter_weekday/seed2/iter02.pt",
+    "checkpoint_sha256": "c8ba3d2b4356c37b5b72a2d204bff2d23d54f40b053a5b382ad4aa3b2c07391c",
+    "selection_sha256": "b643d1050df78c6df6c38d4c186df9e38302eb4ab9d1ed98e4c0cd3bc2fe7e7b",
+    "batch_selection_sha256": "a49d6a7180b6599c5b5d15c406a17f128b250067e14fa5d5706efe8b43b26f70"
+  },
+  "source_sha256": {
+    "learned_daily_v3_winter_fee40.parquet": "6bb9064f3250de6311c24e6f4110f37670a1e48e27d4441c0cc2c8631b2fb9bf"
+  },
+  "bill": 872.3150149910225,
+  "capacity_fee": 439.99999999999926,
+  "degradation_cost": 109.09798487356484,
+  "terminal_penalty": 0.08340319659250837,
+  "common_cost": 1421.4964030611793,
+  "exceed_hours": 11.000000000000009,
+  "throughput_kwh": 2909.279596628394,
+  "terminal_soc": 0.4972236009564118,
+  "latency_mean_ms": 3.067581249999988,
+  "trajectory_sha256": "13cc0022360436d610beb90287a574c99c24f95ae096d68d8ade5a484cf33855"
+}

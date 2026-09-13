@@ -1,0 +1,52 @@
+{
+  "source": "Open Power System Data time_series package",
+  "release": "2020-10-06",
+  "url": "https://data.open-power-system-data.org/time_series/2020-10-06/time_series_60min_singleindex.csv",
+  "download_date": "2026-07-31",
+  "file": "data/raw/opsd_time_series_60min_2020-10-06.csv",
+  "sha256": "6a7f2bc571314cbf9c321cc03437691cd4be95c3a6f075e60ff99e8035c704c8",
+  "size_bytes": 130339665,
+  "license": "OPSD time series: mixed sources; see https://open-power-system-data.org (primarily ENTSO-E Transparency, national TSOs); attribution required per OPSD terms",
+  "zones": {
+    "primary": "GB_GBN",
+    "external": "IT_CNOR",
+    "confirmatory": "IT_NORD"
+  },
+  "columns_used": {
+    "GB_GBN": {
+      "load": "GB_GBN_load_actual_entsoe_transparency",
+      "price": "GB_GBN_price_day_ahead",
+      "renew": [
+        "GB_GBN_solar_generation_actual",
+        "GB_GBN_wind_generation_actual",
+        "GB_GBN_wind_offshore_generation_actual",
+        "GB_GBN_wind_onshore_generation_actual"
+      ]
+    },
+    "IT_CNOR": {
+      "load": "IT_CNOR_load_actual_entsoe_transparency",
+      "price": "IT_CNOR_price_day_ahead",
+      "renew": [
+        "IT_CNOR_solar_generation_actual",
+        "IT_CNOR_wind_onshore_generation_actual"
+      ]
+    },
+    "IT_NORD": {
+      "load": "IT_NORD_load_actual_entsoe_transparency",
+      "price": "IT_NORD_price_day_ahead",
+      "renew": [
+        "IT_NORD_solar_generation_actual",
+        "IT_NORD_wind_onshore_generation_actual"
+      ]
+    }
+  },
+  "confirmatory_protocol": {
+    "frozen_on": "2026-09-06 Asia/Seoul",
+    "site": "IT_NORD",
+    "test": [
+      "2019-01-01",
+      "2020-01-01"
+    ],
+    "selection_basis": "four consecutive complete years and a major previously unused bidding zone"
+  }
+}

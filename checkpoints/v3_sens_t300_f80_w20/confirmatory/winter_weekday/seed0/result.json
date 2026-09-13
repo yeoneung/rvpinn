@@ -1,0 +1,147 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "train_info": {
+        "tuneval": {
+          "rms": 15.979557662622948,
+          "max": 127.68090580701744,
+          "p99": 52.86572067360095,
+          "mean": 11.424431138165716
+        },
+        "best_adam_step": 2000,
+        "wall_s": 59.04509735107422,
+        "peak_mem_mb": 811.388671875
+      },
+      "tuneval_policy_residual": {
+        "rms": 15.979557662622948,
+        "max": 127.68090580701744,
+        "p99": 52.86572067360095,
+        "mean": 11.424431138165716
+      },
+      "hjb_residual_max_tuneval": 4710.419898332327,
+      "greedy_error_tuneval": 4700.871141769011,
+      "policy_change_norm": 1.0,
+      "rollout_cost_crn": 2339.629550031329,
+      "checkpoint": "./checkpoints/v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter00.pt",
+      "history_len": 5
+    },
+    {
+      "iteration": 1,
+      "train_info": {
+        "tuneval": {
+          "rms": 36.238143910624494,
+          "max": 585.9634178362082,
+          "p99": 115.2749947679303,
+          "mean": 25.69859442154925
+        },
+        "best_adam_step": 2000,
+        "wall_s": 59.46112585067749,
+        "peak_mem_mb": 2251.5751953125
+      },
+      "tuneval_policy_residual": {
+        "rms": 36.238143910624494,
+        "max": 585.9634178362082,
+        "p99": 115.2749947679303,
+        "mean": 25.69859442154925
+      },
+      "hjb_residual_max_tuneval": 585.9634178362082,
+      "greedy_error_tuneval": 322.7904936121909,
+      "policy_change_norm": 2.0000000000000004,
+      "rollout_cost_crn": 2439.5876371779827,
+      "checkpoint": "./checkpoints/v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter01.pt",
+      "history_len": 5
+    },
+    {
+      "iteration": 2,
+      "train_info": {
+        "tuneval": {
+          "rms": 28.725777803687933,
+          "max": 363.60218521583954,
+          "p99": 88.82421029901722,
+          "mean": 20.885740487319175
+        },
+        "best_adam_step": 2000,
+        "wall_s": 59.52311062812805,
+        "peak_mem_mb": 2251.5751953125
+      },
+      "tuneval_policy_residual": {
+        "rms": 28.725777803687933,
+        "max": 363.60218521583954,
+        "p99": 88.82421029901722,
+        "mean": 20.885740487319175
+      },
+      "hjb_residual_max_tuneval": 455.53822770268346,
+      "greedy_error_tuneval": 407.0738064959901,
+      "policy_change_norm": 2.0000000000000004,
+      "rollout_cost_crn": 2164.107721604465,
+      "checkpoint": "./checkpoints/v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt",
+      "history_len": 5
+    },
+    {
+      "iteration": 3,
+      "train_info": {
+        "tuneval": {
+          "rms": 26.1713582194054,
+          "max": 367.26321367615503,
+          "p99": 82.32612928454213,
+          "mean": 18.92303915474992
+        },
+        "best_adam_step": 2000,
+        "wall_s": 59.80663251876831,
+        "peak_mem_mb": 2251.5751953125
+      },
+      "tuneval_policy_residual": {
+        "rms": 26.1713582194054,
+        "max": 367.26321367615503,
+        "p99": 82.32612928454213,
+        "mean": 18.92303915474992
+      },
+      "hjb_residual_max_tuneval": 367.26321367615503,
+      "greedy_error_tuneval": 133.75645884179593,
+      "policy_change_norm": 2.0000000000000004,
+      "rollout_cost_crn": 2263.5431237065377,
+      "checkpoint": "./checkpoints/v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter03.pt",
+      "history_len": 5
+    }
+  ],
+  "selected_iteration": 2,
+  "selected_checkpoint": "./checkpoints/v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt",
+  "selection_criterion": "paired historical validation mean of hard common cost",
+  "selection_min_improvement_eur_per_day": 0.1,
+  "certification": {
+    "policy_residual": {
+      "rms": 28.635602834342457,
+      "max": 457.1140873876872,
+      "p99": 90.77686353241015,
+      "mean": 20.776796744182178
+    },
+    "hjb_residual": {
+      "rms": 38.877100815091744,
+      "max": 457.1121353386996,
+      "p99": 119.3527780430759,
+      "mean": 27.542406000986382
+    },
+    "neumann_vy_max_normalized": 0.12271861274701476,
+    "neumann_vp_max_normalized": 0.13214252250260136,
+    "lipschitz_sensitivity_L": 174921.42922658112,
+    "fill_distance_unit_cube": 0.08838834764831843,
+    "lipschitz_corrected_sensitivity_estimate": 15918.12823295848,
+    "label": "independent validation maximum + Lipschitz-corrected sensitivity estimate",
+    "n_points": 16384
+  },
+  "tariff": {
+    "threshold_kw": 300.0,
+    "fee_per_hour": 80.0,
+    "smoothing_width_kw": 20.0
+  },
+  "region": "confirmatory",
+  "regime": "winter_weekday",
+  "method_seed": 0,
+  "synthetic_crn_selected_iteration": 2,
+  "synthetic_crn_selected_checkpoint": "./checkpoints/v3_sens_t300_f80_w20/confirmatory/winter_weekday/seed0/iter02.pt",
+  "selection_partition": "validation",
+  "selection_n_days": 30,
+  "selection_deployment_version": "hard-band-aligned-v1",
+  "selection_action_search_version": "closed-feasible-grid-v1"
+}

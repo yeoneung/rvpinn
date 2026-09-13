@@ -1,0 +1,5 @@
+Controllers share a simulation model, tariff, information, and deployment rules.
+Hard-cost action search aligns learned control with a discontinuous tariff.
+Learning cuts cost by 2.9-24.6% relative to a matched no-learning controller.
+The primary stochastic optimizer costs less; learned control needs less online time.
+Seasonal and tariff tests assess performance and computational trade-offs.

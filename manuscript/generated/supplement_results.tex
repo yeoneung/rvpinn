@@ -1,0 +1,150 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Winter common-objective decomposition. Cost components are in EUR/day and fee rates in EUR/h.}
+\label{tab:supp-components}
+\begin{tabularx}{\linewidth}{r>{\raggedright\arraybackslash}Xrrrrr}
+\toprule
+Fee & Method & Bill & Band fee & Degradation & Terminal & Total \\
+\midrule
+20 & No storage & 879.9 & 435.3 & 0.0 & 0.00 & 1315.3 \\
+ & Validation-tuned price rule & 879.9 & 435.3 & 0.0 & 0.00 & 1315.3 \\
+ & Convex-envelope MPC & 879.7 & 435.3 & 0.1 & 0.07 & 1315.2 \\
+ & Conditional-mean MIQP & 887.3 & 266.5 & 91.7 & 2.45 & 1248.0 \\
+ & Two-stage stochastic MIQP & 887.2 & 261.3 & 94.2 & 0.83 & 1243.5 \\
+ & Offline procedure & 888.9 & 304.0 & 65.1 & 0.24 & 1258.2 \\
+\addlinespace
+40 & No storage & 879.9 & 870.7 & 0.0 & 0.00 & 1750.6 \\
+ & Validation-tuned price rule & 879.9 & 870.7 & 0.0 & 0.00 & 1750.6 \\
+ & Convex-envelope MPC & 879.7 & 870.7 & 0.1 & 0.10 & 1750.6 \\
+ & Conditional-mean MIQP & 905.2 & 350.7 & 204.7 & 4.20 & 1464.8 \\
+ & Two-stage stochastic MIQP & 908.1 & 318.3 & 227.9 & 1.74 & 1456.0 \\
+ & Offline procedure & 897.1 & 436.5 & 155.1 & 0.37 & 1489.1 \\
+\addlinespace
+80 & No storage & 879.9 & 1741.3 & 0.0 & 0.00 & 2621.3 \\
+ & Validation-tuned price rule & 879.9 & 1741.3 & 0.0 & 0.00 & 2621.3 \\
+ & Convex-envelope MPC & 879.6 & 1741.3 & 0.2 & 0.20 & 2621.3 \\
+ & Conditional-mean MIQP & 915.1 & 638.0 & 223.4 & 5.69 & 1782.2 \\
+ & Two-stage stochastic MIQP & 914.0 & 583.3 & 245.3 & 3.38 & 1746.1 \\
+ & Offline procedure & 900.5 & 603.3 & 265.5 & 0.42 & 1769.7 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Descriptive solver-budget sensitivity at 80 EUR/h. Costs and cost changes are in EUR/day; latency is mean controller-call time. The primary deployment budget is 5 s. Finite gap is the availability fraction; mean gaps are conditional on availability.}
+\label{tab:supp-budget}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & Limit & Cost & Cost change & Latency (ms) & Incumbent & Finite gap & Mean gap & Time limit \\
+\midrule
+Conditional-mean MIQP & 5 s & 1782.2 & 0.0 & 1701 & 100.0\% & 100.0\% & 0.66\% & 10.5\% \\
+ & 15 s & 1782.9 & 0.7 & 2346 & 100.0\% & 100.0\% & 0.64\% & 5.5\% \\
+\addlinespace
+Two-stage stochastic MIQP & 5 s & 1746.1 & 0.0 & 2759 & 100.0\% & 100.0\% & 0.84\% & 27.8\% \\
+ & 15 s & 1744.7 & -1.4 & 4497 & 100.0\% & 100.0\% & 0.76\% & 13.2\% \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Restart and measured offline-computation diagnostics. Fees are in EUR/h; cost ranges and standard deviations are in EUR/day. Offline time is in minutes per five-restart batch.}
+\label{tab:supp-restarts}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrrrrrr}
+\toprule
+Fee & Restarts & Batches & Fallbacks & Validation range & Test SD & Selected test range & Min/batch \\
+\midrule
+20 & 5 & 1 & 0 & 1060.1--1084.2 & 8.0 & 1258.2--1258.2 & 22.8 \\
+40 & 25 & 5 & 0 & 1296.3--1375.1 & 25.3 & 1485.1--1501.1 & 23.7 \\
+80 & 5 & 1 & 0 & 1606.1--1736.1 & 38.9 & 1769.7--1769.7 & 23.3 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Compute-equivalent amortization against the better of the two online MIQPs. Cost $\Delta$ is offline minus comparator in EUR/day; fees are in EUR/h. The last column ignores operating-cost differences and values offline and online compute seconds equally.}
+\label{tab:supp-amortization}
+\begin{tabularx}{\linewidth}{r>{\raggedright\arraybackslash}Xrrr}
+\toprule
+Fee & Online comparator & Cost $\Delta$ & Saved s/day & Break-even days \\
+\midrule
+20 & Two-stage stochastic MIQP & 14.7 & 112.5 & 12.2 \\
+40 & Two-stage stochastic MIQP & 33.1 & 185.3 & 7.7 \\
+80 & Two-stage stochastic MIQP & 23.6 & 264.6 & 5.3 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Winter online-solver diagnostics. Fees are in EUR/h. Gaps are reported only for solves returning finite solver bounds; finite gap is their availability fraction. Solve time excludes model construction. CM and Stoch. denote conditional-mean and two-stage stochastic MIQP; Envelope denotes the convex-tariff-surrogate MPC.}
+\label{tab:supp-solvers}
+\begin{tabularx}{\linewidth}{r>{\raggedright\arraybackslash}Xrrrrr}
+\toprule
+Fee & Method & Solves & Incumbent & Finite gap & Mean gap & P95 solve (s) \\
+\midrule
+20 & Envelope MPC & 2880 & 100.0\% & 100.0\% & 0.73\% & 0.11 \\
+ & CM MIQP & 2880 & 100.0\% & 100.0\% & 0.20\% & 1.16 \\
+ & Stoch. MIQP & 2880 & 100.0\% & 100.0\% & 0.50\% & 2.96 \\
+\addlinespace
+40 & Envelope MPC & 2880 & 100.0\% & 100.0\% & 0.66\% & 0.10 \\
+ & CM MIQP & 2880 & 100.0\% & 100.0\% & 0.27\% & 2.54 \\
+ & Stoch. MIQP & 2880 & 100.0\% & 100.0\% & 0.39\% & 4.50 \\
+\addlinespace
+80 & Envelope MPC & 2880 & 100.0\% & 100.0\% & 0.69\% & 0.10 \\
+ & CM MIQP & 2880 & 100.0\% & 100.0\% & 0.66\% & 4.69 \\
+ & Stoch. MIQP & 2880 & 100.0\% & 100.0\% & 0.84\% & 4.98 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Seasonal terminal and online-latency diagnostics. Terminal penalties are in EUR/day; latency is mean controller-call time.}
+\label{tab:supp-season}
+\begin{tabularx}{\linewidth}{l>{\raggedright\arraybackslash}Xrr}
+\toprule
+Season & Method & Terminal penalty & Mean latency (ms) \\
+\midrule
+Winter & No storage & 0.00 & 0.0 \\
+ & Validation-tuned price rule & 0.00 & 0.0 \\
+ & Convex-envelope MPC & 0.10 & 53.9 \\
+ & Conditional-mean MIQP & 4.20 & 1047.1 \\
+ & Two-stage stochastic MIQP & 1.74 & 1933.3 \\
+ & Offline procedure & 0.37 & 3.1 \\
+\addlinespace
+Spring & No storage & 0.00 & 0.0 \\
+ & Validation-tuned price rule & 0.00 & 0.0 \\
+ & Convex-envelope MPC & 0.09 & 104.3 \\
+ & Conditional-mean MIQP & 3.43 & 1112.3 \\
+ & Two-stage stochastic MIQP & 2.65 & 1990.5 \\
+ & Offline procedure & 0.20 & 3.1 \\
+\addlinespace
+Summer & No storage & 0.00 & 0.0 \\
+ & Validation-tuned price rule & 0.00 & 0.0 \\
+ & Convex-envelope MPC & 0.07 & 78.0 \\
+ & Conditional-mean MIQP & 5.24 & 908.1 \\
+ & Two-stage stochastic MIQP & 2.29 & 1853.0 \\
+ & Offline procedure & 0.08 & 3.0 \\
+\addlinespace
+Autumn & No storage & 0.00 & 0.0 \\
+ & Validation-tuned price rule & 0.00 & 0.0 \\
+ & Convex-envelope MPC & 0.08 & 72.6 \\
+ & Conditional-mean MIQP & 3.83 & 838.4 \\
+ & Two-stage stochastic MIQP & 2.53 & 1873.7 \\
+ & Offline procedure & 0.00 & 3.1 \\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,0 +1,22 @@
+{
+  "controller": "m16",
+  "date": "2019-01-07",
+  "deployment_version": "hard-band-aligned-v1",
+  "reported_economics_verified": true,
+  "trajectory_source": "replay of recorded MIQP actions",
+  "policy_provenance": {},
+  "source_sha256": {
+    "common_daily_confirmatory_thr300_fee40_w10_n16_r2_stream7301_pool16_tl5.parquet": "e421e21c510df9264a0e9a812969e37147a2652f5dfaa9fcaab0a1b3afee183d",
+    "common_solves_confirmatory_thr300_fee40_w10_n16_r2_stream7301_pool16_tl5.parquet": "54e6117876c80be5ed373e5e20e6af53d8047d349d810d45d6c7a1196e35873e"
+  },
+  "bill": 863.7915444523192,
+  "capacity_fee": 770.0000000000018,
+  "degradation_cost": 58.417155910495175,
+  "terminal_penalty": 0.014423803707606786,
+  "common_cost": 1692.2231241665238,
+  "exceed_hours": 19.249999999999996,
+  "throughput_kwh": 1557.7908242798717,
+  "terminal_soc": 0.498845402959978,
+  "latency_mean_ms": 4808.769528124999,
+  "trajectory_sha256": "4828f4748831ef274899d3e2022dbd46f648cfb402074cd51c38510871e820f1"
+}

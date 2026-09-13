@@ -1,0 +1,19 @@
+{
+  "label": "zero-action fixed-policy audit before policy improvement",
+  "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed2/iter00.pt",
+  "finite_difference_grid": [
+    31,
+    31,
+    37
+  ],
+  "n_sobol_audit_points": 5000,
+  "value_rmse": 8.325617027066171,
+  "value_max_abs_error": 27.92803044561981,
+  "soc_gradient_rmse": 41.29214467057101,
+  "soc_gradient_max_abs_error": 135.49552351507464,
+  "initial_value_learned": 220.44431597486187,
+  "initial_value_finite_difference": 220.1587078725742,
+  "initial_value_monte_carlo": 218.7811140985689,
+  "monte_carlo_standard_error": 0.6940466579370483,
+  "n_monte_carlo_paths": 20000
+}

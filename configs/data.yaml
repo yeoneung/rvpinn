@@ -1,0 +1,32 @@
+# Data source and preprocessing configuration
+source:
+  name: opsd_time_series
+  # OPSD time-series package, 60-min resolution. The downloader queries the
+  # official OPSD data index; this URL is the documented official release.
+  release: "2020-10-06"
+  url: "https://data.open-power-system-data.org/time_series/2020-10-06/time_series_60min_singleindex.csv"
+  local_path: null          # set to a local CSV path if the official host is unavailable
+
+zone_selection:
+  max_missing_fraction_per_year: 0.01
+  max_interp_gap_hours: 2
+  # deterministic rule: max complete overlapping hours, then min missingness,
+  # then lexicographic zone code
+
+split:
+  train_fraction: 0.60
+  val_fraction: 0.20
+  test_fraction: 0.20
+  min_train_months: 24
+  min_val_months: 6
+  min_test_months: 6
+
+regimes:
+  seasons:
+    winter: [12, 1, 2]
+    spring: [3, 4, 5]
+    summer: [6, 7, 8]
+    autumn: [9, 10, 11]
+  day_types: [weekday, weekend_holiday]
+
+currency_unit: "EUR/kWh"    # day-ahead EUR/MWh converted to EUR/kWh

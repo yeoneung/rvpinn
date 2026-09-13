@@ -1,0 +1,22 @@
+{
+  "controller": "m2",
+  "date": "2019-01-07",
+  "deployment_version": "hard-band-aligned-v1",
+  "reported_economics_verified": true,
+  "trajectory_source": "replay of recorded MIQP actions",
+  "policy_provenance": {},
+  "source_sha256": {
+    "common_daily_confirmatory_thr300_fee40_w10_n2.parquet": "7585acd7f0f1705cdefece9d19554de3f82efd7127258918d9f2d41219493ce3",
+    "common_solves_confirmatory_thr300_fee40_w10_n2.parquet": "45904e12543c3725908f62f5c84601ec9a9bc329eb1ba54a840be6db9424ed92"
+  },
+  "bill": 879.6342943535037,
+  "capacity_fee": 280.00000000000017,
+  "degradation_cost": 188.72678718855008,
+  "terminal_penalty": 0.014590602660534836,
+  "common_cost": 1348.3756721447146,
+  "exceed_hours": 6.999999999999992,
+  "throughput_kwh": 5032.714325028003,
+  "terminal_soc": 0.4988387461860241,
+  "latency_mean_ms": 1916.701969791679,
+  "trajectory_sha256": "dac988aaec78a0eaba7abf7e86cf3342070185f947dd4485659b47080aa9fa1d"
+}

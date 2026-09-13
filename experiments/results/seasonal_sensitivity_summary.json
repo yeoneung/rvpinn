@@ -1,0 +1,8 @@
+{
+  "factorial_cells": 27,
+  "offline_better_than_deterministic_cells": 6,
+  "offline_better_than_no_storage_cells": 27,
+  "best_mean_smoothing_width_kw": 20,
+  "width_mean_cost_spread_eur_per_day": 5.087379236410925,
+  "width_summary_scope": "descriptive pooled means; unequal restart effort, not an isolated width effect"
+}

@@ -1,0 +1,45 @@
+# Full-run settings. Budgets below were FROZEN on 2026-07-31 after the
+# pilot stage (configs/paper_pilot.yaml), using only validation-period
+# CRN rollouts and tuning-validation residuals; the final test period was
+# not touched. Rationale: pilot showed monotone residual decrease
+# (rms 61->21, HJB max 2279->224 over 6 iterations) and ~227 s/iteration
+# on the RTX 4080 SUPER at these settings. The nominal maxima of
+# main.tex §7.7 (200k Adam steps etc.) are computationally infeasible on
+# this hardware and are reduced uniformly for ALL compared methods.
+stage: full
+smoke: false
+
+policy_evaluation:
+  adam_max_steps: 6000
+  adam_batch_size: 4096
+  lbfgs_max_iter: 150
+  boundary_points: 8192
+  certification_points: 65536
+  tuning_validation_points: 16384
+  eval_every_steps: 500
+  early_stop_patience_evals: 6
+
+adaptive_refinement:
+  candidate_pool_size: 16384
+  refresh_every_steps: 1000
+  top_quantile: 0.98
+  max_buffer_size: 32768
+
+policy_iteration:
+  max_iterations: 8
+
+experiment_a:
+  grids:
+    - [51, 81, 49]
+    - [101, 161, 97]
+    - [201, 321, 193]
+  eval_points: 100000
+
+drl:
+  total_transitions: 1000000
+  eval_every_transitions: 50000
+  n_eval_rollouts: 16
+  early_stop_patience_evals: 5
+
+statistics:
+  bootstrap_replicates: 10000

@@ -1,0 +1,43 @@
+# RV-PINN-PI and direct HJB-PINN training configuration
+network:
+  hidden_layers: 6
+  width: 128
+  activation: tanh
+  fourier_k: [1, 2, 3]
+  dtype: float64
+  reference_baseline: zero_action_conditional_mean
+  reference_quadrature_points: 24
+
+policy_evaluation:
+  adam_max_steps: 200000
+  adam_batch_size: 8192
+  lr_start: 1.0e-3
+  lr_end: 1.0e-5
+  lbfgs_max_iter: 10000
+  boundary_points: 65536          # 2^16
+  certification_points: 262144    # 2^18
+  tuning_validation_points: 65536
+  early_stop_patience_evals: 10
+  eval_every_steps: 2000
+
+adaptive_refinement:
+  enabled: true
+  candidate_pool_size: 65536
+  refresh_every_steps: 10000
+  top_quantile: 0.99
+  max_buffer_size: 131072
+
+policy_iteration:
+  max_iterations: 12
+  # stopping tolerances selected on validation period; recorded at runtime
+  tau_eval: null
+  tau_pi: null
+  tau_a: 1.0e-8                   # normalized action tolerance
+
+policy_selection:
+  criterion: hard_common_crn_rollout_cost
+  min_mean_improvement_eur_per_day: 0.10
+
+hamiltonian:
+  coarse_grid_points: 129
+  brute_force_check_points: 4097

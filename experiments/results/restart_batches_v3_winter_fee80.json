@@ -1,0 +1,90 @@
+{
+  "deployment_version": "hard-band-aligned-v1",
+  "action_search_version": "closed-feasible-grid-v1",
+  "tag": "v3_winter_fee80",
+  "region": "confirmatory",
+  "regime": "winter_weekday",
+  "partition": "test",
+  "n_days": 30,
+  "restart_margin_eur_per_day": 0.1,
+  "fallback": "zero_action",
+  "fallback_validation_mean_common_cost": 2493.812980297697,
+  "restarts": [
+    {
+      "seed": 0,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee80/confirmatory/winter_weekday/seed0/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1736.0518117605072
+    },
+    {
+      "seed": 1,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee80/confirmatory/winter_weekday/seed1/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1679.246515043857
+    },
+    {
+      "seed": 2,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee80/confirmatory/winter_weekday/seed2/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1606.1354235645586
+    },
+    {
+      "seed": 3,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee80/confirmatory/winter_weekday/seed3/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1658.4382583719644
+    },
+    {
+      "seed": 4,
+      "batch": 0,
+      "checkpoint": "./checkpoints/v3_winter_fee80/confirmatory/winter_weekday/seed4/iter02.pt",
+      "selected_iteration": 2,
+      "validation_mean_common_cost": 1661.5788811186642
+    }
+  ],
+  "batch_selections": [
+    {
+      "batch": 0,
+      "selected_kind": "trained_policy",
+      "selected_seed": 2,
+      "selected_validation_mean_common_cost": 1606.1354235645586,
+      "decisions": [
+        {
+          "candidate_seed": 0,
+          "incumbent_before": "zero_action",
+          "improvement_eur_per_day": 757.7611685371896,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 1,
+          "incumbent_before": 0,
+          "improvement_eur_per_day": 56.80529671665022,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 2,
+          "incumbent_before": 1,
+          "improvement_eur_per_day": 73.11109147929847,
+          "decision": "accept"
+        },
+        {
+          "candidate_seed": 3,
+          "incumbent_before": 2,
+          "improvement_eur_per_day": -52.302834807405816,
+          "decision": "retain_incumbent"
+        },
+        {
+          "candidate_seed": 4,
+          "incumbent_before": 2,
+          "improvement_eur_per_day": -55.443457554105635,
+          "decision": "retain_incumbent"
+        }
+      ]
+    }
+  ],
+  "daily_file": "./experiments/results/learned_daily_v3_winter_fee80.parquet"
+}

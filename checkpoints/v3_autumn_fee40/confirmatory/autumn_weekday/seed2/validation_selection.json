@@ -1,0 +1,69 @@
+{
+  "deployment_version": "hard-band-aligned-v1",
+  "action_search_version": "closed-feasible-grid-v1",
+  "criterion": "paired historical validation mean of hard common cost",
+  "partition": "validation",
+  "region": "confirmatory",
+  "regime": "autumn_weekday",
+  "n_days": 30,
+  "margin_eur_per_day": 0.1,
+  "summaries": [
+    {
+      "iteration": 0,
+      "checkpoint": "./checkpoints/v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter00.pt",
+      "n_days": 30,
+      "mean_common_cost": 1536.132306547852,
+      "mean_terminal_penalty": 0.2648073058119615
+    },
+    {
+      "iteration": 1,
+      "checkpoint": "./checkpoints/v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter01.pt",
+      "n_days": 30,
+      "mean_common_cost": 1457.9611386258832,
+      "mean_terminal_penalty": 0.024761988004859313
+    },
+    {
+      "iteration": 2,
+      "checkpoint": "./checkpoints/v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter02.pt",
+      "n_days": 30,
+      "mean_common_cost": 1329.4860992435758,
+      "mean_terminal_penalty": 0.024401349177387177
+    },
+    {
+      "iteration": 3,
+      "checkpoint": "./checkpoints/v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter03.pt",
+      "n_days": 30,
+      "mean_common_cost": 1315.5960761974102,
+      "mean_terminal_penalty": 0.02452775743962404
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_iteration": 0,
+      "decision": "initialize_incumbent"
+    },
+    {
+      "candidate_iteration": 1,
+      "incumbent_before": 0,
+      "paired_mean_improvement": 78.17116792196884,
+      "margin": 0.1,
+      "decision": "accept"
+    },
+    {
+      "candidate_iteration": 2,
+      "incumbent_before": 1,
+      "paired_mean_improvement": 128.4750393823074,
+      "margin": 0.1,
+      "decision": "accept"
+    },
+    {
+      "candidate_iteration": 3,
+      "incumbent_before": 2,
+      "paired_mean_improvement": 13.890023046165652,
+      "margin": 0.1,
+      "decision": "accept"
+    }
+  ],
+  "selected_iteration": 3,
+  "selected_checkpoint": "./checkpoints/v3_autumn_fee40/confirmatory/autumn_weekday/seed2/iter03.pt"
+}

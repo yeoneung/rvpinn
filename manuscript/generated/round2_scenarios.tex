@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Exploratory nested scenario-count sensitivity over three fixed streams. Fees are in EUR/h; costs, differences, and bounds are in EUR/day. Costs show the mean [between-stream SD]. Difference is learned minus stochastic MIQP; the one-sided 95\% upper bound resamples paired dates, training batches, and scenario streams. Latency is controller-call mean/mean daily P95; TL is time-limit frequency.}
+\label{tab:round2-scenarios}
+\begin{tabular}{rrrrrrrr}
+\toprule
+Fee & $M$ & Limit & MIQP cost [SD] & Difference & Upper & Latency (ms) & TL \\
+\midrule
+40 & 2 & 5 s & 1456.1 [0.3] & 33.0 & 40.1 & 1953/4468 & 7.8\% \\
+40 & 8 & 5 s & 1680.3 [2.5] & -191.1 & -177.8 & 4493/5006 & 78.9\% \\
+40 & 16 & 5 s & 1708.1 [0.2] & -218.9 & -203.2 & 4873/5008 & 96.6\% \\
+80 & 16 & 5 s & 2469.5 [2.1] & -699.8 & -674.6 & 4857/5009 & 96.8\% \\
+80 & 16 & 15 s & 2342.1 [6.2] & -572.4 & -547.7 & 14526/15014 & 96.4\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+At 40 EUR/h, increasing the scenario count from 2 to 16 under the fixed five-second budget changed mean stochastic-MIQP cost from 1456.1 to 1708.1 EUR/day; the time-limit frequency changed from 7.8\% to 96.6\%. The learned policy was 218.9 EUR/day less costly than the 16-scenario comparator; its one-sided upper bound was -203.2 EUR/day.
+ At 80 EUR/h, the 16-scenario cost changed from 2469.5 to 2342.1 EUR/day when the per-solve limit increased from 5 to 15 seconds. Finite gaps were available for 48.5\% and 97.7\% of calls; their conditional means were 897.50\% and 1167.00\%. These means do not measure matched solver progress because availability and closed-loop states differ. At 15 seconds, the time-limit frequency was 96.4\%. The learned-minus-MIQP upper bound at 15 seconds was -547.7 EUR/day.

@@ -1,0 +1,81 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "train_info": {
+        "tuneval": {
+          "rms": 131.33328377468933,
+          "max": 645.5552097380196,
+          "p99": 402.37942460715834,
+          "mean": 96.36598590630555
+        },
+        "best_adam_step": 600,
+        "wall_s": 7.174931049346924,
+        "peak_mem_mb": 348.40625
+      },
+      "tuneval_policy_residual": {
+        "rms": 131.33328377468933,
+        "max": 645.5552097380196,
+        "p99": 402.37942460715834,
+        "mean": 96.36598590630555
+      },
+      "hjb_residual_max_tuneval": 3580.0752856513027,
+      "greedy_error_tuneval": 3406.299400620669,
+      "policy_change_norm": 1.0000000000000002,
+      "rollout_cost_crn": 736.9683620720582,
+      "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed0/iter00.pt",
+      "history_len": 3
+    },
+    {
+      "iteration": 1,
+      "train_info": {
+        "tuneval": {
+          "rms": 395.05296186196097,
+          "max": 1272.2261565913427,
+          "p99": 1061.8847486775824,
+          "mean": 295.19675433746085
+        },
+        "best_adam_step": 600,
+        "wall_s": 7.460520029067993,
+        "peak_mem_mb": 348.40625
+      },
+      "tuneval_policy_residual": {
+        "rms": 395.05296186196097,
+        "max": 1272.2261565913427,
+        "p99": 1061.8847486775824,
+        "mean": 295.19675433746085
+      },
+      "hjb_residual_max_tuneval": 1272.2261565913427,
+      "greedy_error_tuneval": 765.1510966887256,
+      "policy_change_norm": 2.0000000000000004,
+      "rollout_cost_crn": 694.351312452128,
+      "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed0/iter01.pt",
+      "history_len": 3
+    }
+  ],
+  "selected_iteration": 1,
+  "selected_checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed0/iter01.pt",
+  "selection_criterion": "hard_common_crn_rollout_cost",
+  "selection_min_improvement_eur_per_day": 0.1,
+  "certification": {
+    "policy_residual": {
+      "rms": 395.29602192637657,
+      "max": 1329.3354021694083,
+      "p99": 1092.6653316282539,
+      "mean": 294.8742049505699
+    },
+    "hjb_residual": {
+      "rms": 393.38886134736276,
+      "max": 1329.3354021694083,
+      "p99": 1085.552452707653,
+      "mean": 293.29845492794607
+    },
+    "neumann_vy_max_normalized": 0.31403399365888085,
+    "neumann_vp_max_normalized": 0.0,
+    "lipschitz_sensitivity_L": 28926.938982231703,
+    "fill_distance_unit_cube": 0.06819522724823258,
+    "lipschitz_corrected_sensitivity_estimate": 3302.014579658457,
+    "label": "independent validation maximum + Lipschitz-corrected sensitivity estimate",
+    "n_points": 2048
+  }
+}

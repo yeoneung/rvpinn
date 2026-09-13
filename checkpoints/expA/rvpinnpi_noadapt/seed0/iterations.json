@@ -1,0 +1,54 @@
+[
+  {
+    "iteration": 0,
+    "train_info": {
+      "tuneval": {
+        "rms": 131.33328377468933,
+        "max": 645.5552097380196,
+        "p99": 402.37942460715834,
+        "mean": 96.36598590630555
+      },
+      "best_adam_step": 600,
+      "wall_s": 7.174931049346924,
+      "peak_mem_mb": 348.40625
+    },
+    "tuneval_policy_residual": {
+      "rms": 131.33328377468933,
+      "max": 645.5552097380196,
+      "p99": 402.37942460715834,
+      "mean": 96.36598590630555
+    },
+    "hjb_residual_max_tuneval": 3580.0752856513027,
+    "greedy_error_tuneval": 3406.299400620669,
+    "policy_change_norm": 1.0000000000000002,
+    "rollout_cost_crn": 736.9683620720582,
+    "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed0/iter00.pt",
+    "history_len": 3
+  },
+  {
+    "iteration": 1,
+    "train_info": {
+      "tuneval": {
+        "rms": 395.05296186196097,
+        "max": 1272.2261565913427,
+        "p99": 1061.8847486775824,
+        "mean": 295.19675433746085
+      },
+      "best_adam_step": 600,
+      "wall_s": 7.460520029067993,
+      "peak_mem_mb": 348.40625
+    },
+    "tuneval_policy_residual": {
+      "rms": 395.05296186196097,
+      "max": 1272.2261565913427,
+      "p99": 1061.8847486775824,
+      "mean": 295.19675433746085
+    },
+    "hjb_residual_max_tuneval": 1272.2261565913427,
+    "greedy_error_tuneval": 765.1510966887256,
+    "policy_change_norm": 2.0000000000000004,
+    "rollout_cost_crn": 694.351312452128,
+    "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed0/iter01.pt",
+    "history_len": 3
+  }
+]

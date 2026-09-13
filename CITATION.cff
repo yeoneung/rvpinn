@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the associated manuscript."
+title: "Simulation-based comparison of offline value learning and online mixed-integer control for battery dispatch"
+type: software
+authors:
+  - family-names: Kim
+    given-names: Yeoneung
+    email: yeoneung@yonsei.ac.kr
+    affiliation: Department of Industrial Engineering, Yonsei University
+repository-code: "https://github.com/yeoneung/rvpinn"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-13
+url: "https://github.com/yeoneung/rvpinn/tree/v1.0.0"

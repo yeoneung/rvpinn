@@ -1,0 +1,36 @@
+\subsection{Primary inference and implementation accounting}
+
+\begin{table}[tbp]
+\centering
+\caption{All prespecified paired comparisons. Differences and bounds are learned minus comparator in EUR/day; fee rates are in EUR/h. The one-sided 95\% upper bound uses paired circular date blocks and, at the central fee, complete training batches. Superiority requires a negative upper bound. Holm $p$ adjusts all 15 comparisons.}
+\label{tab:paired-all}
+\scriptsize
+\begin{tabularx}{\linewidth}{r>{\raggedright\arraybackslash}Xrrrr}
+\toprule
+Fee & Comparator & Difference & Relative & Upper bound & Holm $p$ \\
+\midrule
+20 & No storage & -57.0 & -4.3\% & -44.6 & 0.001 \\
+20 & Price rule & -57.0 & -4.3\% & -44.3 & 0.001 \\
+20 & Envelope MPC & -57.0 & -4.3\% & -44.4 & 0.001 \\
+20 & CM MIQP & 10.3 & 0.8\% & 13.6 & 1.000 \\
+20 & Stochastic MIQP & 14.7 & 1.2\% & 17.4 & 1.000 \\
+40 & No storage & -261.5 & -14.9\% & -241.6 & 0.001 \\
+40 & Price rule & -261.5 & -14.9\% & -241.7 & 0.001 \\
+40 & Envelope MPC & -261.4 & -14.9\% & -241.5 & 0.001 \\
+40 & CM MIQP & 24.3 & 1.7\% & 30.3 & 1.000 \\
+40 & Stochastic MIQP & 33.1 & 2.3\% & 40.2 & 1.000 \\
+80 & No storage & -851.6 & -32.5\% & -823.1 & 0.001 \\
+80 & Price rule & -851.6 & -32.5\% & -822.1 & 0.001 \\
+80 & Envelope MPC & -851.6 & -32.5\% & -822.5 & 0.001 \\
+80 & CM MIQP & -12.5 & -0.7\% & -6.4 & 0.001 \\
+80 & Stochastic MIQP & 23.6 & 1.4\% & 30.1 & 1.000 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+As a test-set stability diagnostic, individual restarts had lower mean cost than the better online MIQP in 0/5 at 20 EUR/h, 0/25 at 40 EUR/h, 0/5 at 80 EUR/h; this diagnostic did not alter validation-based selection.
+At 20 EUR/h, the one-sided upper bound against no storage was -44.6 EUR/day; superiority was established.
+The zero-action feasible incumbent was retained in 0/1 batches at 20 EUR/h, 0/5 batches at 40 EUR/h, 0/1 batches at 80 EUR/h; retained fallback outcomes are not attributed to neural control.
+Validation selected the threshold-rule baseline as 20 EUR/h: zero action, 40 EUR/h: zero action, 80 EUR/h: zero action; a zero-action choice remains labeled as such in its tuning log.
+A complete five-restart batch used 23.5 minutes of recorded training-run time, validation-controller computation, and selected-checkpoint loading. Among trained selections, mean checkpoint loading was 0.02 s. At 96 calls per day, the measured online controller time was 0.30 s/day for the offline policy and 101.27 s/day for conditional-mean MIQP.
+On compute time alone, assigning the same unit value to offline and online seconds, the measured offline work equals the accumulated online time saving after 5.3--12.2 deployment days relative to the better of the two online MIQPs. The main paper's break-even condition also includes the observed operating-cost difference for any chosen monetary value of compute time.

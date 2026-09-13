@@ -1,0 +1,67 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=22mm]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\date{13 September 2026}
+
+\signature{Yeoneung Kim\\
+Department of Industrial Engineering, Yonsei University\\
+\href{mailto:yeoneung@yonsei.ac.kr}{yeoneung@yonsei.ac.kr}}
+\address{Department of Industrial Engineering, Yonsei University\\
+50 Yonsei-ro, Seodaemun-gu\\
+Seoul 03722, Republic of Korea}
+
+\begin{document}
+\begin{letter}{Editors\\Simulation Modelling Practice and Theory}
+\opening{Dear Editors,}
+
+Please consider the manuscript ``Simulation-based comparison of offline value
+learning and online mixed-integer control for battery dispatch'' as a research
+article in \emph{Simulation Modelling Practice and Theory}.
+
+The paper uses a common simulation model to compare offline value learning
+with online mixed-integer control. A discontinuous import-band fee makes
+accurate deployment of the billed objective essential. The comparison
+separates the contribution of learning from the effects of action search,
+information, and computational budgets. The main contributions are:
+
+\begin{itemize}[leftmargin=1.5em,itemsep=5pt,topsep=4pt,parsep=0pt]
+\item \textbf{A matched simulation benchmark.} Offline learning and
+conditional-mean and two-stage stochastic MIQPs share the economic objective,
+information, terminal cost, feasible actions, and 15-minute update interval.
+Nested scenario sets and explicit solve budgets distinguish stochastic-model
+resolution from the performance of the implemented optimizer.
+
+\item \textbf{Deployment-consistent learning and attribution.} Smooth
+finite-horizon value learning is coupled to hard-cost one-step minimization
+over the deployed feasible set. A matched reference-only controller retains
+the same decision rule while removing the neural correction, separating the
+economic contribution of learning from that of the one-step search.
+
+\item \textbf{Numerical validation and computational trade-offs.} Finite-horizon
+Bellman bounds separate residual variation, action-search, expectation, and
+terminal errors. Four seasons, repeated training batches, and tariff
+sensitivity support a joint assessment of operating cost, online latency,
+and the deployment period needed to amortize offline computation.
+\end{itemize}
+
+The learned correction reduces cost relative to its no-learning counterpart
+by 2.9\%, 11.9\%, and 24.6\% at the three fee anchors, while the primary
+two-scenario MIQP achieves lower operating cost. Together with measured
+online and offline computation, these results quantify the trade-off between
+operating cost and controller latency. The focus on simulation-model
+implementation, numerical validation, and controlled comparison of decision
+procedures fits the journal's readership.
+
+Source data are public, and the code, stored weights, and numerical
+outputs are available in the GitHub repository at
+\url{https://github.com/yeoneung/rvpinn}; the manuscript identifies the exact
+reproducibility version.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

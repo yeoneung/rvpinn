@@ -1,0 +1,310 @@
+{
+  "start_time": "2026-09-07T02:05:09",
+  "command": "./scripts/train_pinn_pi.py --config ./configs/confirmatory.yaml --region confirmatory --regimes winter_weekday --seeds 17 --tag v3_winter_fee40 --threshold 300 --fee 40 --width 10 --no-adaptive",
+  "environment": {
+    "python": "3.9.19 (main, May  6 2024, 20:12:36) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "machine": "AMD64",
+    "hostname": "DESKTOP-FP6TMPA",
+    "cpu_count": 16,
+    "ram_gb": 46.9,
+    "torch": "2.4.1",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "cuda": "12.4",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.1",
+    "cvxpy": "1.7.5",
+    "stable_baselines3": "2.7.1",
+    "gymnasium": "1.1.1",
+    "statsmodels": "0.14.6",
+    "git_commit": null
+  },
+  "seeds": {
+    "data_processing": 1101,
+    "calibration": 1201,
+    "training_design": 2101,
+    "adaptive_candidate": 2201,
+    "tuning_validation": 3101,
+    "final_certification": 4101,
+    "test_simulation": 5101,
+    "bootstrap": 6101,
+    "method_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "config": {
+    "battery": {
+      "E_max_kwh": 1000.0,
+      "a_c_max_kw": 500.0,
+      "a_d_max_kw": 500.0,
+      "s_min": 0.1,
+      "s_max": 0.9,
+      "s0": 0.5,
+      "s_target": 0.5,
+      "s_ref": 0.5,
+      "eta_c": 0.95,
+      "eta_d": 0.95,
+      "delta_s": 0.05
+    },
+    "horizon": {
+      "T_hours": 24.0,
+      "control_dt_min": 15.0,
+      "sim_dt_min": 5.0
+    },
+    "microgrid": {
+      "P_base_kw": 500.0,
+      "gamma_R": 1.2,
+      "gamma_R_sensitivity": [
+        0.6,
+        1.0,
+        1.4
+      ]
+    },
+    "cost": {
+      "alpha_s": 0.5,
+      "lambda_s": 0.0,
+      "replacement_cost_per_kwh": 300.0,
+      "cycle_life_efc": 4000.0,
+      "lambda_1_sensitivity_factors": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "eps_g_fraction": 0.001,
+      "eps_a_fraction": 0.001
+    },
+    "ou_domain": {
+      "margin_fraction": 0.2
+    },
+    "source": {
+      "name": "opsd_time_series",
+      "release": "2020-10-06",
+      "url": "https://data.open-power-system-data.org/time_series/2020-10-06/time_series_60min_singleindex.csv",
+      "local_path": null
+    },
+    "zone_selection": {
+      "max_missing_fraction_per_year": 0.01,
+      "max_interp_gap_hours": 2
+    },
+    "split": {
+      "train_fraction": 0.6,
+      "val_fraction": 0.2,
+      "test_fraction": 0.2,
+      "min_train_months": 24,
+      "min_val_months": 6,
+      "min_test_months": 6
+    },
+    "regimes": {
+      "seasons": {
+        "winter": [
+          12,
+          1,
+          2
+        ],
+        "spring": [
+          3,
+          4,
+          5
+        ],
+        "summer": [
+          6,
+          7,
+          8
+        ],
+        "autumn": [
+          9,
+          10,
+          11
+        ]
+      },
+      "day_types": [
+        "weekday",
+        "weekend_holiday"
+      ]
+    },
+    "currency_unit": "EUR/kWh",
+    "network": {
+      "hidden_layers": 5,
+      "width": 96,
+      "activation": "tanh",
+      "fourier_k": [
+        1,
+        2,
+        3
+      ],
+      "dtype": "float64",
+      "reference_baseline": "zero_action_conditional_mean",
+      "reference_quadrature_points": 24
+    },
+    "policy_evaluation": {
+      "adam_max_steps": 2000,
+      "adam_batch_size": 2048,
+      "lr_start": 0.001,
+      "lr_end": 1e-05,
+      "lbfgs_max_iter": 80,
+      "boundary_points": 4096,
+      "certification_points": 16384,
+      "tuning_validation_points": 8192,
+      "early_stop_patience_evals": 5,
+      "eval_every_steps": 400
+    },
+    "adaptive_refinement": {
+      "enabled": false,
+      "candidate_pool_size": 8192,
+      "refresh_every_steps": 800,
+      "top_quantile": 0.98,
+      "max_buffer_size": 16384
+    },
+    "policy_iteration": {
+      "max_iterations": 4,
+      "tau_eval": null,
+      "tau_pi": null,
+      "tau_a": 1e-08
+    },
+    "policy_selection": {
+      "criterion": "paired_historical_validation_hard_common_cost",
+      "min_mean_improvement_eur_per_day": 0.1
+    },
+    "hamiltonian": {
+      "coarse_grid_points": 129,
+      "brute_force_check_points": 4097
+    },
+    "threshold_rule": {
+      "lower_quantile_grid": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "upper_quantile_grid": [
+        0.7,
+        0.8,
+        0.9
+      ]
+    },
+    "mpc": {
+      "horizon_hours": 24,
+      "reoptimize_every_hours": 1,
+      "solver": "OSQP",
+      "solver_fallback": "CLARABEL"
+    },
+    "drl": {
+      "algorithms": [
+        "sac",
+        "td3"
+      ],
+      "total_transitions": 1000000,
+      "eval_every_transitions": 50000,
+      "n_eval_rollouts": 16,
+      "net_arch": [
+        256,
+        256
+      ],
+      "unified_regime_conditioning": true,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seeds": {
+      "data_processing": 1101,
+      "calibration": 1201,
+      "training_design": 2101,
+      "adaptive_candidate": 2201,
+      "tuning_validation": 3101,
+      "final_certification": 4101,
+      "test_simulation": 5101,
+      "bootstrap": 6101,
+      "method_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "experiment_a": {
+      "grids": [
+        [
+          51,
+          81,
+          49
+        ],
+        [
+          101,
+          161,
+          97
+        ],
+        [
+          201,
+          321,
+          193
+        ]
+      ],
+      "eval_points": 100000,
+      "reference_state": {
+        "t": 0.0,
+        "s": 0.5,
+        "y": 0.0
+      }
+    },
+    "robustness": {
+      "m_sigma": [
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "price_spike_percentile": 99.5,
+      "price_spike_durations_h": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "efficiency_error_pp": [
+        -5,
+        -2,
+        0,
+        2,
+        5
+      ],
+      "capacity_error_pct": [
+        -20,
+        -10,
+        0,
+        10,
+        20
+      ],
+      "rho_shift": [
+        -0.2,
+        0.0,
+        0.2
+      ],
+      "gamma_R": [
+        0.6,
+        1.0,
+        1.4
+      ]
+    },
+    "statistics": {
+      "bootstrap_replicates": 10000,
+      "block_length_days": 7,
+      "cvar_alpha": 0.95,
+      "holm_alpha": 0.05
+    },
+    "stage": "confirmatory"
+  },
+  "end_time": "2026-09-07T02:09:32",
+  "exit_status": "completed"
+}

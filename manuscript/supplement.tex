@@ -1,0 +1,375 @@
+\documentclass[preprint,11pt]{elsarticle}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{booktabs,graphicx,tabularx,array}
+\usepackage{placeins}
+\input{bibliography_setup}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\pdfstringdefDisableCommands{\def\corref#1{}}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\abs}[1]{\left\lvert #1\right\rvert}
+\journal{Simulation Modelling Practice and Theory}
+\emergencystretch=3em
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.8}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Supplement to ``Simulation-based comparison of offline value learning
+and online mixed-integer control for battery dispatch''}
+\author[aff1]{Yeoneung Kim\corref{cor1}}
+\ead{yeoneung@yonsei.ac.kr}
+\cortext[cor1]{Corresponding author}
+\affiliation[aff1]{organization={Department of Industrial Engineering, Yonsei University},
+             addressline={50 Yonsei-ro, Seodaemun-gu},
+             city={Seoul}, postcode={03722}, country={Republic of Korea}}
+\end{frontmatter}
+
+\section{Evaluation protocol and numerical checks}
+
+The benchmark uses IT\_NORD data from 2016--2017 for training, 2018 for
+validation, and 2019 for test. All controllers share the economic objective,
+15-minute update interval, feasible action set, and terminal treatment.
+Checkpoint and restart selection use validation cost alone; batch selection
+starts from the feasible zero-action policy. All action-grid candidates lie within the
+computed feasible interval before objective evaluation. Evaluation
+configurations and input/output hashes are documented in the GitHub repository
+(Section~\ref{sec:code-availability}).
+
+Reference-value attribution and nested scenario-count sensitivity with
+$M\in\{2,8,16\}$ and three fixed streams are exploratory analyses. They
+address the contribution of learning and the sensitivity to comparator
+resolution, separately from the primary comparisons. The high-fee
+15-second analyses describe sensitivity to the solver budget; the primary
+online comparison uses five seconds per solve.
+
+The controller set reported in the main paper is:
+\begin{enumerate}
+\item no storage;
+\item validation-tuned price-threshold control;
+\item conditional-mean convex-envelope MPC;
+\item conditional-mean exact-band mixed-integer quadratic program (MIQP);
+\item reflected two-scenario, two-stage exact-band MIQP with a shared first
+action;
+\item the no-learning reference-value one-step controller; and
+\item the complete offline learned procedure: five restarts, historical
+validation selection against a zero-action feasible incumbent, one-step
+hard-cost deployment, and the common safety set.
+\end{enumerate}
+The central fee cell contains five independent five-restart batches. No
+storage is a scale reference. Comparator scope is kept explicit: the primary online
+controls are the conditional-mean and scenario-based exact-band MIQPs, and the
+convex envelope isolates tariff representation. All reported methods use the
+common evaluation protocol.
+
+The price rule charges below a lower price threshold, discharges above an
+upper threshold, and otherwise holds. Candidate thresholds use training-price
+quantiles; the inactive no-action rule is included. The pair is selected by
+hard common cost on the same 30 validation days used for checkpoint selection.
+
+\section{Data processing and calibration}
+
+The OPSD 60-minute release dated 2020-10-06 \citep{OPSD2020} supplies local load, day-ahead
+price, solar, and wind. Renewable components are summed with at least one
+available component. A calendar year is eligible only if all required series
+have no more than 1\% missing rows. Gaps of at most two consecutive hours are
+interpolated in time; days with a remaining missing value are removed.
+
+The IT\_NORD record has four consecutive eligible years and 35,040 cleaned
+hours. Before interpolation, missing fractions are 0 for load,
+$2.852\times10^{-4}$ for price, and $2.567\times10^{-4}$ for renewable
+generation; all are zero afterward. Conversion to Europe/Rome time precedes
+season and weekday classification. Daylight-saving days with other than 24
+rows are excluded from daily evaluation.
+
+Only training data determine the load median, renewable 95th percentile,
+hourly regime medians, Ornstein--Uhlenbeck (OU) coefficients, correlation, and
+reflection box. Raw
+load and renewable shapes are scaled to a 500-kW base microgrid. Prices are
+converted from EUR/MWh to EUR/kWh. The battery has 1,000 kWh capacity, 500 kW
+charge and discharge limits, 0.95 one-way efficiencies, and an SoC interval
+$[0.1,0.9]$. Initial and target SoC are 0.5. The linear throughput coefficient
+is $300/(2\times4000)=0.0375$ EUR/kWh. The common terminal coefficient is
+$\lambda_T=10{,}819.79$ EUR per squared SoC fraction: a 0.10 terminal
+deviation costs 25\% of the median complete-day no-storage bill in training.
+It is then held fixed across methods. The cycle-based proxy is used for
+controlled comparison rather than as an electrochemical lifetime model
+\citep{Xu2018}.
+
+For each regime, a zero-intercept first-order autoregressive coefficient is fitted by least squares
+to within-day consecutive residual pairs. The exact discrete-time mapping gives
+$\kappa=-\log(\phi)$ per hour and maps the innovation variance to $\sigma$.
+The cross-process parameter $\rho$ is set to the correlation of standardized
+hourly load and price innovations, used as a proxy for instantaneous
+correlation rather than a joint continuous-time fit. Reflection bounds equal the
+training residual range widened by 20\% on each side.
+
+\input{generated/round2_parameter_tables}
+
+\section{Exact-band MIQP formulations}
+
+For each horizon index $h$, introduce nonnegative charge $u_h^c$, discharge
+$u_h^d$, import $g_h^+$, export $g_h^-$, and binary band variable $z_h$. The
+signed action is $a_h=u_h^d-u_h^c$, and
+\begin{align}
+ s_{h+1}&=s_h+\frac{\Delta}{E_{\max}}
+ \left(\eta_cu_h^c-\frac{u_h^d}{\eta_d}\right),\\
+ g_h^+-g_h^-&=n_h-u_h^d+u_h^c.
+\end{align}
+Taper and one-step safe constraints are imposed separately on charge and
+discharge. Direction binaries $d_h^c,d_h^g\in\{0,1\}$ impose
+\begin{align}
+u_h^c&\leq a_c d_h^c,& u_h^d&\leq a_d(1-d_h^c),\\
+g_h^+&\leq\overline g_h^+d_h^g,&
+g_h^-&\leq\overline g_h^-(1-d_h^g).
+\end{align}
+They are present at every price: dominance of simultaneous flows at positive
+prices is not sufficient for arbitrary time-limited incumbents.
+For valid bounds $\underline g_h\leq g_h\leq\overline g_h$, the
+band logic uses
+\begin{align}
+ g_h&\leq G_{\rm thr}+(\overline g_h-G_{\rm thr})z_h,\\
+ g_h&\geq G_{\rm thr}+\epsilon
+ -(G_{\rm thr}+\epsilon-\underline g_h)(1-z_h).
+\end{align}
+Here $\epsilon=10^{-5}$ kW and SCIP's feasibility tolerance is $10^{-9}$.
+The separation specifies a numerical representation of the strict band
+boundary, not a tolerance in the realized bill. Before holding the first
+action, native clipping enforces the common safe interval. If the incumbent
+has $z_0=0$ but its recovered action exceeds the band by at most $\epsilon$,
+the action is moved to a verified fee-inactive crossing only when that
+crossing is feasible and the change is at most $\epsilon$. Otherwise no band
+recovery is applied. Raw and held actions, direction flows, band status, and
+the recovery size are retained in each solve record. Every realized bill uses
+$\mathbf{1}\{N-a>G_{\rm thr}\}$ without a tolerance.
+The objective is
+\begin{equation}
+ \sum_h\Delta\left[c_hg_h^+-\alpha_sc_hg_h^-
+ +\lambda_1(u_h^c+u_h^d)+c_fz_h\right]
+ +\lambda_T(s_H-s_{\rm tar})^2.
+\end{equation}
+Thus the terminal treatment is identical to that of the learned controller.
+An epigraph constraint passes the quadratic terminal term to SCIP
+\citep{Achterberg2009}. A hard terminal equality is used only in an ablation.
+
+The stochastic MIQP replicates these variables by scenario. Charge and
+discharge at $h=0$ are equal across scenarios. Later variables are
+scenario-contingent and the objective is the arithmetic scenario mean. Exact
+OU transition variances are used. When the two mean-reversion rates differ,
+the innovation covariance over one interval is
+\begin{equation}
+ \rho\sigma_y\sigma_p
+ \frac{1-\exp\{-(\kappa_y+\kappa_p)\Delta\}}
+ {\kappa_y+\kappa_p}.
+\end{equation}
+Each simulated error is reflected into its training box. A no-storage primal
+start supplies an incumbent before the online solve.
+The scenario-count analysis draws one pool of 16 paths per stream,
+date, and decision epoch, then uses its first $M$ paths. The samples are
+therefore nested across $M=2,8,16$. Streams 7301, 7302, and 7303 are all
+reported under the same five-second budget and one-thread SCIP setting.
+
+\section{Learned value and deployment details}
+
+OpenAI Codex (OpenAI; accessed September 2026) assisted with code review and
+experiment and Matplotlib visualization scripting. It was not a controller or
+a source of simulated or historical observations. The author reviewed the
+scripts and figures, verified references and numerical outputs, and retains
+responsibility for the research design and reported results.
+
+The independent decision gate is a development-region winter problem with
+state $(S,Y)$, deterministic price error $P=0$, and $c_f=0$. It keeps the
+24-hour horizon and battery model but is not evidence about the band-fee
+mechanism. Monotone finite-difference policy iteration is run on
+$21\times21\times25$ and $31\times31\times37$ SoC--error--time grids; neural
+value and action metrics use 5,000 fixed Sobol audit states. Threshold-specific
+correctness is tested separately by the hard one-step search, dense-grid
+comparison, and realized threshold-occupation diagnostics.
+
+For the selected four-PI gate checkpoint, the fraction of audit actions with
+absolute error above 10\% of rated power (50 kW) was 35.2\%.
+Mean and 95th-percentile local Hamiltonian regret on the uniform audit design
+were 6.14 and 17.70 EUR/h; the maximum was 597.53 EUR/h.
+These diagnostics complement the aggregate policy-cost comparison in the
+main paper without implying uniform decision accuracy.
+
+The network has five hidden layers of width 96, hyperbolic tangent activation,
+and time Fourier features at harmonics 1, 2, and 3. Inputs are affinely mapped
+to $[-1,1]$, and all PDE derivatives use float64 automatic differentiation.
+The correction network is trained for at most 2,000 Adam steps in each of four
+policy-iteration rounds, followed by at most 80 L-BFGS iterations. Training,
+adaptive candidates, tuning validation, final audit, and test simulation have
+separate fixed seeds. Residual-adaptive refinement is disabled in the
+benchmark configuration because the decision gate did not justify its added
+complexity.
+
+For a fixed policy, the loss sums the mean squared PDE residual divided by
+$\beta^2$ and unit-weight Neumann penalties on the exogenous-state faces.
+The latter square $(y_{\max}-y_{\min})\partial_y v/B$ and
+$(p_{\max}-p_{\min})\partial_p v/B$ on their respective faces, where
+$B=B_0+\lambda_T\max_{s\in[s_{\min},s_{\max}]}(s-s_{\rm tar})^2$ and $B_0$
+is the training-period no-storage daily-cost scale. SoC admissibility is
+handled by the action set, and the ansatz enforces the terminal value.
+Adam uses 2,048 interior and 256 boundary points per step; L-BFGS uses fixed
+designs of 8,192 and 2,048 points. Within a policy-evaluation round, synthetic
+residual RMS selects the Adam iterate and rejects a worsening L-BFGS update.
+Historical economic validation instead selects among completed PI checkpoints
+and restarts.
+
+The reference-policy term integrates the no-storage smooth cost on the OU
+conditional-mean path by 24-point midpoint quadrature. Its final layer is zero
+initialized. Finite differences in physical time, SoC, load error, and price
+error check the automatic-differentiation chain rule after adding this term.
+The interpolated profiles are piecewise linear, so a time-difference stencil
+may straddle a slope change of the quadrature reference.
+
+For the no-learning counterfactual, the neural correction is set identically
+to zero before the hard one-step minimization. The no-storage running part of
+the next reference value is action-independent; after dropping this common
+constant, the code minimizes the exact current hard cost plus
+$\lambda_T(s_{k+1}-s_{\rm tar})^2$. Tests compare all pairwise candidate-value
+differences and the minimizing action with a zero-correction network. The
+counterfactual uses the same 1,025-point structural candidate set and safety
+map as learned deployment.
+
+Deployment evaluates the exact hard stage cost plus a learned next value on
+1,025 equally spaced feasible actions, augmented by both endpoints, zero, the
+tariff crossing, and verified feasible candidates on each nonempty fee side.
+An adjacent action value need not change $N-a$, particularly at zero action;
+candidate construction therefore also uses adjacent grid-exchange values.
+A $3\times3$ Gauss--Hermite rule
+integrates the correlated next error. The last decision uses the exact terminal
+quadratic. Tests compare the returned decision with a 32,769-point independent
+grid and separately verify the tariff crossing.
+Because the feasible interval is at most 1,000 kW wide, the uniform-mesh term
+in the main paper's hard-threshold grid-defect result is at most 0.977 kW;
+the reported denser-grid audit measures the realized objective defect directly.
+Reported exact-threshold occupation uses
+$\lvert G-G_{\rm thr}\rvert\leq10^{-6}$ kW; fixed 5, 10, and 20 kW
+neighborhoods are reported separately.
+The post-selection projection ablation instead minimizes the same one-step
+objective on $\cA_{\rm cont}(s)$, projects that minimizer to
+$\cA_{\rm dep}(s)$, and reevaluates the projected action. It uses the same
+selected weights, quadrature, grid size, days, and common cost as direct
+deployment and does not feed back into selection.
+
+After batch selection, a finite Bellman audit samples four uniform states at
+each of the 96 decision indices for every selected trained central-fee batch.
+It recomputes the one-step minimum on a 4,097-point grid with a $7\times7$
+quadrature reference and reports residual oscillations and the total
+deployed-action defect. A separate 4,097-point search holds the deployed
+$3\times3$ quadrature fixed to isolate grid-only defects. The audit also
+reports the sampled value change from $3\times3$ to $7\times7$ quadrature and
+terminal error. The design and seed are fixed, but sampled maxima are not
+treated as continuous-state suprema or uniform quadrature bounds.
+
+\section{Selection, inference, and computation}
+
+Every PI checkpoint is evaluated on the first 30 eligible same-regime
+validation weekdays. All checkpoints receive identical days and exact cost
+accounting. Sequential selection starts at iteration 0 and changes the
+incumbent only for a mean improvement of at least 0.10 EUR/day. One five-seed
+batch is then treated as a complete randomized training-and-selection
+procedure. For the central winter cell, seeds 0--24 form five consecutive
+five-restart batches. At batch selection, zero action is the initial feasible
+incumbent and is retained unless a trained winner lowers validation cost by at
+least 0.10 EUR/day. Its retention frequency is reported separately; a retained
+fallback is not attributed to neural control.
+
+Daily differences are paired by date. The primary interval is a one-sided
+95\% circular moving-block bootstrap \citep{PolitisRomano1992} with
+seven-eligible-day blocks and 10,000 replicates. At the central fee, each
+replicate also resamples the five complete
+training batches with replacement; the same sampled date blocks are applied to
+learned and comparator outcomes. Outer-anchor inference is conditional on one
+complete batch.
+For each scenario count, the paired bootstrap includes a third
+randomization level: it resamples the three scenario streams with replacement,
+the complete learned-policy batches with replacement, and common circular
+date blocks. The same resampled dates are used on both sides of each
+learned-minus-MIQP difference. Between-stream standard deviations are also
+reported without treating three streams as a population estimate.
+Two-sided intervals and Holm adjustments \citep{Holm1979} are secondary. No equivalence claim
+is based on an interval containing zero, and no noninferiority test is run
+without an externally justified margin.
+
+Online time starts immediately before the controller call and ends after the
+held action is returned. It includes forecasting, solver or quadrature work,
+and action search, but excludes the common post-call safety gate and plant
+integration. Daily mean, median, and 95th-percentile latencies are recorded;
+tables average the daily summaries rather than pooling calls. Solver tables report incumbent
+availability, status, relative gap, node count, and time-limit frequency.
+Offline accounting sums each restart's recorded training-run elapsed time,
+including post-fit diagnostics and certification, and controller-call time for
+all four checkpoints on all 30 validation days. Training manifests have
+one-second resolution; their elapsed times replace, rather than supplement,
+optimizer-only timers. Selected-checkpoint loading is measured separately
+through device synchronization. Process setup before the training manifest,
+shared validation simulation and file I/O are outside this accounting. Both
+high-fee exact-band MIQPs are also evaluated with a 15-second limit in a
+descriptive solver-budget analysis, separate from the primary five-second
+deployment comparison.
+
+The representative trajectory date is selected using no-storage output only.
+Among the 30 winter dates, the procedure computes the median no-storage
+threshold-exceedance duration, chooses the observed duration closest to that
+median, and breaks ties by earliest date. All four trajectories---learned,
+reference, two-scenario MIQP, and 16-scenario MIQP---use this date; the displayed
+learned policy is the first validation-selected batch. Both MIQP trajectories
+replay recorded held actions. Learned and reference trajectories use the
+reported policies, and all four cost decompositions match their corresponding
+daily records. Figure-generation time is not controller latency.
+
+Experiments ran on a Windows 10 workstation with an AMD Ryzen 7 9700X
+(8 cores, 16 logical processors) and an NVIDIA GeForce RTX 4080 SUPER
+(16,376 MiB). The environment used
+Python 3.9.19, PyTorch 2.4.1 with CUDA 12.4, PySCIPOpt 6.2.1, and SCIP 10.0.
+Each mixed-integer solve used one CPU thread. Day-level parallelism ranged
+from two workers per scenario stream (at most six concurrent solves) to a
+shared pool of at most eight workers. Scenario and seasonal jobs could overlap
+with GPU evaluation and short solver diagnostics. Every solve and BLAS backend
+remained single-threaded. Execution records document the concurrency settings.
+Learned-value training, validation, and held-out evaluation used the GPU;
+neural call latency includes transfer of one-step values back to the CPU.
+These are hardware-configured controller timings, not a CPU-only neural
+comparison or measurements under identical background load.
+SCIP numerical-trouble messages are retained in the computational logs and
+checked against structured solve-level diagnostics. Controller calls are not
+dropped on the basis of solver status or gap availability.
+
+\section{Additional numerical results}
+
+\input{generated/confirmatory_inference_supplement}
+
+\input{generated/factorial_supplement}
+\input{generated/round2_reference_supplement}
+\input{generated/additional_supplement}
+
+\FloatBarrier
+\section{Code availability}\label{sec:code-availability}
+
+Code, configuration files, stored weights, and numerical results are available
+in the GitHub repository at \url{https://github.com/yeoneung/rvpinn}.
+The code, numerical results, and accompanying manuscript are provided in
+\href{https://github.com/yeoneung/rvpinn/tree/v1.0.0}{version \texttt{1.0.0}} \citep{KimDispatch2026}.
+The repository includes scripts for regenerating the reported tables.
+Automated tests
+cover units, sign convention, SoC safety, OU exact steps, reflection, automatic
+versus finite-difference derivatives, fixed-policy finite differences, hard
+tariff action search, one-step terminal behavior, common cost components, and
+the finite-horizon Bellman bound. Tests also verify the
+zero-correction reference controller, scenario nesting across $M$, and the
+three-level paired resampling calculation.
+
+\bibliographystyle{elsarticle-num-names}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,22 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Learned-correction attribution by cost component. Fees are in EUR/h, cost components in EUR/day, throughput in kWh/day, and exceedance in hours/day. The central learned row averages five complete training batches.}
+\label{tab:supp-reference-components}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rlrrrrrr}
+\toprule
+Fee & Controller & Bill & Band fee & Degradation & Terminal & Throughput & Exceed h \\
+\midrule
+20 & No-learning reference & 880.0 & 412.0 & 3.6 & 0.16 & 97 & 20.60 \\
+20 & Offline learned & 888.9 & 304.0 & 65.1 & 0.24 & 1735 & 15.20 \\
+40 & No-learning reference & 880.2 & 804.0 & 6.5 & 0.19 & 172 & 20.10 \\
+40 & Offline learned & 897.1 & 436.5 & 155.1 & 0.37 & 4136 & 10.91 \\
+80 & No-learning reference & 881.9 & 1436.7 & 27.4 & 0.24 & 732 & 17.96 \\
+80 & Offline learned & 900.5 & 603.3 & 265.5 & 0.42 & 7080 & 7.54 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+At 20 EUR/h, the learned-minus-reference cost difference was -37.5 EUR/day, with a one-sided upper bound of -31.6 EUR/day; superiority was established. At 40 EUR/h, the learned-minus-reference cost difference was -201.7 EUR/day, with a one-sided upper bound of -192.0 EUR/day; superiority was established. At 80 EUR/h, the learned-minus-reference cost difference was -576.5 EUR/day, with a one-sided upper bound of -549.7 EUR/day; superiority was established.

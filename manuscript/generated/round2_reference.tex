@@ -1,0 +1,19 @@
+\begin{table}[tbp]
+\centering
+\caption{Exploratory attribution to the learned continuation correction. Costs and bounds are in EUR/day and fees in EUR/h. The reference retains the same hard one-step search without the neural correction. Differences are learned minus reference; the one-sided 95\% upper bound resamples five batches at 40 EUR/h and is conditional on one batch at the outer fees.}
+\label{tab:reference-attribution}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrrrl}
+\toprule
+Fee & Reference & Learned & Difference & Upper bound & Superiority \\
+\midrule
+20 & 1295.7 & 1258.2 & -37.5 (-2.9\%) & -31.6 & established \\
+40 & 1690.8 & 1489.1 & -201.7 (-11.9\%) & -192.0 & established \\
+80 & 2346.2 & 1769.7 & -576.5 (-24.6\%) & -549.7 & established \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+The learned continuation reduced cost relative to the reference-only controller at all three anchors, with one-sided upper bounds below zero (Table~\ref{tab:reference-attribution}).
+At 40 EUR/h, the learned correction changed the transaction bill by 17.0 EUR/day and degradation by 148.6 EUR/day, while changing the band fee by -367.5 EUR/day. The supplement gives all cost components. Mean controller-call latency across fees was 0.13 ms for the reference controller and 3.08 ms for the learned controller.
