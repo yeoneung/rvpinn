@@ -1,0 +1,7 @@
+fee,online_comparator,learned_minus_online_eur_per_day,online_compute_saved_s_per_day,premium_offset_threshold_eur_per_compute_hour,scope
+20,deterministic_exact_band_miqp,10.262914943188889,39.65103107999999,931.7915017376645,pairwise necessary valuation before any upfront expense; not a compute market price
+20,stochastic_two_stage_exact_band_miqp,14.697174051329512,112.45170052333344,470.51157375612644,pairwise necessary valuation before any upfront expense; not a compute market price
+40,deterministic_exact_band_miqp,24.32493383287965,100.22811421733321,873.7045736337184,pairwise necessary valuation before any upfront expense; not a compute market price
+40,stochastic_two_stage_exact_band_miqp,33.10637041577411,185.2993131339999,643.1914478312135,pairwise necessary valuation before any upfront expense; not a compute market price
+80,deterministic_exact_band_miqp,-12.501235880444483,163.03406978333345,0.0,pairwise necessary valuation before any upfront expense; not a compute market price
+80,stochastic_two_stage_exact_band_miqp,23.601727134893963,264.58918021,321.1250649712207,pairwise necessary valuation before any upfront expense; not a compute market price

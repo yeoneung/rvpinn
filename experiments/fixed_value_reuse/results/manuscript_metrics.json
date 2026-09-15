@@ -1,0 +1,82 @@
+{
+  "n_cases": 12,
+  "independent_paths": 4,
+  "scalar_wall_s": 39.51185429999998,
+  "miqp_wall_s": 620.2853805000001,
+  "batched_wall_s": 42.3027324,
+  "wall_ratio": 15.698716030647045,
+  "cost_premium_percent": 3.8128834114696364,
+  "reference_reduction_percent": 11.173129146118699,
+  "min_case_premium_percent": -0.3328224695563142,
+  "max_case_premium_percent": 8.712234055520982,
+  "historical_offline_s": 1403.2153235,
+  "learned_total_with_offline_s": 1442.7271778,
+  "projected_compute_only_crossover_cases": 29,
+  "max_scalar_batch_action_difference_kw": 5.684341886080802e-14,
+  "max_scalar_batch_cost_difference_eur": 0.0,
+  "miqp_status_counts": {
+    "gaplimit": 1039,
+    "timelimit": 106,
+    "optimal": 7
+  },
+  "primary_miqp_calls": 1152,
+  "model_loading_and_warmup_s": 0.08186910000000003,
+  "inputs": [
+    {
+      "path": "protocol.json",
+      "sha256": "243b04bfb5dac1e61fd89845c09abc6d3658860b329117056a741b930558c709"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "14ff34ced7331d65a28e4a694602b62474ef107118826d93e902acc449bb72fc"
+    },
+    {
+      "path": "miqp_n1.json",
+      "sha256": "7933c2bbbcf9685dae7720f2a6bdd48b964053ec64cb3421ba919b054079fa48"
+    },
+    {
+      "path": "neural_n1_r0.json",
+      "sha256": "696b18598cb5d9b599c6d851a167af7deea482a8518adc6dd9926ce730408022"
+    },
+    {
+      "path": "neural_n1_r1.json",
+      "sha256": "0e749d043c5c076f6ee67b22cb251b72dc0a98048c9e60b487379d05e8a1fbc6"
+    },
+    {
+      "path": "neural_n1_nested.json",
+      "sha256": "09c36cba7c23fdd515ded1eb75e418aa06e401f2e37fc86dad255047dfcaf3be"
+    },
+    {
+      "path": "miqp_n4.json",
+      "sha256": "d177ed15e68d33dbbfd9e7dc254c9e569faf0ebb327098445c0476adbc0b938d"
+    },
+    {
+      "path": "neural_n4_r0.json",
+      "sha256": "21f942b027567a551df406127799ef127ab91f38b73d9b8bba43df022a5ec6cf"
+    },
+    {
+      "path": "neural_n4_r1.json",
+      "sha256": "a070c4b465012ba690ff6a273220ecb296d25eecf874cd28cb8e23ddec6e6f74"
+    },
+    {
+      "path": "neural_n4_nested.json",
+      "sha256": "59a6daf89b22b4217027e906ecb67f637a1c6c86c62005210c0c02c25d45f3c0"
+    },
+    {
+      "path": "miqp_n12.json",
+      "sha256": "6ad95725c320dcb50c796f0da2d328d913181bc089ba174473441d92030c33af"
+    },
+    {
+      "path": "neural_n12_r0.json",
+      "sha256": "a5e066d2061c787717a1f41c09aae66ded6d43d652f2a9852511b41c2cbeddd0"
+    },
+    {
+      "path": "neural_n12_r1.json",
+      "sha256": "e7a178a8b71f7a7fa71e16b41f7691bc822265cd0f34fa9ee796cc9a9253b28c"
+    },
+    {
+      "path": "neural_n12_nested.json",
+      "sha256": "6b749db60346b2912107cecdf04cd6c6d0968e9f19f8d89c4c3ee39e6ef7ade8"
+    }
+  ]
+}

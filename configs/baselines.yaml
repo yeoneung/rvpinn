@@ -1,0 +1,20 @@
+# Baseline configuration
+threshold_rule:
+  # quantile grid searched on validation period only
+  lower_quantile_grid: [0.1, 0.2, 0.3]
+  upper_quantile_grid: [0.7, 0.8, 0.9]
+
+mpc:
+  horizon_hours: 24
+  reoptimize_every_hours: 1
+  solver: OSQP
+  solver_fallback: CLARABEL
+
+drl:
+  algorithms: [sac, td3]
+  total_transitions: 1000000
+  eval_every_transitions: 50000
+  n_eval_rollouts: 16
+  net_arch: [256, 256]
+  unified_regime_conditioning: true
+  seeds: [0, 1, 2, 3, 4]

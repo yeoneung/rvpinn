@@ -1,0 +1,1468 @@
+{
+  "selected": {
+    "index": 31,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.7,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "initial_costs": [
+      1413.1465490318576,
+      1371.7508201673563,
+      1331.3489785140016
+    ]
+  },
+  "candidates": [
+    {
+      "index": 0,
+      "setting": null,
+      "initial_costs": [
+        2685.051539565539,
+        1711.270232790795,
+        2685.051539565528
+      ]
+    },
+    {
+      "index": 1,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1720.2567842474941,
+        1608.7557622814188,
+        1517.1186175462014
+      ]
+    },
+    {
+      "index": 2,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1728.8992777702624,
+        1615.2023956545568,
+        1525.6735487138142
+      ]
+    },
+    {
+      "index": 3,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1720.2567842474941,
+        1608.7557622814188,
+        1517.1186175462014
+      ]
+    },
+    {
+      "index": 4,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1728.8992777702624,
+        1615.2023956545568,
+        1525.6735487138142
+      ]
+    },
+    {
+      "index": 5,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1718.2925354445624,
+        1608.2425380160719,
+        1517.0803422698987
+      ]
+    },
+    {
+      "index": 6,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1727.1693632655033,
+        1614.727389685065,
+        1525.6358126922005
+      ]
+    },
+    {
+      "index": 7,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1635.5088769934423,
+        1555.1693742100158,
+        1507.3142158154442
+      ]
+    },
+    {
+      "index": 8,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1658.4094204343664,
+        1575.338718529393,
+        1520.3613540902882
+      ]
+    },
+    {
+      "index": 9,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1718.0892594395687,
+        1608.1484861423617,
+        1517.0694717308609
+      ]
+    },
+    {
+      "index": 10,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1726.9927500476813,
+        1614.641814140999,
+        1525.624954768697
+      ]
+    },
+    {
+      "index": 11,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1578.1219557440704,
+        1536.5702685102995,
+        1494.9361056883017
+      ]
+    },
+    {
+      "index": 12,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1619.3466739792514,
+        1566.950667372839,
+        1515.8838030920285
+      ]
+    },
+    {
+      "index": 13,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1708.9825213391623,
+        1599.1007949320617,
+        1508.1460815154178
+      ]
+    },
+    {
+      "index": 14,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1718.423410339436,
+        1606.0823643226065,
+        1517.109605602407
+      ]
+    },
+    {
+      "index": 15,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1413.285361660831,
+        1371.8971675188234,
+        1331.5877717422086
+      ]
+    },
+    {
+      "index": 16,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1554.5435590128227,
+        1502.253108172493,
+        1451.853983939955
+      ]
+    },
+    {
+      "index": 17,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1720.2567842474941,
+        1608.7557622814188,
+        1517.1186175462014
+      ]
+    },
+    {
+      "index": 18,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1728.8992777702624,
+        1615.2023956545568,
+        1525.6735487138142
+      ]
+    },
+    {
+      "index": 19,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1720.2567842474941,
+        1608.7557622814188,
+        1517.1186175462014
+      ]
+    },
+    {
+      "index": 20,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1728.8992777702624,
+        1615.2023956545568,
+        1525.6735487138142
+      ]
+    },
+    {
+      "index": 21,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1718.2924928004993,
+        1608.2283436566383,
+        1516.852906191623
+      ]
+    },
+    {
+      "index": 22,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1727.1693231816907,
+        1614.7126684352227,
+        1525.4014654692608
+      ]
+    },
+    {
+      "index": 23,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1635.508814440397,
+        1555.155179843356,
+        1507.086779741709
+      ]
+    },
+    {
+      "index": 24,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1658.409358854993,
+        1575.32399727663,
+        1520.1270068676063
+      ]
+    },
+    {
+      "index": 25,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1718.0881972555508,
+        1608.1177634599119,
+        1516.8032570179457
+      ]
+    },
+    {
+      "index": 26,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1726.9917018803703,
+        1614.6099468466161,
+        1525.3502283150458
+      ]
+    },
+    {
+      "index": 27,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1578.1177789565754,
+        1536.5395051748276,
+        1494.6701574896908
+      ]
+    },
+    {
+      "index": 28,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1619.3424552726894,
+        1566.91879862894,
+        1515.6090971986562
+      ]
+    },
+    {
+      "index": 29,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1708.9084391175493,
+        1599.0032093985906,
+        1507.8385508699794
+      ]
+    },
+    {
+      "index": 30,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1718.348319837928,
+        1605.9822634691095,
+        1516.7899946959376
+      ]
+    },
+    {
+      "index": 31,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1413.1465490318576,
+        1371.7508201673563,
+        1331.3489785140016
+      ]
+    },
+    {
+      "index": 32,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1554.463664854908,
+        1502.1616947312184,
+        1451.6201648531658
+      ]
+    },
+    {
+      "index": 33,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1720.2567842474941,
+        1608.7557622814188,
+        1517.1186175462014
+      ]
+    },
+    {
+      "index": 34,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1728.8992777702624,
+        1615.2023956545568,
+        1525.6735487138142
+      ]
+    },
+    {
+      "index": 35,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1720.2567842474941,
+        1608.7557622814188,
+        1517.1186175462014
+      ]
+    },
+    {
+      "index": 36,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1728.8992777702624,
+        1615.2023956545568,
+        1525.6735487138142
+      ]
+    },
+    {
+      "index": 37,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1718.2924927669408,
+        1608.2281191339061,
+        1516.7752612226095
+      ]
+    },
+    {
+      "index": 38,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1727.169323151647,
+        1614.7124394634031,
+        1525.3209643568105
+      ]
+    },
+    {
+      "index": 39,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1635.5088144063702,
+        1555.1549553202763,
+        1507.0091347723037
+      ]
+    },
+    {
+      "index": 40,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1658.4093588248033,
+        1575.3237683048105,
+        1520.046505755156
+      ]
+    },
+    {
+      "index": 41,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1718.0881791474171,
+        1608.115884746006,
+        1516.6922870951144
+      ]
+    },
+    {
+      "index": 42,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1726.9916846730944,
+        1614.6080367785542,
+        1525.2353148689265
+      ]
+    },
+    {
+      "index": 43,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1578.1176653089133,
+        1536.5376260805454,
+        1494.5591908360832
+      ]
+    },
+    {
+      "index": 44,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1619.3423439594833,
+        1566.916888560465,
+        1515.4941840083707
+      ]
+    },
+    {
+      "index": 45,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1708.9233083014117,
+        1599.0155917866462,
+        1507.7606298059575
+      ]
+    },
+    {
+      "index": 46,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1718.362383036481,
+        1605.993729883173,
+        1516.705099640119
+      ]
+    },
+    {
+      "index": 47,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1413.805520362077,
+        1372.4092248172997,
+        1331.976185533626
+      ]
+    },
+    {
+      "index": 48,
+      "setting": {
+        "reserve_soc": 0.1,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1554.486408498281,
+        1502.1834667366386,
+        1451.5939535675875
+      ]
+    },
+    {
+      "index": 49,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1668.148445145295,
+        1553.1779850949993
+      ]
+    },
+    {
+      "index": 50,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1674.8572317467983,
+        1560.5447334542991
+      ]
+    },
+    {
+      "index": 51,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1668.148445145295,
+        1553.1779850949993
+      ]
+    },
+    {
+      "index": 52,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1674.8572317467983,
+        1560.5447334542991
+      ]
+    },
+    {
+      "index": 53,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1740.5573000765332,
+        1666.4445534363472,
+        1553.1008069675554
+      ]
+    },
+    {
+      "index": 54,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1740.5951747477777,
+        1673.3747553003734,
+        1560.474388377177
+      ]
+    },
+    {
+      "index": 55,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1656.101212149612,
+        1583.7352679578764,
+        1519.7450414274044
+      ]
+    },
+    {
+      "index": 56,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1684.6866920962675,
+        1612.163167782426,
+        1540.7529517204619
+      ]
+    },
+    {
+      "index": 57,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1740.4538444290251,
+        1666.2790031195295,
+        1553.0777064178933
+      ]
+    },
+    {
+      "index": 58,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1740.5104342763343,
+        1673.236348112217,
+        1560.4539318822128
+      ]
+    },
+    {
+      "index": 59,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1582.2802703875377,
+        1541.7767780549816,
+        1500.0643721007357
+      ]
+    },
+    {
+      "index": 60,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1638.709812963872,
+        1592.829533504058,
+        1534.3550910913857
+      ]
+    },
+    {
+      "index": 61,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1736.9618225215584,
+        1657.3780497238806,
+        1544.3180161403445
+      ]
+    },
+    {
+      "index": 62,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1737.374219829138,
+        1665.0164300519968,
+        1552.2411763234659
+      ]
+    },
+    {
+      "index": 63,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1413.5096191878438,
+        1373.00667007114,
+        1331.6232384567911
+      ]
+    },
+    {
+      "index": 64,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.5,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1576.13663669687,
+        1530.257562114396,
+        1471.9748952074178
+      ]
+    },
+    {
+      "index": 65,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1668.148445145295,
+        1553.1779850949993
+      ]
+    },
+    {
+      "index": 66,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1674.8572317467983,
+        1560.5447334542991
+      ]
+    },
+    {
+      "index": 67,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1668.148445145295,
+        1553.1779850949993
+      ]
+    },
+    {
+      "index": 68,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1674.8572317467983,
+        1560.5447334542991
+      ]
+    },
+    {
+      "index": 69,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1740.5567087205247,
+        1666.431281635695,
+        1552.8833726006014
+      ]
+    },
+    {
+      "index": 70,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1740.5945645769436,
+        1673.3613035172355,
+        1560.2596109900676
+      ]
+    },
+    {
+      "index": 71,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1656.0957073727507,
+        1583.7071228252535,
+        1519.5276755345628
+      ]
+    },
+    {
+      "index": 72,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1684.6826797215695,
+        1612.1351692585058,
+        1540.5381828881796
+      ]
+    },
+    {
+      "index": 73,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1740.4490351129512,
+        1666.248942768374,
+        1552.8283131026374
+      ]
+    },
+    {
+      "index": 74,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1740.5054675313172,
+        1673.205769116498,
+        1560.2070078770348
+      ]
+    },
+    {
+      "index": 75,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1580.799524953281,
+        1540.295167491753,
+        1498.4049648556415
+      ]
+    },
+    {
+      "index": 76,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1638.6492678679574,
+        1592.7669561640535,
+        1534.109629208435
+      ]
+    },
+    {
+      "index": 77,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1736.7636868041293,
+        1656.9862109109793,
+        1543.7133056549364
+      ]
+    },
+    {
+      "index": 78,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1737.179958569995,
+        1664.6362768194535,
+        1551.6529729290544
+      ]
+    },
+    {
+      "index": 79,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1412.9525622308154,
+        1372.449261268165,
+        1330.9812517522064
+      ]
+    },
+    {
+      "index": 80,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.7,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1575.6348059829118,
+        1529.7542774256092,
+        1471.322519813743
+      ]
+    },
+    {
+      "index": 81,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1668.148445145295,
+        1553.1779850949993
+      ]
+    },
+    {
+      "index": 82,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1674.8572317467983,
+        1560.5447334542991
+      ]
+    },
+    {
+      "index": 83,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1668.148445145295,
+        1553.1779850949993
+      ]
+    },
+    {
+      "index": 84,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.037
+      },
+      "initial_costs": [
+        1740.7923182877628,
+        1674.8572317467983,
+        1560.5447334542991
+      ]
+    },
+    {
+      "index": 85,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1740.556707301453,
+        1666.4310297946317,
+        1552.8182876286332
+      ]
+    },
+    {
+      "index": 86,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1740.5945631465202,
+        1673.361044959246,
+        1560.1925968623816
+      ]
+    },
+    {
+      "index": 87,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1656.0957055962253,
+        1583.7068565753023,
+        1519.4625905651742
+      ]
+    },
+    {
+      "index": 88,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.0456
+      },
+      "initial_costs": [
+        1684.6826781277523,
+        1612.134895669994,
+        1540.4711687606782
+      ]
+    },
+    {
+      "index": 89,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1740.448865379739,
+        1666.2466696313363,
+        1552.7323940038893
+      ]
+    },
+    {
+      "index": 90,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1740.5052962593895,
+        1673.2034435726018,
+        1560.1081068846424
+      ]
+    },
+    {
+      "index": 91,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1580.795955551449,
+        1540.2916285402157,
+        1498.3091704607752
+      ]
+    },
+    {
+      "index": 92,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.055
+      },
+      "initial_costs": [
+        1638.6456647170548,
+        1592.7634931627422,
+        1534.010738153016
+      ]
+    },
+    {
+      "index": 93,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1736.7628770124156,
+        1656.9611796888084,
+        1543.6109020829997
+      ]
+    },
+    {
+      "index": 94,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": false,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1737.1781934867868,
+        1664.6099973421717,
+        1551.545002756434
+      ]
+    },
+    {
+      "index": 95,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": false,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1413.6163490656206,
+        1373.1130586251627,
+        1331.6149402318522
+      ]
+    },
+    {
+      "index": 96,
+      "setting": {
+        "reserve_soc": 0.3,
+        "charge_target_soc": 0.9,
+        "charge_when_already_above_band": true,
+        "allow_partial_shaving": true,
+        "charge_price": 0.20612
+      },
+      "initial_costs": [
+        1575.6139105133102,
+        1529.7334441882617,
+        1471.2489765372782
+      ]
+    }
+  ]
+}

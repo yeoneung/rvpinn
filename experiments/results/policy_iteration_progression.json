@@ -1,0 +1,264 @@
+{
+  "scope": "Descriptive validation diagnostic of the full iterative training procedure.",
+  "source": "checkpoints/study_winter_fee40/confirmatory/winter_weekday",
+  "n_seeds": 25,
+  "n_validation_days": 30,
+  "n_daily_records": 3000,
+  "round_numbering": "One-based; round 1 is stored iter00 and is already trained.",
+  "validation_dates": [
+    "2018-01-02",
+    "2018-01-03",
+    "2018-01-04",
+    "2018-01-05",
+    "2018-01-08",
+    "2018-01-09",
+    "2018-01-10",
+    "2018-01-11",
+    "2018-01-12",
+    "2018-01-15",
+    "2018-01-16",
+    "2018-01-17",
+    "2018-01-18",
+    "2018-01-19",
+    "2018-01-22",
+    "2018-01-23",
+    "2018-01-24",
+    "2018-01-25",
+    "2018-01-26",
+    "2018-01-29",
+    "2018-01-30",
+    "2018-01-31",
+    "2018-02-01",
+    "2018-02-02",
+    "2018-02-05",
+    "2018-02-06",
+    "2018-02-07",
+    "2018-02-08",
+    "2018-02-09",
+    "2018-02-12"
+  ],
+  "mean_cost_by_round": {
+    "1": 1514.9139645750506,
+    "2": 1495.4499054178584,
+    "3": 1327.70377160815,
+    "4": 1377.6947915519568
+  },
+  "sd_across_seed_means_by_round": {
+    "1": 0.2700093914915689,
+    "2": 28.36545716790456,
+    "3": 30.751587638230202,
+    "4": 32.59272834426989
+  },
+  "selected_count_by_round": {
+    "1": 0,
+    "2": 0,
+    "3": 23,
+    "4": 2
+  },
+  "round3_vs_round1_reduction_percent": 12.357810235079263,
+  "round3_better_than_round1_count": 25,
+  "round4_worse_than_round3_count": 23,
+  "max_daily_vs_saved_mean_error_eur": 4.547473508864641e-13,
+  "inputs": [
+    {
+      "path": "seed0/validation_selection.json",
+      "sha256": "1daffa173e86d8f72c04be4c0bd2b6a50339d75a1174f9cd2764604b6368691f"
+    },
+    {
+      "path": "seed0/validation_daily.parquet",
+      "sha256": "f975862652ec89971c422627d941d610bc1a0248aea4bf05a7a784c90772e32a"
+    },
+    {
+      "path": "seed1/validation_selection.json",
+      "sha256": "cdd0f659e63039e66835bc733756a89497a9980b55beb502e216f07cb1000809"
+    },
+    {
+      "path": "seed1/validation_daily.parquet",
+      "sha256": "57dedb18c5f8cec72dfad2f924c700a99ef89815aed01591a79aa0255cfe7a70"
+    },
+    {
+      "path": "seed2/validation_selection.json",
+      "sha256": "f1c9855bcf23b7efeffcd08708971acef44eb980e71c742447367f77b6c0609c"
+    },
+    {
+      "path": "seed2/validation_daily.parquet",
+      "sha256": "4d7dcf7dbc900d48d49695a8eb069a85e71bba2489300400c72515a29c4b876e"
+    },
+    {
+      "path": "seed3/validation_selection.json",
+      "sha256": "4a8fc44a169adbb110617e0e8ad1f53ddc30eb521d584f7c06bb345e5450f09a"
+    },
+    {
+      "path": "seed3/validation_daily.parquet",
+      "sha256": "b6b298dace1828a80c79d47b62c10583a03e6342ffffde831358ab4f58451ea9"
+    },
+    {
+      "path": "seed4/validation_selection.json",
+      "sha256": "b21784fbe2d4df1f4ae5538c4344f2ebda05aec9c8ee03135795c100fbea19ea"
+    },
+    {
+      "path": "seed4/validation_daily.parquet",
+      "sha256": "e962368a86080c2fc53692cc23d8b47ba1bea6f72a01c433725ea69a7c8da475"
+    },
+    {
+      "path": "seed5/validation_selection.json",
+      "sha256": "908ab6b4e8b92666592a55c3c686a8af6a4bf7ae0c8a603da70ffda40bb67a1d"
+    },
+    {
+      "path": "seed5/validation_daily.parquet",
+      "sha256": "2adf1da61a326615b9811892533293e8fd77269a633dd95a394b72a2ceb1c1ef"
+    },
+    {
+      "path": "seed6/validation_selection.json",
+      "sha256": "178aca5929efea46771ce8fe47f3bc14c87258771b8961e59112a910c86542eb"
+    },
+    {
+      "path": "seed6/validation_daily.parquet",
+      "sha256": "6f909979be81f0dd59a82c5c264b2135fe53f06ce923160facefeb8724546548"
+    },
+    {
+      "path": "seed7/validation_selection.json",
+      "sha256": "f3502ba5fdaf8b14bf460c75c9e443fa8269d4335e4e806c59c13f2e9bfa1895"
+    },
+    {
+      "path": "seed7/validation_daily.parquet",
+      "sha256": "270c34d42317b4d714594e49f8f0168199c0a2324a3cf6d72e081fa713dfa689"
+    },
+    {
+      "path": "seed8/validation_selection.json",
+      "sha256": "42c4a534f79c01df424f7de60b1e456c0a39a87a4838567c582fba4f306b379b"
+    },
+    {
+      "path": "seed8/validation_daily.parquet",
+      "sha256": "f2f6ac1d9b4ad64f1c29de9e8b87751ee602efee6ddb05bceac4257be8f35172"
+    },
+    {
+      "path": "seed9/validation_selection.json",
+      "sha256": "94177e353a04219f07d3def151010522004dc0aeede5a458319571353a475b01"
+    },
+    {
+      "path": "seed9/validation_daily.parquet",
+      "sha256": "6ca5ed30ca3b6c5261534e75884c32fa20ad929ac97101156718805409c50107"
+    },
+    {
+      "path": "seed10/validation_selection.json",
+      "sha256": "4da578ec79f1cf5787d578f412803ea20b2f3e442cf9d670029cbc12f372e7bc"
+    },
+    {
+      "path": "seed10/validation_daily.parquet",
+      "sha256": "e837758b9c78c7e1345c60c03de95b0472408638dad9d333d3fb92a1067f3284"
+    },
+    {
+      "path": "seed11/validation_selection.json",
+      "sha256": "57b500d56ede8a494e0ad4c7f7b552b44d4e96db54ca5961cab861c7d0c7681d"
+    },
+    {
+      "path": "seed11/validation_daily.parquet",
+      "sha256": "b3da64b39c7acf606aefe71a8ca0d0d5c88f5643d8e9cd6ebb7070f991b8fc02"
+    },
+    {
+      "path": "seed12/validation_selection.json",
+      "sha256": "eccbb19755b51111824734ca368f613142252c06ac82d74084f6cba15ceb9a11"
+    },
+    {
+      "path": "seed12/validation_daily.parquet",
+      "sha256": "55d5d4adbd6abbf5c3cccf35dd870efee3e77f93d34d946fb1793e39fd03a375"
+    },
+    {
+      "path": "seed13/validation_selection.json",
+      "sha256": "b0ed480a8ed120756d3e84d1b220045050b104cf7fe2b63651354f99cd4df5ef"
+    },
+    {
+      "path": "seed13/validation_daily.parquet",
+      "sha256": "99042e36307bc024fe73b4dae1cb42ebf2ace97ee13dec59196d114d6c1e8509"
+    },
+    {
+      "path": "seed14/validation_selection.json",
+      "sha256": "e9a253b67aaa3737ec47ceb45c68ec6db011fece70af546cda835fb3b15b5108"
+    },
+    {
+      "path": "seed14/validation_daily.parquet",
+      "sha256": "308ce29e150c80f4d00435a4ed61667224f17afdfd1bac7537f03d4abf49e2a2"
+    },
+    {
+      "path": "seed15/validation_selection.json",
+      "sha256": "145deab503756a3ce5162290e7bd5139f1ffc79b3073c39179a5d6959466938e"
+    },
+    {
+      "path": "seed15/validation_daily.parquet",
+      "sha256": "587de344d3522ba829c271f89b32feb7a21550eeb480c04558bfc229878fb691"
+    },
+    {
+      "path": "seed16/validation_selection.json",
+      "sha256": "3536b7592020af0ad3e2e2a302b9da8f41c6f306f2525497d239f9ed7f8eab33"
+    },
+    {
+      "path": "seed16/validation_daily.parquet",
+      "sha256": "1caf35f7e40751d40c4ac3188108453a304c49ace474284bd7ce43b9981cb2d5"
+    },
+    {
+      "path": "seed17/validation_selection.json",
+      "sha256": "36c24d71558cfd2bbb184a9f48128ecbaa4878b4fdcc7c55b8e2c95f761eef49"
+    },
+    {
+      "path": "seed17/validation_daily.parquet",
+      "sha256": "fe5af002c84d551bdb84874ce2d819f7e3d8a9159ea8735b184a7d9cbfb003fc"
+    },
+    {
+      "path": "seed18/validation_selection.json",
+      "sha256": "b7434f1f4d1be8dee442bb122f39742ca115a276fb1cdeaadcc5921f014b1f7c"
+    },
+    {
+      "path": "seed18/validation_daily.parquet",
+      "sha256": "961929adaed58aed57ecb990fed9b0d5595ea72d3d4e5cff073b4d0d220c6343"
+    },
+    {
+      "path": "seed19/validation_selection.json",
+      "sha256": "b588ed2a20f0a1d56e5aff369da58f85874fd9f4ee730915ab90bfaedbe8816a"
+    },
+    {
+      "path": "seed19/validation_daily.parquet",
+      "sha256": "c7a9482740aea68f02919684975107dc9f2d6b790902249eb1f1b16f40e23c0b"
+    },
+    {
+      "path": "seed20/validation_selection.json",
+      "sha256": "5ec15fcae4d1ba937849142d2cd775bcb11b1a05dd09abf55b3b7ecf89c5bc6f"
+    },
+    {
+      "path": "seed20/validation_daily.parquet",
+      "sha256": "56e1594f6543f78a3cea2b1125748870fd6ac19fc92046b7fd6cd5d826a1b39f"
+    },
+    {
+      "path": "seed21/validation_selection.json",
+      "sha256": "1df03554dcc06410b872bb4bab8dda99ba8280c88a14d56eb455147d717e00f2"
+    },
+    {
+      "path": "seed21/validation_daily.parquet",
+      "sha256": "7023e8ce929a2fc25a3bfe5a740cd65acca93cb60bcc91166088eede2cf85dc5"
+    },
+    {
+      "path": "seed22/validation_selection.json",
+      "sha256": "53c9bbce46f33716d5299b4c010965da734b9358d5d9c1ce80c357bf9e08db19"
+    },
+    {
+      "path": "seed22/validation_daily.parquet",
+      "sha256": "0d0c9bf3306c9119d8cee8a482e4d0b1cda1afe1bbc8380d41c2cb66226c2894"
+    },
+    {
+      "path": "seed23/validation_selection.json",
+      "sha256": "5f2154e313347bcab3fe4746072779c6bad509f7f9ba71ae7c14fcc4ef66fda8"
+    },
+    {
+      "path": "seed23/validation_daily.parquet",
+      "sha256": "1289c7975af79979a9ed60aa2d526c6c40219257591e11bd2699e7e8ea4ea3f4"
+    },
+    {
+      "path": "seed24/validation_selection.json",
+      "sha256": "97fa8fcf357cb8d4b765e82e8115e056ebca57a8dbcaf8ee5ac4a769b51d8967"
+    },
+    {
+      "path": "seed24/validation_daily.parquet",
+      "sha256": "7831580395fe3ab96a9d4120af1a74d7cb1e9bcb6634cbd6e21e995082f51e1f"
+    }
+  ]
+}

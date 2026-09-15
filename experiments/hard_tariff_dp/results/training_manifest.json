@@ -1,0 +1,140 @@
+{
+  "protocol_sha256": "c448485f5398614df7ac5d827b160e738b6bd91fa575e584bc24ed802bd9a02d",
+  "parameters": {
+    "E_max": 1000.0,
+    "a_c": 500.0,
+    "a_d": 500.0,
+    "s_min": 0.1,
+    "s_max": 0.9,
+    "s0": 0.5,
+    "s_tar": 0.5,
+    "s_ref": 0.5,
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "delta_s": 0.05,
+    "T": 24.0,
+    "dt_ctrl": 0.25,
+    "dt_sim": 0.08333333333333333,
+    "alpha_s": 0.5,
+    "lam_pk": 0.0,
+    "lam1": 0.0375,
+    "lam2": 0.0,
+    "lam_s": 0.0,
+    "lam_T": 10819.792297497022,
+    "eps_g": 0.5,
+    "eps_a": 0.5,
+    "c_step": 40.0,
+    "g_thr": 300.0,
+    "w_step": 10.0,
+    "kappa_y": 0.05791872456410764,
+    "sigma_y": 33.28314359003048,
+    "kappa_p": 0.03939331704951954,
+    "sigma_p": 0.0,
+    "rho": 0.0,
+    "y_min": -536.6344421859767,
+    "y_max": 533.8821410275478,
+    "p_min": -0.06573799999999999,
+    "p_max": 0.16958799999999996
+  },
+  "config": {
+    "network": {
+      "hidden_layers": 5,
+      "width": 96,
+      "activation": "tanh",
+      "fourier_k": [
+        1,
+        2,
+        3
+      ],
+      "dtype": "float64",
+      "reference_baseline": "zero_action_conditional_mean",
+      "reference_quadrature_points": 24
+    },
+    "policy_evaluation": {
+      "adam_max_steps": 2000,
+      "adam_batch_size": 2048,
+      "lr_start": 0.001,
+      "lr_end": 1e-05,
+      "lbfgs_max_iter": 80,
+      "boundary_points": 4096,
+      "certification_points": 16384,
+      "tuning_validation_points": 8192,
+      "early_stop_patience_evals": 5,
+      "eval_every_steps": 400
+    },
+    "adaptive_refinement": {
+      "enabled": false,
+      "candidate_pool_size": 8192,
+      "refresh_every_steps": 800,
+      "top_quantile": 0.98,
+      "max_buffer_size": 16384
+    },
+    "policy_iteration": {
+      "max_iterations": 4,
+      "tau_eval": null,
+      "tau_pi": null,
+      "tau_a": 1e-08
+    },
+    "hamiltonian": {
+      "coarse_grid_points": 129,
+      "brute_force_check_points": 4097
+    },
+    "policy_selection": {
+      "criterion": "hard_common_crn_rollout_cost",
+      "min_mean_improvement_eur_per_day": 0.1
+    }
+  },
+  "device": "cuda",
+  "seeds": [
+    {
+      "seed": 0,
+      "wall_s": 136.4724818,
+      "checkpoints": {
+        "iter00.pt": "4ec407f3d6d3bed5795514977e52f870e652bbc9792835f5f916c0fca051da87",
+        "iter01.pt": "23f61cbac8432d7e66972b60ac09bebf8d494d8f787ed7541a125ad39e097118",
+        "iter02.pt": "3d8c88f8693020c88c5f5e3e5232d28aa2bf3237c5cc041ebe4bc1c578609666",
+        "iter03.pt": "7d21ac042320f1d7196b47c7c2f27839a858d0560ab8966e71a0872cf46559a4"
+      }
+    },
+    {
+      "seed": 1,
+      "wall_s": 137.664004,
+      "checkpoints": {
+        "iter00.pt": "62d1384bdf38767a93e8791b2bb4d04da6cfbe2f726ec367eb0380d738648473",
+        "iter01.pt": "ac3224ed58a6a05371aca29deb3825bcef65e50e5a59d8891b05f102b854286d",
+        "iter02.pt": "2dab06eab0a8e78178832bd2e67c7f7511755122aadba93a02c6a51e3444e964",
+        "iter03.pt": "50be0dd253dc55bae96508ac34e901d2af42a4f9ad234c40ec517e50b5578fc3"
+      }
+    },
+    {
+      "seed": 2,
+      "wall_s": 162.65554559999998,
+      "checkpoints": {
+        "iter00.pt": "899f41d07de155ddeee5ffc886d70eab15b02422aeab021b967544920522c225",
+        "iter01.pt": "3d31117048442edc740c2d1ba60f5a01283bfd60f08448215f1c328395acf143",
+        "iter02.pt": "2ebc258a7250b7730af30ee90ff93b27f692428640536dbb1be839fb1e2e75f6",
+        "iter03.pt": "1790330d2197fe19a07c377144338d7c0627be740e23bce924e649f65fb76d9b"
+      }
+    },
+    {
+      "seed": 3,
+      "wall_s": 149.79104639999997,
+      "checkpoints": {
+        "iter00.pt": "21c360347d6be9e2f172ae9390a2e5db06c03ff2cf3195a14d1b5c3f3b33b45a",
+        "iter01.pt": "cc931d1f4d15e10cd19274c996983a7a1f92c723e503d5347bc287759ee9400b",
+        "iter02.pt": "6064de1d56516409c0c7d05f4c51982c24b5a357cd5367f3c9df3c7236a22445",
+        "iter03.pt": "4b87929dceb0b59e6d87b522490c0388db6b465909a82c7b9ddf607b5db90fbb"
+      }
+    },
+    {
+      "seed": 4,
+      "wall_s": 137.21349999999995,
+      "checkpoints": {
+        "iter00.pt": "c702e8054197be7d68179817603aecb816b06f51aaf895dc21668608437a66bb",
+        "iter01.pt": "da3166358d78f1a456d729dbfbb5f5c3df74e704c257da7519e13fd87baccd9b",
+        "iter02.pt": "d77a36f7f1c50115cb8a884788d2fe1dc4216e2de09e35ba11939a9d4fff4833",
+        "iter03.pt": "43f3776d84c7e570f960912f1dfb1037f6458756f6cf89696cac7b5f11bcf2a3"
+      }
+    }
+  ]
+}

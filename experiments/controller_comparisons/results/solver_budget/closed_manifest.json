@@ -1,0 +1,330 @@
+{
+  "protocol_sha256": "9d511abe8801670f8f40808689eaebfa7a7174c7ad94f8727869911ab894916b",
+  "script_sha256": "2814aa783dbffdbbcccda8edf19ee1105087d5096715c3b8235a3b81a6355e85",
+  "jobs": [
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-02_b5",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-03_b5",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-04_b5",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-02_b5",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-03_b5",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-04_b5",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-02_b5",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-03_b5",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-04_b5",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-02_b5",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-03_b5",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-04_b5",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 5
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-02_b60",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-03_b60",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-04_b60",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-02_b60",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-03_b60",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-04_b60",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-02_b60",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-03_b60",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-04_b60",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-02_b60",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-03_b60",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-04_b60",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 60
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-02_b300",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-03_b300",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee40_m8_seed7301_2019-01-04_b300",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-02_b300",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-03_b300",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee40_m16_seed7301_2019-01-04_b300",
+      "kind": "closed",
+      "fee": 40,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-02_b300",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-03_b300",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee80_m8_seed7301_2019-01-04_b300",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 8,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-02_b300",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-02",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-03_b300",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-03",
+      "limit_s": 300
+    },
+    {
+      "id": "closed_fee80_m16_seed7301_2019-01-04_b300",
+      "kind": "closed",
+      "fee": 80,
+      "scenarios": 16,
+      "stream": 7301,
+      "date": "2019-01-04",
+      "limit_s": 300
+    }
+  ]
+}

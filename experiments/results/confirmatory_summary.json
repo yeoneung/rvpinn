@@ -1,0 +1,31 @@
+{
+  "best_online_by_fee": [
+    [
+      20,
+      1258.2264736092236,
+      "stochastic_two_stage_exact_band_miqp",
+      1243.529299557894
+    ],
+    [
+      40,
+      1489.1358404343332,
+      "stochastic_two_stage_exact_band_miqp",
+      1456.029470018559
+    ],
+    [
+      80,
+      1769.7049941859927,
+      "stochastic_two_stage_exact_band_miqp",
+      1746.1032670510988
+    ]
+  ],
+  "n_fee_anchors_superior_to_both_online": 0,
+  "fallback_batches_by_fee": {
+    "20": 0,
+    "40": 0,
+    "80": 0
+  },
+  "offline_mean_latency_ms": 3.07592778703703,
+  "deterministic_miqp_mean_latency_ms": 1054.8579245949074,
+  "mean_complete_batch_offline_s": 1410.0886560857143
+}

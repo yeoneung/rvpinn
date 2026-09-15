@@ -1,0 +1,12 @@
+{
+  "setting": {
+    "reserve_soc": 0.1,
+    "charge_target_soc": 0.9,
+    "charge_when_already_above_band": true,
+    "allow_partial_shaving": false,
+    "charge_price": 0.20612
+  },
+  "selection_sha256": "e80df30f482a5e035662171fc614a671f5e1892864101e1d8edc514c47e9a471",
+  "cases_sha256": "14ff34ced7331d65a28e4a694602b62474ef107118826d93e902acc449bb72fc",
+  "interpretation": "Exploratory extension; no retuning on reuse paths. CPU timings measured separately on shared workstation."
+}

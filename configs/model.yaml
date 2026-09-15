@@ -1,0 +1,41 @@
+# Physical and economic model parameters (main.tex Table 1)
+battery:
+  E_max_kwh: 1000.0
+  a_c_max_kw: 500.0        # max charging power
+  a_d_max_kw: 500.0        # max discharging power
+  s_min: 0.10
+  s_max: 0.90
+  s0: 0.50
+  s_target: 0.50
+  s_ref: 0.50
+  eta_c: 0.95
+  eta_d: 0.95
+  delta_s: 0.05            # continuous taper width
+
+horizon:
+  T_hours: 24.0
+  control_dt_min: 15.0     # controller update interval Delta
+  sim_dt_min: 5.0          # internal SoC integration substep
+
+microgrid:
+  P_base_kw: 500.0
+  gamma_R: 1.2
+  gamma_R_sensitivity: [0.6, 1.0, 1.4]
+
+cost:
+  alpha_s: 0.50            # export price fraction
+  lambda_s: 0.0            # SoC-centering (primary: 0)
+  # calibrated coefficients are computed by scripts/calibrate_models.py and
+  # stored in data/calibrated_parameters.json:
+  #   lambda_pk = 0.10 * B0 / Qpk0
+  #   lambda_1  = replacement_cost / (2 * cycle_life)
+  #   lambda_2  = 0.01 * B0 / (T * a_max^2)
+  #   lambda_T  = 0.25 * B0 / 0.10^2
+  replacement_cost_per_kwh: 300.0
+  cycle_life_efc: 4000.0
+  lambda_1_sensitivity_factors: [0.0, 0.5, 1.0, 2.0]
+  eps_g_fraction: 1.0e-3   # eps_g = 1e-3 * P_base
+  eps_a_fraction: 1.0e-3   # eps_a = 1e-3 * max(a_c_max, a_d_max)
+
+ou_domain:
+  margin_fraction: 0.20    # bound widening beyond training min/max

@@ -1,0 +1,6 @@
+{
+  "audited_trajectories": 170,
+  "max_cost_error_eur": 4.547473508864641e-13,
+  "max_terminal_soc_error": 4.440892098500626e-16,
+  "max_bound_violation": 1.2490009027033011e-12
+}

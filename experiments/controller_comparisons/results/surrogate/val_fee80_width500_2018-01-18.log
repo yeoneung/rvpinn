@@ -1,0 +1,4 @@
+[solve.c:4216] ERROR: (node 366) unresolved numerical troubles in LP 187 cannot be dealt with
+[solve.c:4511] ERROR: Error <-6> in function call
+[solve.c:5335] ERROR: Error <-6> in function call
+[scip_solve.c:2766] ERROR: Error <-6> in function call

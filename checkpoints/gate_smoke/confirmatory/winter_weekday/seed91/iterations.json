@@ -1,0 +1,28 @@
+[
+  {
+    "iteration": 0,
+    "train_info": {
+      "tuneval": {
+        "rms": 29106.806712188336,
+        "max": 88207.34623586775,
+        "p99": 82711.71202454534,
+        "mean": 20277.446932580904
+      },
+      "best_adam_step": 40,
+      "wall_s": 0.7365775108337402,
+      "peak_mem_mb": 20.1669921875
+    },
+    "tuneval_policy_residual": {
+      "rms": 29106.806712188336,
+      "max": 88207.34623586775,
+      "p99": 82711.71202454534,
+      "mean": 20277.446932580904
+    },
+    "hjb_residual_max_tuneval": 104185.29541592025,
+    "greedy_error_tuneval": 31851.25397789776,
+    "policy_change_norm": 1.0,
+    "rollout_cost_crn": 1249.1554999836483,
+    "checkpoint": "./checkpoints/gate_smoke/confirmatory/winter_weekday/seed91/iter00.pt",
+    "history_len": 2
+  }
+]

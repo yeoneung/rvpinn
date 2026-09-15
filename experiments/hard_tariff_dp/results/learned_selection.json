@@ -1,0 +1,293 @@
+{
+  "selected": {
+    "seed": 0,
+    "iteration": 3,
+    "initial_costs": [
+      1425.4854558226973,
+      1383.7754966919356,
+      1342.0233403262498
+    ],
+    "checkpoint_sha256": "7d21ac042320f1d7196b47c7c2f27839a858d0560ab8966e71a0872cf46559a4",
+    "evaluation_wall_s": 0.9414846999999993
+  },
+  "winners": [
+    {
+      "seed": 0,
+      "iteration": 3,
+      "initial_costs": [
+        1425.4854558226973,
+        1383.7754966919356,
+        1342.0233403262498
+      ],
+      "checkpoint_sha256": "7d21ac042320f1d7196b47c7c2f27839a858d0560ab8966e71a0872cf46559a4",
+      "evaluation_wall_s": 0.9414846999999993
+    },
+    {
+      "seed": 1,
+      "iteration": 3,
+      "initial_costs": [
+        1437.9000673930293,
+        1388.2175845920358,
+        1347.126619376169
+      ],
+      "checkpoint_sha256": "50be0dd253dc55bae96508ac34e901d2af42a4f9ad234c40ec517e50b5578fc3",
+      "evaluation_wall_s": 1.0068228000000001
+    },
+    {
+      "seed": 2,
+      "iteration": 3,
+      "initial_costs": [
+        1455.3512748026128,
+        1412.7783278100023,
+        1374.629463586149
+      ],
+      "checkpoint_sha256": "1790330d2197fe19a07c377144338d7c0627be740e23bce924e649f65fb76d9b",
+      "evaluation_wall_s": 1.6511634000000015
+    },
+    {
+      "seed": 3,
+      "iteration": 3,
+      "initial_costs": [
+        1455.7165399093958,
+        1411.837193437317,
+        1362.3774640866104
+      ],
+      "checkpoint_sha256": "4b87929dceb0b59e6d87b522490c0388db6b465909a82c7b9ddf607b5db90fbb",
+      "evaluation_wall_s": 1.6446685999999993
+    },
+    {
+      "seed": 4,
+      "iteration": 3,
+      "initial_costs": [
+        1439.9838479013238,
+        1398.4555926487449,
+        1367.9349040240263
+      ],
+      "checkpoint_sha256": "43f3776d84c7e570f960912f1dfb1037f6458756f6cf89696cac7b5f11bcf2a3",
+      "evaluation_wall_s": 1.680190900000003
+    }
+  ],
+  "rounds": [
+    {
+      "seed": 0,
+      "iteration": 0,
+      "initial_costs": [
+        1637.7675516610614,
+        1609.0552616949644,
+        1577.5656403858254
+      ],
+      "checkpoint_sha256": "4ec407f3d6d3bed5795514977e52f870e652bbc9792835f5f916c0fca051da87",
+      "evaluation_wall_s": 1.0466391
+    },
+    {
+      "seed": 0,
+      "iteration": 1,
+      "initial_costs": [
+        1516.0741974258838,
+        1457.9821409082244,
+        1409.7826865924812
+      ],
+      "checkpoint_sha256": "23f61cbac8432d7e66972b60ac09bebf8d494d8f787ed7541a125ad39e097118",
+      "evaluation_wall_s": 0.9444548000000004
+    },
+    {
+      "seed": 0,
+      "iteration": 2,
+      "initial_costs": [
+        1430.3421410198127,
+        1389.6365218307012,
+        1348.7724409659743
+      ],
+      "checkpoint_sha256": "3d8c88f8693020c88c5f5e3e5232d28aa2bf3237c5cc041ebe4bc1c578609666",
+      "evaluation_wall_s": 0.9405506999999997
+    },
+    {
+      "seed": 0,
+      "iteration": 3,
+      "initial_costs": [
+        1425.4854558226973,
+        1383.7754966919356,
+        1342.0233403262498
+      ],
+      "checkpoint_sha256": "7d21ac042320f1d7196b47c7c2f27839a858d0560ab8966e71a0872cf46559a4",
+      "evaluation_wall_s": 0.9414846999999993
+    },
+    {
+      "seed": 1,
+      "iteration": 0,
+      "initial_costs": [
+        1643.244400515058,
+        1614.5386979483992,
+        1583.1009823973402
+      ],
+      "checkpoint_sha256": "62d1384bdf38767a93e8791b2bb4d04da6cfbe2f726ec367eb0380d738648473",
+      "evaluation_wall_s": 0.9380217000000002
+    },
+    {
+      "seed": 1,
+      "iteration": 1,
+      "initial_costs": [
+        1499.7094193748185,
+        1447.2890886039418,
+        1383.8086424818964
+      ],
+      "checkpoint_sha256": "ac3224ed58a6a05371aca29deb3825bcef65e50e5a59d8891b05f102b854286d",
+      "evaluation_wall_s": 0.9383541000000006
+    },
+    {
+      "seed": 1,
+      "iteration": 2,
+      "initial_costs": [
+        1438.3902888450375,
+        1397.000832607004,
+        1355.585466171124
+      ],
+      "checkpoint_sha256": "2dab06eab0a8e78178832bd2e67c7f7511755122aadba93a02c6a51e3444e964",
+      "evaluation_wall_s": 0.9394857999999999
+    },
+    {
+      "seed": 1,
+      "iteration": 3,
+      "initial_costs": [
+        1437.9000673930293,
+        1388.2175845920358,
+        1347.126619376169
+      ],
+      "checkpoint_sha256": "50be0dd253dc55bae96508ac34e901d2af42a4f9ad234c40ec517e50b5578fc3",
+      "evaluation_wall_s": 1.0068228000000001
+    },
+    {
+      "seed": 2,
+      "iteration": 0,
+      "initial_costs": [
+        1643.3611479209783,
+        1614.7196946361112,
+        1583.2455866882299
+      ],
+      "checkpoint_sha256": "899f41d07de155ddeee5ffc886d70eab15b02422aeab021b967544920522c225",
+      "evaluation_wall_s": 1.128619200000001
+    },
+    {
+      "seed": 2,
+      "iteration": 1,
+      "initial_costs": [
+        1550.5867055548827,
+        1484.7177455249043,
+        1442.989737565926
+      ],
+      "checkpoint_sha256": "3d31117048442edc740c2d1ba60f5a01283bfd60f08448215f1c328395acf143",
+      "evaluation_wall_s": 1.2399590999999983
+    },
+    {
+      "seed": 2,
+      "iteration": 2,
+      "initial_costs": [
+        1481.8013987458569,
+        1439.890340660223,
+        1398.8841225410088
+      ],
+      "checkpoint_sha256": "2ebc258a7250b7730af30ee90ff93b27f692428640536dbb1be839fb1e2e75f6",
+      "evaluation_wall_s": 1.4724500000000003
+    },
+    {
+      "seed": 2,
+      "iteration": 3,
+      "initial_costs": [
+        1455.3512748026128,
+        1412.7783278100023,
+        1374.629463586149
+      ],
+      "checkpoint_sha256": "1790330d2197fe19a07c377144338d7c0627be740e23bce924e649f65fb76d9b",
+      "evaluation_wall_s": 1.6511634000000015
+    },
+    {
+      "seed": 3,
+      "iteration": 0,
+      "initial_costs": [
+        1642.560795294255,
+        1613.9184390916519,
+        1582.4449439964842
+      ],
+      "checkpoint_sha256": "21c360347d6be9e2f172ae9390a2e5db06c03ff2cf3195a14d1b5c3f3b33b45a",
+      "evaluation_wall_s": 1.655850899999999
+    },
+    {
+      "seed": 3,
+      "iteration": 1,
+      "initial_costs": [
+        1588.1014577811795,
+        1486.6504535682184,
+        1425.5022447217511
+      ],
+      "checkpoint_sha256": "cc931d1f4d15e10cd19274c996983a7a1f92c723e503d5347bc287759ee9400b",
+      "evaluation_wall_s": 1.6338363999999999
+    },
+    {
+      "seed": 3,
+      "iteration": 2,
+      "initial_costs": [
+        1462.1676344806588,
+        1413.274969204699,
+        1375.3368750897894
+      ],
+      "checkpoint_sha256": "6064de1d56516409c0c7d05f4c51982c24b5a357cd5367f3c9df3c7236a22445",
+      "evaluation_wall_s": 1.6431408999999988
+    },
+    {
+      "seed": 3,
+      "iteration": 3,
+      "initial_costs": [
+        1455.7165399093958,
+        1411.837193437317,
+        1362.3774640866104
+      ],
+      "checkpoint_sha256": "4b87929dceb0b59e6d87b522490c0388db6b465909a82c7b9ddf607b5db90fbb",
+      "evaluation_wall_s": 1.6446685999999993
+    },
+    {
+      "seed": 4,
+      "iteration": 0,
+      "initial_costs": [
+        1641.2539863208322,
+        1613.1018504227525,
+        1581.1355122011548
+      ],
+      "checkpoint_sha256": "c702e8054197be7d68179817603aecb816b06f51aaf895dc21668608437a66bb",
+      "evaluation_wall_s": 1.599018000000001
+    },
+    {
+      "seed": 4,
+      "iteration": 1,
+      "initial_costs": [
+        1532.9920541335919,
+        1476.7777416320725,
+        1429.9566607343984
+      ],
+      "checkpoint_sha256": "da3166358d78f1a456d729dbfbb5f5c3df74e704c257da7519e13fd87baccd9b",
+      "evaluation_wall_s": 1.6289358999999983
+    },
+    {
+      "seed": 4,
+      "iteration": 2,
+      "initial_costs": [
+        1465.8405387331131,
+        1419.0067020118192,
+        1377.8491097481326
+      ],
+      "checkpoint_sha256": "d77a36f7f1c50115cb8a884788d2fe1dc4216e2de09e35ba11939a9d4fff4833",
+      "evaluation_wall_s": 1.6396942999999986
+    },
+    {
+      "seed": 4,
+      "iteration": 3,
+      "initial_costs": [
+        1439.9838479013238,
+        1398.4555926487449,
+        1367.9349040240263
+      ],
+      "checkpoint_sha256": "43f3776d84c7e570f960912f1dfb1037f6458756f6cf89696cac7b5f11bcf2a3",
+      "evaluation_wall_s": 1.680190900000003
+    }
+  ],
+  "selected_cost": 1383.7754966919356
+}

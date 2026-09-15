@@ -1,0 +1,133 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "train_info": {
+        "tuneval": {
+          "rms": 14.22945671867802,
+          "max": 103.05467845322144,
+          "p99": 59.122653100404335,
+          "mean": 8.532232303511284
+        },
+        "best_adam_step": 2000,
+        "wall_s": 31.18010115623474,
+        "peak_mem_mb": 2243.2666015625
+      },
+      "tuneval_policy_residual": {
+        "rms": 14.22945671867802,
+        "max": 103.05467845322144,
+        "p99": 59.122653100404335,
+        "mean": 8.532232303511284
+      },
+      "hjb_residual_max_tuneval": 4621.823025221069,
+      "greedy_error_tuneval": 4614.478739835177,
+      "policy_change_norm": 1.0,
+      "rollout_cost_crn": 1845.8965606903066,
+      "checkpoint": "experiments/hard_tariff_dp/results/seed1/iter00.pt",
+      "history_len": 5
+    },
+    {
+      "iteration": 1,
+      "train_info": {
+        "tuneval": {
+          "rms": 33.203443202276425,
+          "max": 806.237366956285,
+          "p99": 107.63794355093272,
+          "mean": 21.078237839824574
+        },
+        "best_adam_step": 2000,
+        "wall_s": 31.539963245391846,
+        "peak_mem_mb": 2243.2666015625
+      },
+      "tuneval_policy_residual": {
+        "rms": 33.203443202276425,
+        "max": 806.237366956285,
+        "p99": 107.63794355093272,
+        "mean": 21.078237839824574
+      },
+      "hjb_residual_max_tuneval": 806.2373432628782,
+      "greedy_error_tuneval": 394.8158790414493,
+      "policy_change_norm": 2.0,
+      "rollout_cost_crn": 1670.1286934814398,
+      "checkpoint": "experiments/hard_tariff_dp/results/seed1/iter01.pt",
+      "history_len": 5
+    },
+    {
+      "iteration": 2,
+      "train_info": {
+        "tuneval": {
+          "rms": 25.71570002173791,
+          "max": 526.5972759455792,
+          "p99": 80.10564438914496,
+          "mean": 18.377987692939442
+        },
+        "best_adam_step": 2000,
+        "wall_s": 31.557725191116333,
+        "peak_mem_mb": 2243.2666015625
+      },
+      "tuneval_policy_residual": {
+        "rms": 25.71570002173791,
+        "max": 526.5972759455792,
+        "p99": 80.10564438914496,
+        "mean": 18.377987692939442
+      },
+      "hjb_residual_max_tuneval": 526.5972689884461,
+      "greedy_error_tuneval": 141.5822433150829,
+      "policy_change_norm": 2.0000000000000004,
+      "rollout_cost_crn": 1651.7526596049306,
+      "checkpoint": "experiments/hard_tariff_dp/results/seed1/iter02.pt",
+      "history_len": 5
+    },
+    {
+      "iteration": 3,
+      "train_info": {
+        "tuneval": {
+          "rms": 21.60475540296276,
+          "max": 452.196735704329,
+          "p99": 74.95211592437322,
+          "mean": 14.50182773057534
+        },
+        "best_adam_step": 2000,
+        "wall_s": 33.61573839187622,
+        "peak_mem_mb": 2243.2666015625
+      },
+      "tuneval_policy_residual": {
+        "rms": 21.60475540296276,
+        "max": 452.196735704329,
+        "p99": 74.95211592437322,
+        "mean": 14.50182773057534
+      },
+      "hjb_residual_max_tuneval": 452.1967298302538,
+      "greedy_error_tuneval": 158.71862420535183,
+      "policy_change_norm": 2.0,
+      "rollout_cost_crn": 1633.3797041477774,
+      "checkpoint": "experiments/hard_tariff_dp/results/seed1/iter03.pt",
+      "history_len": 5
+    }
+  ],
+  "selected_iteration": 3,
+  "selected_checkpoint": "experiments/hard_tariff_dp/results/seed1/iter03.pt",
+  "selection_criterion": "hard_common_crn_rollout_cost",
+  "selection_min_improvement_eur_per_day": 0.1,
+  "certification": {
+    "policy_residual": {
+      "rms": 21.42418609415431,
+      "max": 381.51362141914353,
+      "p99": 74.40636555136528,
+      "mean": 14.535960689916601
+    },
+    "hjb_residual": {
+      "rms": 22.354166576725337,
+      "max": 381.51362141914353,
+      "p99": 80.41988693714498,
+      "mean": 14.864976269279817
+    },
+    "neumann_vy_max_normalized": 0.2275135935972602,
+    "neumann_vp_max_normalized": 0.0,
+    "lipschitz_sensitivity_L": 78399.7161911226,
+    "fill_distance_unit_cube": 0.0340976136241163,
+    "lipschitz_corrected_sensitivity_estimate": 3054.7568523444165,
+    "label": "independent validation maximum + Lipschitz-corrected sensitivity estimate",
+    "n_points": 16384
+  }
+}

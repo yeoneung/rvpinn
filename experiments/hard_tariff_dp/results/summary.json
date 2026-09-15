@@ -1,0 +1,336 @@
+{
+  "protocol": {
+    "purpose": "Exploratory reduced-model accuracy comparison retaining the hard tariff",
+    "region": "confirmatory",
+    "regime": "winter_weekday",
+    "fee": 40.0,
+    "threshold": 300.0,
+    "smoothing_width": 10.0,
+    "states": [
+      "SoC",
+      "load_error"
+    ],
+    "price_error": 0.0,
+    "horizon_hours": 24.0,
+    "action_hold_hours": 0.25,
+    "training_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "training_override": "configs/gate_pilot.yaml",
+    "training_rounds": 4,
+    "adam_steps_per_round": 2000,
+    "lbfgs_iterations_per_round": 80,
+    "grids": [
+      [
+        41,
+        81,
+        129
+      ],
+      [
+        81,
+        161,
+        257
+      ],
+      [
+        161,
+        321,
+        513
+      ]
+    ],
+    "grid_columns": [
+      "soc_points",
+      "load_error_points",
+      "uniform_action_candidates"
+    ],
+    "extra_actions": "zero, import zero, fee crossing with verified sides, bounds, and next-SoC interpolation knots",
+    "exogenous_transition": "Gaussian exact OU step then reflection; integrate linear load-grid basis functions analytically",
+    "soc_transition": "exact held action with linear interpolation of continuation values",
+    "terminal_cost": "exact quadratic evaluated analytically at the final action",
+    "selection_grid": [
+      41,
+      81,
+      129
+    ],
+    "selection_initial_states": [
+      [
+        0.5,
+        0.0
+      ]
+    ],
+    "selection_rule": "sequential expected hard-cost improvement of at least 0.10 EUR/day; checkpoint within seed, then seed against zero-action fallback",
+    "heuristic_selection": "same 96 reserve/recharge/price/switch settings, selected on the selection-grid expected hard cost",
+    "evaluation_initial_states": [
+      [
+        0.2,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.8,
+        0.0
+      ]
+    ],
+    "boundary_regret": "Q_DP(x,a_policy)-V_DP(x), for states where the DP action's grid import is within 10 kW of the fee boundary",
+    "selection_scope": "model-based selection and evaluation, separate from historical test inference"
+  },
+  "selected_rule": {
+    "index": 31,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.7,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "initial_costs": [
+      1413.1465490318576,
+      1371.7508201673563,
+      1331.3489785140016
+    ]
+  },
+  "selected_learned": {
+    "seed": 0,
+    "iteration": 3,
+    "initial_costs": [
+      1425.4854558226973,
+      1383.7754966919356,
+      1342.0233403262498
+    ],
+    "checkpoint_sha256": "7d21ac042320f1d7196b47c7c2f27839a858d0560ab8966e71a0872cf46559a4",
+    "evaluation_wall_s": 0.9414846999999993
+  },
+  "grids": [
+    {
+      "grid": [
+        41,
+        81,
+        129
+      ],
+      "actual_y_points": 82,
+      "optimal_initial_costs": [
+        1387.6830173117576,
+        1347.056426495819,
+        1307.0054053713998
+      ],
+      "policies": {
+        "reference": {
+          "initial_costs": [
+            1648.4947008632766,
+            1619.804746884395,
+            1588.1415568605266
+          ],
+          "gaps": [
+            260.8116835515191,
+            272.74832038857585,
+            281.13615148912686
+          ],
+          "regret": {
+            "mean_regret": 4.712539779045851,
+            "minimum_regret": 0.0,
+            "boundary_states": 129835,
+            "boundary_mean": 6.290692425407513,
+            "boundary_p95": 16.024692719118065,
+            "boundary_max": 21.343151625182372
+          }
+        },
+        "rule": {
+          "initial_costs": [
+            1413.1465490318576,
+            1371.7508201673563,
+            1331.3489785140016
+          ],
+          "gaps": [
+            25.463531720100036,
+            24.694393671537227,
+            24.343573142601826
+          ],
+          "regret": {
+            "mean_regret": 1.1220351236041723,
+            "minimum_regret": 0.0,
+            "boundary_states": 129835,
+            "boundary_mean": 0.022416898252134953,
+            "boundary_p95": 0.023422540697640295,
+            "boundary_max": 19.164100408651365
+          }
+        },
+        "learned": {
+          "initial_costs": [
+            1425.4854558226973,
+            1383.7754966919356,
+            1342.0233403262498
+          ],
+          "gaps": [
+            37.80243851093974,
+            36.71907019611649,
+            35.017934954850034
+          ],
+          "regret": {
+            "mean_regret": 0.8620819030715703,
+            "minimum_regret": 0.0,
+            "boundary_states": 129835,
+            "boundary_mean": 0.47903204187148896,
+            "boundary_p95": 2.3441823216857243,
+            "boundary_max": 22.327301744570946
+          }
+        }
+      }
+    },
+    {
+      "grid": [
+        81,
+        161,
+        257
+      ],
+      "actual_y_points": 162,
+      "optimal_initial_costs": [
+        1388.5709822603765,
+        1347.9122212265197,
+        1307.8297534431654
+      ],
+      "policies": {
+        "reference": {
+          "initial_costs": [
+            1654.4209171524833,
+            1625.6721705610123,
+            1593.4303513136504
+          ],
+          "gaps": [
+            265.84993489210683,
+            277.7599493344926,
+            285.600597870485
+          ],
+          "regret": {
+            "mean_regret": 4.7219793741104406,
+            "minimum_regret": 0.0,
+            "boundary_states": 507141,
+            "boundary_mean": 6.295031482869008,
+            "boundary_p95": 16.134982892726498,
+            "boundary_max": 21.528913117795014
+          }
+        },
+        "rule": {
+          "initial_costs": [
+            1414.0895172546616,
+            1372.6716632638077,
+            1332.1839963180837
+          ],
+          "gaps": [
+            25.51853499428512,
+            24.759442037287954,
+            24.354242874918327
+          ],
+          "regret": {
+            "mean_regret": 1.0958985936897936,
+            "minimum_regret": 0.0,
+            "boundary_states": 507141,
+            "boundary_mean": 0.03584913689003749,
+            "boundary_p95": 0.027358163531857826,
+            "boundary_max": 578.7493191794714
+          }
+        },
+        "learned": {
+          "initial_costs": [
+            1426.381701068294,
+            1384.708943294746,
+            1342.8301905746894
+          ],
+          "gaps": [
+            37.81071880791751,
+            36.796722068226245,
+            35.000437131523995
+          ],
+          "regret": {
+            "mean_regret": 0.8618948719156222,
+            "minimum_regret": 0.0,
+            "boundary_states": 507141,
+            "boundary_mean": 0.48302244011442935,
+            "boundary_p95": 2.3664066221800795,
+            "boundary_max": 22.5394513369057
+          }
+        }
+      }
+    },
+    {
+      "grid": [
+        161,
+        321,
+        513
+      ],
+      "actual_y_points": 322,
+      "optimal_initial_costs": [
+        1388.7863208840533,
+        1348.119744846661,
+        1308.028549378705
+      ],
+      "policies": {
+        "reference": {
+          "initial_costs": [
+            1657.025218277963,
+            1627.7049690357437,
+            1595.3613579093358
+          ],
+          "gaps": [
+            268.2388973939096,
+            279.58522418908274,
+            287.3328085306307
+          ],
+          "regret": {
+            "mean_regret": 4.723107273122137,
+            "minimum_regret": 0.0,
+            "boundary_states": 2006000,
+            "boundary_mean": 6.2967073300170044,
+            "boundary_p95": 16.168398769816736,
+            "boundary_max": 21.619213309374402
+          }
+        },
+        "rule": {
+          "initial_costs": [
+            1414.30288113559,
+            1372.8826594146085,
+            1332.3724571466973
+          ],
+          "gaps": [
+            25.516560251536703,
+            24.76291456794752,
+            24.343907767992278
+          ],
+          "regret": {
+            "mean_regret": 1.0825454665880296,
+            "minimum_regret": 0.0,
+            "boundary_states": 2006000,
+            "boundary_mean": 0.04195620570161821,
+            "boundary_p95": 0.02936283115291696,
+            "boundary_max": 578.8347385923453
+          }
+        },
+        "learned": {
+          "initial_costs": [
+            1426.8152091236198,
+            1385.1471924638727,
+            1343.1103418356533
+          ],
+          "gaps": [
+            38.02888823956641,
+            37.02744761721169,
+            35.08179245694828
+          ],
+          "regret": {
+            "mean_regret": 0.8608550499172166,
+            "minimum_regret": 0.0,
+            "boundary_states": 2006000,
+            "boundary_mean": 0.4842526510720315,
+            "boundary_p95": 2.372016268785654,
+            "boundary_max": 22.598956294609366
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "iteration": 0,
+    "train_info": {
+      "tuneval": {
+        "rms": 14.11453464000694,
+        "max": 96.3532572528978,
+        "p99": 57.358777116209694,
+        "mean": 8.646120272822133
+      },
+      "best_adam_step": 2000,
+      "wall_s": 37.19609022140503,
+      "peak_mem_mb": 2243.2666015625
+    },
+    "tuneval_policy_residual": {
+      "rms": 14.11453464000694,
+      "max": 96.3532572528978,
+      "p99": 57.358777116209694,
+      "mean": 8.646120272822133
+    },
+    "hjb_residual_max_tuneval": 4607.230319310964,
+    "greedy_error_tuneval": 4602.796260532524,
+    "policy_change_norm": 1.0,
+    "rollout_cost_crn": 1846.688376451575,
+    "checkpoint": "experiments/hard_tariff_dp/results/seed2/iter00.pt",
+    "history_len": 5
+  },
+  {
+    "iteration": 1,
+    "train_info": {
+      "tuneval": {
+        "rms": 32.388350244519934,
+        "max": 760.7856802235508,
+        "p99": 104.69709300984218,
+        "mean": 21.11690694680089
+      },
+      "best_adam_step": 2000,
+      "wall_s": 38.075355529785156,
+      "peak_mem_mb": 2243.2666015625
+    },
+    "tuneval_policy_residual": {
+      "rms": 32.388350244519934,
+      "max": 760.7856802235508,
+      "p99": 104.69709300984218,
+      "mean": 21.11690694680089
+    },
+    "hjb_residual_max_tuneval": 760.7856282546561,
+    "greedy_error_tuneval": 452.7218459327194,
+    "policy_change_norm": 2.0000000000000004,
+    "rollout_cost_crn": 1689.2481984724539,
+    "checkpoint": "experiments/hard_tariff_dp/results/seed2/iter01.pt",
+    "history_len": 5
+  },
+  {
+    "iteration": 2,
+    "train_info": {
+      "tuneval": {
+        "rms": 26.108167256155618,
+        "max": 525.6391473933681,
+        "p99": 78.93687572121017,
+        "mean": 18.72812519817136
+      },
+      "best_adam_step": 2000,
+      "wall_s": 36.71285700798035,
+      "peak_mem_mb": 2243.2666015625
+    },
+    "tuneval_policy_residual": {
+      "rms": 26.108167256155618,
+      "max": 525.6391473933681,
+      "p99": 78.93687572121017,
+      "mean": 18.72812519817136
+    },
+    "hjb_residual_max_tuneval": 525.6391469189203,
+    "greedy_error_tuneval": 287.6150540526021,
+    "policy_change_norm": 2.0000000000000004,
+    "rollout_cost_crn": 1687.231390569638,
+    "checkpoint": "experiments/hard_tariff_dp/results/seed2/iter02.pt",
+    "history_len": 5
+  },
+  {
+    "iteration": 3,
+    "train_info": {
+      "tuneval": {
+        "rms": 21.601486666074727,
+        "max": 458.3665413735454,
+        "p99": 76.5064961767041,
+        "mean": 14.484291600386246
+      },
+      "best_adam_step": 2000,
+      "wall_s": 37.97042989730835,
+      "peak_mem_mb": 2243.2666015625
+    },
+    "tuneval_policy_residual": {
+      "rms": 21.601486666074727,
+      "max": 458.3665413735454,
+      "p99": 76.5064961767041,
+      "mean": 14.484291600386246
+    },
+    "hjb_residual_max_tuneval": 458.3665331136896,
+    "greedy_error_tuneval": 192.0146123411535,
+    "policy_change_norm": 2.0,
+    "rollout_cost_crn": 1654.2396544194705,
+    "checkpoint": "experiments/hard_tariff_dp/results/seed2/iter03.pt",
+    "history_len": 5
+  }
+]

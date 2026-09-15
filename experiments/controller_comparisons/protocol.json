@@ -1,0 +1,43 @@
+{
+  "id": "controller-comparisons",
+  "status": "exploratory comparisons on an outcome-inspected historical test set",
+  "region": "confirmatory",
+  "regime": "winter_weekday",
+  "fees": [20, 40, 80],
+  "threshold_kw": 300,
+  "smoothing_width_kw": 10,
+  "validation_days": 30,
+  "test_days": 30,
+  "selection": "First 30 eligible validation days; minimize hard common daily cost with a zero-action incumbent and 0.10 EUR/day replacement margin; deterministic candidate order. Freeze before test evaluation.",
+  "heuristic": {
+    "reserve_soc": [0.1, 0.3],
+    "charge_target_soc": [0.5, 0.7, 0.9],
+    "charge_price_quantile": [0.25, 0.5, 0.75, 1.0],
+    "charge_when_already_above_band": [false, true],
+    "allow_partial_shaving": [false, true],
+    "price_threshold_source": "All training-partition prices, shared with the price-rule baseline",
+    "terminal_treatment": "Reserve enough remaining charging capacity to recover target SoC; exact common one-interval minimization at the final action. Terminal charge remains soft and identically billed.",
+    "test_replication": "Three winter fee anchors; central-fee rule additionally retuned on each season's validation days and evaluated on that season's first 30 test weekdays. No claim of zero-shot seasonal transfer."
+  },
+  "solver_budget": {
+    "fees": [40, 80],
+    "scenarios": [8, 16],
+    "scenario_pool_size": 16,
+    "streams": [7301, 7302, 7303],
+    "limits_s": [5, 15, 60, 300],
+    "relative_gap": 0.01,
+    "fixed_states": "First two validation winter weekdays; hours 8 and 16; SoC 0.2, 0.5, 0.8. Identical state, date, horizon and scenario stream across solve budgets.",
+    "closed_loop": "First three eligible winter test weekdays; both fees, M=8 and M=16, stream 7301, budgets 5,60,300 s. Descriptive same-day comparisons with stored primary learned and M=2 results; not 30-day confirmatory inference.",
+    "recording": "All first actions, primal/dual bounds, solver gaps, statuses and realized costs, without dropping failed or time-limited calls. Full-day runs are restartable by completed day, not by silently changing within-day timing."
+  },
+  "surrogate": {
+    "modes": ["envelope", "softcap"],
+    "softcap_effective_width_kw": [5, 10, 20, 50, 100, 250, 500, 1000],
+    "slope": "fee / effective_width; envelope uses the greatest lower-envelope slope",
+    "limit_s": 5,
+    "relative_gap": 0.01,
+    "selection": "Same 30 validation days at each winter fee anchor, then freeze selected slope and test on the same 30 winter days. Retain complete validation sweep."
+  },
+  "resources": "Each solver worker uses one CPU thread; execution records specify worker counts. SCIP solves run in Torch-free processes. Comparisons reuse stored learned policies. CUDA is used for neural computations when available.",
+  "interpretation": "These comparisons are exploratory. Superiority is assessed from paired evaluation costs, not selected validation costs. Conditional solver-gap summaries depend on finite-gap availability and the states being solved."
+}

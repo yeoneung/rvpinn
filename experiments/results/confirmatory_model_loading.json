@@ -1,0 +1,6 @@
+{
+  "definition": "wall time from checkpoint read through CUDA synchronization; zero for a retained zero-action fallback",
+  "n_selected_trained_models": 7,
+  "mean_model_loading_s": 0.016099214285714338,
+  "max_model_loading_s": 0.09726699999999999
+}

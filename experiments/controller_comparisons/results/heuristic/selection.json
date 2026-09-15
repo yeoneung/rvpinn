@@ -1,0 +1,80 @@
+[
+  {
+    "regime": "winter_weekday",
+    "fee": 20,
+    "candidate_id": 23,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.7,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.0456
+    },
+    "validation_cost": 1063.5457581775086
+  },
+  {
+    "regime": "winter_weekday",
+    "fee": 40,
+    "candidate_id": 47,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.9,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "validation_cost": 1274.7598206659677
+  },
+  {
+    "regime": "winter_weekday",
+    "fee": 80,
+    "candidate_id": 47,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.9,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "validation_cost": 1582.093153999301
+  },
+  {
+    "regime": "spring_weekday",
+    "fee": 40,
+    "candidate_id": 47,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.9,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "validation_cost": 1286.6547248622317
+  },
+  {
+    "regime": "summer_weekday",
+    "fee": 40,
+    "candidate_id": 47,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.9,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "validation_cost": 1010.2583257464831
+  },
+  {
+    "regime": "autumn_weekday",
+    "fee": 40,
+    "candidate_id": 47,
+    "setting": {
+      "reserve_soc": 0.1,
+      "charge_target_soc": 0.9,
+      "charge_when_already_above_band": true,
+      "allow_partial_shaving": false,
+      "charge_price": 0.20612
+    },
+    "validation_cost": 1276.7287776036803
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "iteration": 0,
+    "train_info": {
+      "tuneval": {
+        "rms": 7450.939557857012,
+        "max": 21986.529612657545,
+        "p99": 19647.042003462895,
+        "mean": 5030.592146564149
+      },
+      "best_adam_step": 40,
+      "wall_s": 0.42955970764160156,
+      "peak_mem_mb": 46.7841796875
+    },
+    "tuneval_policy_residual": {
+      "rms": 7450.939557857012,
+      "max": 21986.529612657545,
+      "p99": 19647.042003462895,
+      "mean": 5030.592146564149
+    },
+    "hjb_residual_max_tuneval": 26578.458824363486,
+    "greedy_error_tuneval": 10256.48461454724,
+    "policy_change_norm": 1.0000000000000002,
+    "rollout_cost_crn": 664.2167750112588,
+    "checkpoint": "./checkpoints/expA/rvpinnpi_noadapt/seed91/iter00.pt",
+    "history_len": 2
+  }
+]

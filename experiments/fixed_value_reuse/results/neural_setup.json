@@ -1,0 +1,11 @@
+{
+  "model_loading_and_warmup_s": {
+    "cpu": 0.08186910000000003
+  },
+  "torch": "2.4.1",
+  "cuda": "12.4",
+  "gpu_status_end": {
+    "utilization_percent": 99.0,
+    "free_mib": 13257.0
+  }
+}

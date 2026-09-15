@@ -1,0 +1,5679 @@
+{
+  "jobs": [
+    {
+      "id": "val_fee20_envelope_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_envelope_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_envelope_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": null,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width5_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width5_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 5,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width10_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width10_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 10,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width20_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width20_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 20,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width50_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width50_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 50,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width100_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width100_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 100,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width250_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width250_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 250,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width500_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width500_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 500,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-02",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-03",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-04",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-05",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-08",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-09",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-10",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-11",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-12",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-15",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-16",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-17",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-18",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-19",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-22",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-23",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-24",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-25",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-26",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-29",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-30",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee20_width1000_2018-01-31",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-01",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-02",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-05",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-06",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-07",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-08",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-09",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee20_width1000_2018-02-12",
+      "part": "val",
+      "fee": 20,
+      "width": 1000,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_envelope_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_envelope_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": null,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width5_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width5_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 5,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width10_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width10_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 10,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width20_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width20_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 20,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width50_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width50_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 50,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width100_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width100_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 100,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width250_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width250_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 250,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width500_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width500_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 500,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-02",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-03",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-04",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-05",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-08",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-09",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-10",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-11",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-12",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-15",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-16",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-17",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-18",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-19",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-22",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-23",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-24",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-25",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-26",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-29",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-30",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee40_width1000_2018-01-31",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-01",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-02",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-05",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-06",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-07",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-08",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-09",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee40_width1000_2018-02-12",
+      "part": "val",
+      "fee": 40,
+      "width": 1000,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_envelope_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_envelope_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": null,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width5_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width5_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 5,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width10_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width10_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 10,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width20_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width20_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 20,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width50_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width50_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 50,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width100_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width100_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 100,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width250_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width250_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 250,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width500_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width500_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 500,
+      "date": "2018-02-12"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-02",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-02"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-03",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-03"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-04",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-04"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-05",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-05"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-08",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-08"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-09",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-09"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-10",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-10"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-11",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-11"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-12",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-12"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-15",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-15"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-16",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-16"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-17",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-17"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-18",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-18"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-19",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-19"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-22",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-22"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-23",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-23"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-24",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-24"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-25",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-25"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-26",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-26"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-29",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-29"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-30",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-30"
+    },
+    {
+      "id": "val_fee80_width1000_2018-01-31",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-01-31"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-01",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-01"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-02",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-02"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-05",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-05"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-06",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-06"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-07",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-07"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-08",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-08"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-09",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-09"
+    },
+    {
+      "id": "val_fee80_width1000_2018-02-12",
+      "part": "val",
+      "fee": 80,
+      "width": 1000,
+      "date": "2018-02-12"
+    }
+  ],
+  "hashes": {
+    "protocol.json": "9d511abe8801670f8f40808689eaebfa7a7174c7ad94f8727869911ab894916b",
+    "surrogate_implementation.json": "60739b631df4cbaa2609313cabd5be8a645408cf5e10186a5fef731e8ca5c40b",
+    "run_surrogates.py": "d8d2ee648435d3bf7090fdb79cd0b89ff001c9f3668c3eae4215a2fcc8516e8e"
+  }
+}

@@ -1,0 +1,42 @@
+# Smoke-test overrides: end-to-end correctness only, not publishable numbers
+stage: smoke
+smoke: true
+regimes_subset: [winter_weekday]
+method_seeds_subset: [0]
+n_test_days_subset: 2
+
+network:
+  hidden_layers: 3
+  width: 32
+
+policy_evaluation:
+  adam_max_steps: 600
+  adam_batch_size: 1024
+  lbfgs_max_iter: 30
+  boundary_points: 512
+  certification_points: 2048
+  tuning_validation_points: 1024
+  eval_every_steps: 200
+  early_stop_patience_evals: 5
+
+adaptive_refinement:
+  candidate_pool_size: 1024
+  refresh_every_steps: 200
+  max_buffer_size: 4096
+
+policy_iteration:
+  max_iterations: 2
+
+experiment_a:
+  grids:
+    - [21, 21, 25]
+    - [31, 31, 37]
+  eval_points: 2000
+
+drl:
+  total_transitions: 4000
+  eval_every_transitions: 2000
+  n_eval_rollouts: 2
+
+statistics:
+  bootstrap_replicates: 200

@@ -1,0 +1,45 @@
+# Pilot stage: real data, one seed, one regime, moderate budgets.
+# Purpose: select numerically stable optimizer settings and runtime-conscious
+# budgets on the VALIDATION period only. Frozen settings are then copied to
+# paper_full.yaml with a dated note. The final test period is not touched.
+stage: pilot
+regimes_subset: [winter_weekday]
+method_seeds_subset: [0]
+
+network:
+  hidden_layers: 6
+  width: 128
+
+policy_evaluation:
+  adam_max_steps: 6000
+  adam_batch_size: 4096
+  lbfgs_max_iter: 150
+  boundary_points: 8192
+  certification_points: 65536
+  tuning_validation_points: 16384
+  eval_every_steps: 500
+  early_stop_patience_evals: 6
+
+adaptive_refinement:
+  candidate_pool_size: 16384
+  refresh_every_steps: 1000
+  top_quantile: 0.98
+  max_buffer_size: 32768
+
+policy_iteration:
+  max_iterations: 6
+
+experiment_a:
+  grids:
+    - [51, 81, 49]
+    - [101, 161, 97]
+    - [201, 321, 193]
+  eval_points: 100000
+
+drl:
+  total_transitions: 100000
+  eval_every_transitions: 25000
+  n_eval_rollouts: 8
+
+statistics:
+  bootstrap_replicates: 2000

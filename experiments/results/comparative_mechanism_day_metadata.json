@@ -1,0 +1,16 @@
+{
+  "date": "2019-01-07",
+  "selection_rule": "closest observed no-storage exceedance duration to the median; earliest date breaks ties",
+  "fee_per_hour": 40.0,
+  "threshold_kw": 300.0,
+  "scenario_count": 16,
+  "scenario_stream": 7301,
+  "scenario_pool_size": 16,
+  "time_limit_s": 5.0,
+  "learned_batch": 0,
+  "primary_scenario_count": 2,
+  "primary_scenario_stream": 4101,
+  "primary_curve_scope": "added during numerical review from already reported primary actions",
+  "raw_soc_time_offset_hours": 0.08333333333333333,
+  "figure_soc_time_basis": "control boundaries reconstructed from retained substep records"
+}

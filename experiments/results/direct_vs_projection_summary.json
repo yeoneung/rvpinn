@@ -1,0 +1,11 @@
+{
+  "label": "post-selection deployment-repair ablation",
+  "n_batches": 5,
+  "n_days_per_batch": 30,
+  "mean_direct_common_cost": 1489.1358404343334,
+  "mean_projected_common_cost": 1506.2628946724851,
+  "mean_projected_minus_direct": 17.127054238151704,
+  "projection_fraction": 0.03652777777777778,
+  "mean_one_step_greedy_defect": 0.14992710393941508,
+  "max_one_step_greedy_defect": 11.940330907179828
+}

@@ -1,0 +1,20 @@
+Observed SCIP diagnostic messages during the N=12 parallel timing group.
+These are retained from the process output; worker/path attribution was not
+available in the interleaved stream. Do not infer that the final solve failed
+or that it was numerically certified from these messages alone.
+
+First block:
+[solve.c:4216] ERROR: (node 437) unresolved numerical troubles in LP 168 cannot be dealt with
+[solve.c:4511] ERROR: Error <-6> in function call
+[solve.c:5335] ERROR: Error <-6> in function call
+[scip_solve.c:2766] ERROR: Error <-6> in function call
+
+Second block:
+[solve.c:4216] ERROR: (node 1063) unresolved numerical troubles in LP 430 cannot be dealt with
+[solve.c:4511] ERROR: Error <-6> in function call
+[solve.c:5335] ERROR: Error <-6> in function call
+[scip_solve.c:2766] ERROR: Error <-6> in function call
+
+Check final top-level return statuses and incumbent availability in the raw
+miqp_n12.json records, and independently reconstruct realized cost/safety with
+audit_results.py. This does not certify solver-internal dual bounds.

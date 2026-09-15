@@ -1,0 +1,59 @@
+{
+  "rounds": [
+    {
+      "seed": 3,
+      "iteration": 0,
+      "initial_costs": [
+        1642.560795294255,
+        1613.9184390916519,
+        1582.4449439964842
+      ],
+      "checkpoint_sha256": "21c360347d6be9e2f172ae9390a2e5db06c03ff2cf3195a14d1b5c3f3b33b45a",
+      "evaluation_wall_s": 1.655850899999999
+    },
+    {
+      "seed": 3,
+      "iteration": 1,
+      "initial_costs": [
+        1588.1014577811795,
+        1486.6504535682184,
+        1425.5022447217511
+      ],
+      "checkpoint_sha256": "cc931d1f4d15e10cd19274c996983a7a1f92c723e503d5347bc287759ee9400b",
+      "evaluation_wall_s": 1.6338363999999999
+    },
+    {
+      "seed": 3,
+      "iteration": 2,
+      "initial_costs": [
+        1462.1676344806588,
+        1413.274969204699,
+        1375.3368750897894
+      ],
+      "checkpoint_sha256": "6064de1d56516409c0c7d05f4c51982c24b5a357cd5367f3c9df3c7236a22445",
+      "evaluation_wall_s": 1.6431408999999988
+    },
+    {
+      "seed": 3,
+      "iteration": 3,
+      "initial_costs": [
+        1455.7165399093958,
+        1411.837193437317,
+        1362.3774640866104
+      ],
+      "checkpoint_sha256": "4b87929dceb0b59e6d87b522490c0388db6b465909a82c7b9ddf607b5db90fbb",
+      "evaluation_wall_s": 1.6446685999999993
+    }
+  ],
+  "winner": {
+    "seed": 3,
+    "iteration": 3,
+    "initial_costs": [
+      1455.7165399093958,
+      1411.837193437317,
+      1362.3774640866104
+    ],
+    "checkpoint_sha256": "4b87929dceb0b59e6d87b522490c0388db6b465909a82c7b9ddf607b5db90fbb",
+    "evaluation_wall_s": 1.6446685999999993
+  }
+}

@@ -1,0 +1,18 @@
+* text=auto
+*.ps1 text eol=crlf
+*.parquet binary
+*.npz binary
+*.pdf binary
+*.docx binary
+*.pt binary
+*.pth binary
+
+# Preserve scientific/provenance bytes across platforms for recorded hashes.
+src/** -text
+scripts/** -text
+experiments/** -text
+checkpoints/** -text
+data/** -text
+results/** -text
+configs/** -text
+provenance/** -text

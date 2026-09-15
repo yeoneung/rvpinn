@@ -1,0 +1,15 @@
+{
+  "date": "2019-01-07",
+  "date_selection": "closest observed no-storage exceedance duration to the median; earliest date breaks ties",
+  "setting": {
+    "reserve_soc": 0.1,
+    "charge_target_soc": 0.9,
+    "charge_when_already_above_band": true,
+    "allow_partial_shaving": false,
+    "charge_price": 0.20612
+  },
+  "retained_summary_sha256": {
+    "learned": "667f24d2ebe67120f808f6575cc56b6db5fc4bb95b7fe4d41aa8e8aef6ab7ac4",
+    "m2": "ab4a60c0695a826ba9cce37713239eb7ab284fb062d1ce037b2ec68cea1f2660"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "job": {
+    "id": "fixed_fee40_m16_seed7301_2018-01-02_h16_s0.5_b15",
+    "kind": "fixed",
+    "fee": 40,
+    "scenarios": 16,
+    "stream": 7301,
+    "date": "2018-01-02",
+    "hour": 16,
+    "soc": 0.5,
+    "limit_s": 15
+  },
+  "elapsed_s": 14.98274379999998,
+  "action": 229.45296878356726,
+  "current_net": 529.4529687835673,
+  "current_price": 0.05045,
+  "scenario_sha256": "6b9e7a1b3e0f33ddea70f11444327f35bc20a15c18416b8693b30dfb17d790a7",
+  "solves": [
+    {
+      "time": 16.0,
+      "status": "timelimit",
+      "solve_s": 14.912715099999957,
+      "gap": 0.011745049937064118,
+      "nodes": 1,
+      "primal_bound": 459.25609399174726,
+      "dual_bound": 453.92472542397456,
+      "has_solution": true,
+      "deployment_version": "hard-band-aligned-v1",
+      "first_action_raw": 229.45296878356726,
+      "first_action_held": 229.45296878356726,
+      "first_action_recovery_kw": 0.0,
+      "first_charge_kw": 0.0,
+      "first_discharge_kw": 229.45296878356726,
+      "first_band_active": false
+    }
+  ]
+}

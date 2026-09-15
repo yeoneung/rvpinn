@@ -1,0 +1,7 @@
+{
+  "id": "threshold-aware-surrogate-deployment-01",
+  "scope": "Specified before any new slope-sweep evaluations",
+  "formulation": "Existing deterministic shrinking-horizon MIQP with the band indicator replaced by slope times positive threshold excess; all physical direction binaries and common terminal penalty retained.",
+  "deployment": "After the standard feasible-action recovery, an action with a positive grid overshoot no greater than 1e-5 kW is snapped to a verified feasible non-exceeding threshold candidate when available. Hard billing remains exact, with no billing tolerance. This gives the surrogate a threshold-aware deployment treatment and avoids evaluating numerical overshoots as deliberate fee decisions.",
+  "recording": "Retain raw action, final action and additional threshold-polish displacement for every solve. No objective, data, training weights or tariff parameters are changed."
+}

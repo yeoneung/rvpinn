@@ -1,0 +1,42 @@
+# Full-run budgets selected using validation-period common-random-number
+# rollouts and tuning residuals, without inspecting final test outcomes.
+# The screening configuration is configs/paper_pilot.yaml. Its six-round
+# residual RMS decreases from 61 to 21, with approximately 227 seconds per
+# iteration on the RTX 4080 SUPER. Budgets are common to compared methods.
+stage: full
+smoke: false
+
+policy_evaluation:
+  adam_max_steps: 6000
+  adam_batch_size: 4096
+  lbfgs_max_iter: 150
+  boundary_points: 8192
+  certification_points: 65536
+  tuning_validation_points: 16384
+  eval_every_steps: 500
+  early_stop_patience_evals: 6
+
+adaptive_refinement:
+  candidate_pool_size: 16384
+  refresh_every_steps: 1000
+  top_quantile: 0.98
+  max_buffer_size: 32768
+
+policy_iteration:
+  max_iterations: 8
+
+experiment_a:
+  grids:
+    - [51, 81, 49]
+    - [101, 161, 97]
+    - [201, 321, 193]
+  eval_points: 100000
+
+drl:
+  total_transitions: 1000000
+  eval_every_transitions: 50000
+  n_eval_rollouts: 16
+  early_stop_patience_evals: 5
+
+statistics:
+  bootstrap_replicates: 10000
