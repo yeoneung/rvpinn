@@ -40,7 +40,8 @@ def test_abstract_cost_and_latency_use_same_comparator():
     text = confirmatory.render_abstract_result(methods, pairs)
     assert r"1.2\% higher, 2.3\% higher, and 1.4\% higher" in text
     assert "primary two-stage stochastic MIQP" in text
-    assert "4321.0 ms for this single-threaded stochastic MIQP" in text
+    assert "4321.0 ms for single-threaded stochastic MIQP" in text
+    assert "averaged over the three fee anchors" in text
     assert "9876.5" not in text and "conditional-mean" not in text
 
 
