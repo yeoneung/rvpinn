@@ -67,7 +67,7 @@ def main():
               "each of the other three seasons.", ""]
     (GENERATED / "heuristic_results.tex").write_text("\n".join(lines), encoding="utf-8")
     lines = [r"\begin{table}[htbp]", r"\centering",
-             r"\caption{Tariff-aware rule: selected settings and descriptive test outcomes. Reserve SoC is 0.1 in all selected rules. All allow charging while the band fee is already active and disallow partial shaving that cannot eliminate the fee. Costs are in EUR/day; $C_{\rm ch}$ is in EUR/kWh and latency in ms. Seasonal settings are selected separately on validation data.}",
+             r"\caption{Tariff-aware rule: selected settings and descriptive test outcomes. Reserve SoC is 0.1 in all selected rules. All allow charging while the band fee is already active and disallow partial shaving that cannot eliminate the fee. EFC denotes equivalent full cycles, and $C_{\rm ch}$ is the charging-price threshold. Costs are in EUR/day; $C_{\rm ch}$ is in EUR/kWh and latency in ms. Seasonal settings are selected separately on validation data.}",
              r"\label{tab:tariff-rule-details}", r"\scriptsize",
              r"\begin{tabular}{lrrrrrrr}", r"\toprule",
              r"Season & Fee & Target SoC & $C_{\rm ch}$ & Rule cost & Learned cost & EFC/day & Latency \\", r"\midrule"]

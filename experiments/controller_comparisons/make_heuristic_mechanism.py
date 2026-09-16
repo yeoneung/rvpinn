@@ -20,7 +20,7 @@ from experiments.make_comparative_mechanism_figure import _soc_plot_coordinates
 from audit_results import check_daily
 
 
-def main():
+def main(figure_only=False):
     (ROOT/'manuscript/figures').mkdir(parents=True, exist_ok=True)
     (ROOT/'manuscript/generated').mkdir(parents=True, exist_ok=True)
     original=ROOT/'experiments/results'
@@ -48,12 +48,13 @@ def main():
         assert costs[key]['trajectory_sha256']==hashlib.sha256(trajectory_path.read_bytes()).hexdigest()
         inputs[key]=hashlib.sha256(summary_path.read_bytes()).hexdigest()
     out=HERE/'results/heuristic_mechanism'; out.mkdir(parents=True,exist_ok=True)
-    trajectories['rule'].to_parquet(out/'rule_trajectory.parquet',index=False)
-    pd.DataFrame([dict(controller=k,**{n:costs[k][n] for n in
-                 ('bill','capacity_fee','degradation_cost','terminal_penalty','common_cost','exceed_hours')})
-                 for k in ('learned','m2','rule')]).to_csv(out/'summary.csv',index=False)
-    (out/'manifest.json').write_text(json.dumps(dict(date=date,
-        date_selection=meta['selection_rule'],setting=selected['setting'],retained_summary_sha256=inputs),indent=2),encoding='utf-8')
+    if not figure_only:
+        trajectories['rule'].to_parquet(out/'rule_trajectory.parquet',index=False)
+        pd.DataFrame([dict(controller=k,**{n:costs[k][n] for n in
+                     ('bill','capacity_fee','degradation_cost','terminal_penalty','common_cost','exceed_hours')})
+                     for k in ('learned','m2','rule')]).to_csv(out/'summary.csv',index=False)
+        (out/'manifest.json').write_text(json.dumps(dict(date=date,
+            date_selection=meta['selection_rule'],setting=selected['setting'],retained_summary_sha256=inputs),indent=2),encoding='utf-8')
     labels={'learned':'Learned','m2':'Primary MIQP (M=2)','rule':'Tariff-aware rule'}
     styles={'learned':('#0072B2','-'),'m2':('#D55E00','--'),'rule':('#009E73','-.')}
     fig,axes=plt.subplots(3,1,figsize=(7.2,6.5),sharex=True,layout='constrained')
@@ -71,7 +72,7 @@ def main():
                      xytext=(0,4), textcoords='offset points',
                      ha='right', va='bottom', fontsize=8, color='0.25',
                      bbox=dict(facecolor='white',edgecolor='none',alpha=.8,pad=1))
-    axes[0].set_ylabel('Grid import (kW)'); axes[1].set_ylabel('State of charge')
+    axes[0].set_ylabel('Grid exchange (kW)'); axes[1].set_ylabel('State of charge')
     axes[2].set_ylabel('Battery power (kW)'); axes[2].set_xlabel('Hour')
     axes[0].legend(loc='upper center',bbox_to_anchor=(.5,1.25),ncol=3,frameon=False,fontsize=9)
     for ax in axes:
@@ -80,6 +81,8 @@ def main():
     fig.savefig(ROOT/'manuscript/figures/fig_tariff_mechanism.pdf')
     fig.savefig(out/'figure.png',dpi=150)
     plt.close(fig)
+    if figure_only:
+        return
     lines=[r'\begin{table}[tbp]',r'\centering',r'\small',
            r'\caption{Cost decomposition on the protocol-selected winter day (7 January 2019), in EUR. Exceedance duration is in hours.}',
            r'\label{tab:tariff-mechanism}',r'\begin{tabular}{lrrrrrr}',r'\toprule',
@@ -94,4 +97,8 @@ def main():
 
 
 if __name__=='__main__':
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--figure-only', action='store_true',
+                        help='Render retained trajectories without rewriting numerical results.')
+    main(figure_only=parser.parse_args().figure_only)

@@ -21,8 +21,8 @@ def main():
     params,_,_=regime_bundle('confirmatory',['winter_weekday'])
     efc=reference.mean_throughput_kwh/(2*params['winter_weekday'].E_max)
     differences=[float(pairs.loc[f,'mean_diff']) for f in (20,40,80)]
-    text=(f'The learned-minus-reference cost differences were {differences[0]:.1f},\n'
-          f'{differences[1]:.1f}, and {differences[2]:.1f} EUR/day at the three fee anchors.\n'
+    text=(f'The learned-minus-reference cost differences were ${differences[0]:.1f}$,\n'
+          f'${differences[1]:.1f}$, and ${differences[2]:.1f}$ EUR/day at the three fee anchors.\n'
           'These compare the same one-step architecture with and without the neural\n'
           f'continuation correction. The reference used only {efc.min():.2f}--{efc.max():.2f} equivalent\n'
           'full cycles per day. This ablation isolates the learned continuation;\n'

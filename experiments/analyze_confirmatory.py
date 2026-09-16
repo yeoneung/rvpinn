@@ -90,8 +90,8 @@ def render_abstract_result(methods, pairs):
         "respectively. " + inference_sentence
         + "Central-fee inference resampled five independent five-restart "
         "batches; each outer-anchor result is conditional on one such batch. "
-        f"Mean GPU-assisted online latency was {learned['mean_latency_mean_ms'].mean():.1f} "
-        f"ms versus {stochastic['mean_latency_mean_ms'].mean():.1f} ms for this "
+        f"Online latency averaged over the three fee anchors was {learned['mean_latency_mean_ms'].mean():.1f} "
+        f"ms with GPU-assisted evaluation versus {stochastic['mean_latency_mean_ms'].mean():.1f} ms for "
         "single-threaded stochastic MIQP."
     )
 
@@ -663,7 +663,7 @@ def main() -> int:
         f"minutes of recorded training-run time, validation-controller computation, "
         f"and selected-checkpoint loading. Among trained selections, mean "
         f"checkpoint loading was {mean_loading_s:.2f} s. "
-        f"At 96 calls per day, the measured online controller time was "
+        f"At 96 calls per day, the measured online controller time, averaged over the three fee anchors, was "
         f"{96.0 * avg_lat_l / 1000.0:.2f} s/day for the offline policy and "
         f"{96.0 * avg_lat_m / 1000.0:.2f} s/day for conditional-mean MIQP.")
     finite_break_even = amortization["compute_equivalent_break_even_days"].dropna()
@@ -687,8 +687,8 @@ def main() -> int:
     ]
     concise_compute = (
         f"A complete five-restart batch required {mean_offline_s / 60.:.1f} minutes "
-        f"of recorded training, validation, and checkpoint loading. Mean online "
-        f"call latency was {avg_lat_l:.1f} ms, versus {avg_lat_m:.1f} ms for "
+        f"of recorded training, validation, and checkpoint loading. Online call latency, "
+        f"averaged over the three fee anchors, was {avg_lat_l:.1f} ms, versus {avg_lat_m:.1f} ms for "
         f"conditional-mean MIQP (Figure~\\ref{{fig:cost-latency}}).")
     choice_scope = (
         f"Zero action was retained in {int(fallback_by_fee.sum())} of "
