@@ -1,4 +1,4 @@
-# Simulation-based comparison of offline value learning and online mixed-integer control for battery dispatch
+# Battery dispatch under discontinuous tariffs: Tariff-aware rules, value learning, and budgeted mixed-integer control
 
 Code, processed data, stored model weights, and evaluation outputs for the
 study by **Yeoneung Kim**, Department of Industrial Engineering,
@@ -25,6 +25,18 @@ economic objective, current observations, terminal treatment, feasible action se
 15-minute decision interval.
 
 ## Main findings
+
+On 30 paired winter test days, the validation-tuned tariff-aware rule has
+mean costs within 0.2% of the primary two-scenario stochastic MIQP at fees
+40 and 80 EUR/h. Rule-minus-MIQP differences are +2.4 EUR/day (95% interval
+[-0.5, 5.6]) and -1.4 EUR/day ([-5.3, 2.9]), respectively. At 20 EUR/h,
+the difference is +27.9 EUR/day ([24.7, 30.9]), favoring MIQP. The exploratory
+intervals use 10,000 paired circular moving-block replicates with seven
+eligible days per block, conditional on the validation-selected rules and
+recorded MIQP scenario stream. They do not establish equivalence or
+noninferiority. At the central fee, mean CPU call times are 0.053 ms for
+the rule and 1933.3 ms for MIQP. The [paired analysis and daily results](experiments/controller_comparisons/results/heuristic/rule_miqp_paired.json)
+are reproducible without rerunning controllers.
 
 The two-state hard-tariff benchmark compares policies under a common refined
 numerical transition, retaining the 15-minute held action and terminal cost.

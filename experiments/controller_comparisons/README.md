@@ -110,6 +110,20 @@ or certificates of global optimality.
 
 ## Rule findings
 
+Run `python experiments/controller_comparisons/analyze_rule_miqp.py` from
+the repository root to reproduce the paired rule-minus-primary-MIQP
+comparison. It reads the 30 shared winter dates at each fee, using the
+primary two-scenario, five-second MIQP stream (4101), not the nested
+scenario-count streams. The two-sided percentile intervals use 10,000
+seven-eligible-day circular moving-block replicates with seeds 20261025,
+20261045, and 20261085. Input hashes and daily pairs are in
+`results/heuristic/rule_miqp_paired.json`.
+
+Mean differences at fees 20, 40, and 80 EUR/h are +27.9, +2.4, and -1.4
+EUR/day, with 95% intervals [24.7, 30.9], [-0.5, 5.6], and [-5.3, 2.9].
+These exploratory intervals hold rule selection and the recorded scenario
+stream fixed; they do not test a prespecified equivalence margin.
+
 On 30 winter test dates, the tariff-aware rule costs 1271.5, 1458.4, and
 1744.7 EUR/day at fees 20, 40, and 80 EUR/h, respectively. Learned costs are
 1258.2, 1489.1, and 1769.7. The rule also has lower mean cost in all three

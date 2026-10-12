@@ -136,6 +136,7 @@ python experiments/make_study_figures.py
 python experiments/analyze_policy_iteration_progression.py
 python experiments/analyze_fixed_value_reuse.py
 python experiments/controller_comparisons/analyze_heuristic.py
+python experiments/controller_comparisons/analyze_rule_miqp.py
 python experiments/controller_comparisons/run_heuristic_reuse.py
 python experiments/controller_comparisons/analyze_surrogates.py
 python experiments/controller_comparisons/analyze_solver_budget.py
@@ -149,6 +150,10 @@ python experiments/hard_tariff_dp/report.py
 These commands require the complete planned outputs; budget and surrogate
 exporters refuse an incomplete experiment. The heuristic reuse runner reads
 its nine retained timing records when present, without repeating them.
+The rule--MIQP analysis pairs stored daily costs by date and writes
+`experiments/controller_comparisons/results/heuristic/rule_miqp_paired.json`,
+including input hashes, bootstrap settings, and daily pairs. It also exports
+the corresponding table to the ignored `manuscript/generated/` directory.
 The representative-day figure reads stored learned, primary-MIQP, and
 tariff-rule trajectories and checks their accounting. It does not rerun
 controllers. Its reported controller

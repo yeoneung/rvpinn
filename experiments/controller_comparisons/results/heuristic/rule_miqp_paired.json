@@ -1,0 +1,528 @@
+{
+  "contrast": "rule minus primary stochastic MIQP, EUR/day",
+  "method": "two-sided percentile circular moving-block bootstrap",
+  "n_boot": 10000,
+  "block_eligible_days": 7,
+  "scope": "Exploratory; conditional on validation-selected rules and recorded MIQP stream 4101. No equivalence margin or multiplicity adjustment.",
+  "self_tests_passed": true,
+  "inputs": [
+    {
+      "path": "experiments/controller_comparisons/results/heuristic/test_winter_weekday_fee20.json",
+      "sha256": "ec756c32162592ff3e7cc987ae37201a0f8029d4e19d781c1912a32623d04790"
+    },
+    {
+      "path": "experiments/results/common_daily_confirmatory_thr300_fee20_w10_n2.parquet",
+      "sha256": "54683920711445fbcfbaf0fed5ccdd471be3bf47b407ea868290a8de8d0afa1e"
+    },
+    {
+      "path": "experiments/controller_comparisons/results/heuristic/test_winter_weekday_fee40.json",
+      "sha256": "ad26b40580f7dcbf9254639bc2a4f5103c6d5b9a3368241d8f8ac16a10efaf9e"
+    },
+    {
+      "path": "experiments/results/common_daily_confirmatory_thr300_fee40_w10_n2.parquet",
+      "sha256": "7585acd7f0f1705cdefece9d19554de3f82efd7127258918d9f2d41219493ce3"
+    },
+    {
+      "path": "experiments/controller_comparisons/results/heuristic/test_winter_weekday_fee80.json",
+      "sha256": "a6ecf135f87f9c48990b81f94b71482186a7f21434fcc4b73aedaf1ca3908406"
+    },
+    {
+      "path": "experiments/results/common_daily_confirmatory_thr300_fee80_w10_n2.parquet",
+      "sha256": "3e0b25db97af71f8e2676b25d0f0871b76a2a938113c1094816358062f08e2ff"
+    }
+  ],
+  "results": [
+    {
+      "fee": 20,
+      "n_days": 30,
+      "seed": 20261025,
+      "rule_mean": 1271.4585621465694,
+      "miqp_mean": 1243.5292995578943,
+      "difference": 27.929262588674774,
+      "ci95": [
+        24.729470533539168,
+        30.903648086769255
+      ],
+      "daily_pairs": [
+        {
+          "date": "2019-01-02",
+          "common_cost_rule": 852.4622401763083,
+          "common_cost_miqp": 808.0191727548124
+        },
+        {
+          "date": "2019-01-03",
+          "common_cost_rule": 875.9550331358621,
+          "common_cost_miqp": 854.588392895547
+        },
+        {
+          "date": "2019-01-04",
+          "common_cost_rule": 960.4817157198246,
+          "common_cost_miqp": 933.8364247718397
+        },
+        {
+          "date": "2019-01-07",
+          "common_cost_rule": 1183.3011567256283,
+          "common_cost_miqp": 1163.3290308750823
+        },
+        {
+          "date": "2019-01-08",
+          "common_cost_rule": 1562.8636757667105,
+          "common_cost_miqp": 1555.1949439342197
+        },
+        {
+          "date": "2019-01-09",
+          "common_cost_rule": 1453.4694734726158,
+          "common_cost_miqp": 1430.567075863648
+        },
+        {
+          "date": "2019-01-10",
+          "common_cost_rule": 1323.3698084918433,
+          "common_cost_miqp": 1287.7397114281225
+        },
+        {
+          "date": "2019-01-11",
+          "common_cost_rule": 1310.4859493557324,
+          "common_cost_miqp": 1269.9530042225613
+        },
+        {
+          "date": "2019-01-14",
+          "common_cost_rule": 1103.754256389997,
+          "common_cost_miqp": 1079.4108110532568
+        },
+        {
+          "date": "2019-01-15",
+          "common_cost_rule": 1305.4355972883607,
+          "common_cost_miqp": 1264.8375365611082
+        },
+        {
+          "date": "2019-01-16",
+          "common_cost_rule": 1350.254281460129,
+          "common_cost_miqp": 1312.0338714087204
+        },
+        {
+          "date": "2019-01-17",
+          "common_cost_rule": 1461.794491555097,
+          "common_cost_miqp": 1441.1853847846767
+        },
+        {
+          "date": "2019-01-18",
+          "common_cost_rule": 1464.0933516892753,
+          "common_cost_miqp": 1425.7179282307593
+        },
+        {
+          "date": "2019-01-21",
+          "common_cost_rule": 1421.5364753043807,
+          "common_cost_miqp": 1406.9734342968159
+        },
+        {
+          "date": "2019-01-22",
+          "common_cost_rule": 1515.5450212375792,
+          "common_cost_miqp": 1475.500691447322
+        },
+        {
+          "date": "2019-01-23",
+          "common_cost_rule": 1660.1673675062734,
+          "common_cost_miqp": 1639.2490498981467
+        },
+        {
+          "date": "2019-01-24",
+          "common_cost_rule": 1633.2654330698094,
+          "common_cost_miqp": 1576.0602694505947
+        },
+        {
+          "date": "2019-01-25",
+          "common_cost_rule": 1259.5803329309415,
+          "common_cost_miqp": 1237.386479346256
+        },
+        {
+          "date": "2019-01-28",
+          "common_cost_rule": 1253.7581370425726,
+          "common_cost_miqp": 1244.3978183938161
+        },
+        {
+          "date": "2019-01-29",
+          "common_cost_rule": 1249.5037693809463,
+          "common_cost_miqp": 1222.4563131634295
+        },
+        {
+          "date": "2019-01-30",
+          "common_cost_rule": 1528.0656246681376,
+          "common_cost_miqp": 1512.5712927418263
+        },
+        {
+          "date": "2019-01-31",
+          "common_cost_rule": 1428.6734491615657,
+          "common_cost_miqp": 1399.3408730048677
+        },
+        {
+          "date": "2019-02-01",
+          "common_cost_rule": 1503.7955994944944,
+          "common_cost_miqp": 1489.727800529647
+        },
+        {
+          "date": "2019-02-04",
+          "common_cost_rule": 1103.919274888651,
+          "common_cost_miqp": 1069.6348249587072
+        },
+        {
+          "date": "2019-02-05",
+          "common_cost_rule": 1063.4343206534695,
+          "common_cost_miqp": 1031.8645338758586
+        },
+        {
+          "date": "2019-02-06",
+          "common_cost_rule": 1011.3399792452752,
+          "common_cost_miqp": 990.505795881501
+        },
+        {
+          "date": "2019-02-07",
+          "common_cost_rule": 1229.4665379983078,
+          "common_cost_miqp": 1185.8706272962982
+        },
+        {
+          "date": "2019-02-08",
+          "common_cost_rule": 1101.5151728222831,
+          "common_cost_miqp": 1071.4458498481938
+        },
+        {
+          "date": "2019-02-11",
+          "common_cost_rule": 963.4951800486734,
+          "common_cost_miqp": 925.4472643187929
+        },
+        {
+          "date": "2019-02-12",
+          "common_cost_rule": 1008.9741577163355,
+          "common_cost_miqp": 1001.0327795004098
+        }
+      ]
+    },
+    {
+      "fee": 40,
+      "n_days": 30,
+      "seed": 20261045,
+      "rule_mean": 1458.426763013634,
+      "miqp_mean": 1456.029470018559,
+      "difference": 2.397292995074607,
+      "ci95": [
+        -0.5188918014360943,
+        5.601189690504766
+      ],
+      "daily_pairs": [
+        {
+          "date": "2019-01-02",
+          "common_cost_rule": 892.0838548657209,
+          "common_cost_miqp": 895.2465620567096
+        },
+        {
+          "date": "2019-01-03",
+          "common_cost_rule": 939.294519768989,
+          "common_cost_miqp": 957.2996899486144
+        },
+        {
+          "date": "2019-01-04",
+          "common_cost_rule": 1034.1043622846032,
+          "common_cost_miqp": 1034.9705905486344
+        },
+        {
+          "date": "2019-01-07",
+          "common_cost_rule": 1355.1457702040716,
+          "common_cost_miqp": 1348.3756721447146
+        },
+        {
+          "date": "2019-01-08",
+          "common_cost_rule": 1838.902386826011,
+          "common_cost_miqp": 1845.1921516362765
+        },
+        {
+          "date": "2019-01-09",
+          "common_cost_rule": 1687.518541458482,
+          "common_cost_miqp": 1673.869268365203
+        },
+        {
+          "date": "2019-01-10",
+          "common_cost_rule": 1508.6434860370925,
+          "common_cost_miqp": 1501.7409756071647
+        },
+        {
+          "date": "2019-01-11",
+          "common_cost_rule": 1486.2948077810147,
+          "common_cost_miqp": 1476.6732758576354
+        },
+        {
+          "date": "2019-01-14",
+          "common_cost_rule": 1256.7839004814562,
+          "common_cost_miqp": 1256.0904420127197
+        },
+        {
+          "date": "2019-01-15",
+          "common_cost_rule": 1467.8154310373272,
+          "common_cost_miqp": 1477.0690410098573
+        },
+        {
+          "date": "2019-01-16",
+          "common_cost_rule": 1529.952033865863,
+          "common_cost_miqp": 1536.4678787959729
+        },
+        {
+          "date": "2019-01-17",
+          "common_cost_rule": 1710.2237064378396,
+          "common_cost_miqp": 1697.5162728090068
+        },
+        {
+          "date": "2019-01-18",
+          "common_cost_rule": 1690.8823288920569,
+          "common_cost_miqp": 1682.6860284986897
+        },
+        {
+          "date": "2019-01-21",
+          "common_cost_rule": 1659.0719603303912,
+          "common_cost_miqp": 1645.7933573186203
+        },
+        {
+          "date": "2019-01-22",
+          "common_cost_rule": 1754.11993830362,
+          "common_cost_miqp": 1738.3914149732268
+        },
+        {
+          "date": "2019-01-23",
+          "common_cost_rule": 1949.3428170992288,
+          "common_cost_miqp": 1942.3666291062111
+        },
+        {
+          "date": "2019-01-24",
+          "common_cost_rule": 1836.8401421675344,
+          "common_cost_miqp": 1824.182916368738
+        },
+        {
+          "date": "2019-01-25",
+          "common_cost_rule": 1430.5840922941977,
+          "common_cost_miqp": 1441.2667260016385
+        },
+        {
+          "date": "2019-01-28",
+          "common_cost_rule": 1485.3803987013262,
+          "common_cost_miqp": 1475.7676856724129
+        },
+        {
+          "date": "2019-01-29",
+          "common_cost_rule": 1426.5238589402766,
+          "common_cost_miqp": 1422.7527457125575
+        },
+        {
+          "date": "2019-01-30",
+          "common_cost_rule": 1803.7255605503763,
+          "common_cost_miqp": 1802.2907713108705
+        },
+        {
+          "date": "2019-01-31",
+          "common_cost_rule": 1674.1310332732655,
+          "common_cost_miqp": 1665.4668501973417
+        },
+        {
+          "date": "2019-02-01",
+          "common_cost_rule": 1818.7370406585176,
+          "common_cost_miqp": 1822.6966751573575
+        },
+        {
+          "date": "2019-02-04",
+          "common_cost_rule": 1249.0590653054264,
+          "common_cost_miqp": 1245.5290380162144
+        },
+        {
+          "date": "2019-02-05",
+          "common_cost_rule": 1201.145623942165,
+          "common_cost_miqp": 1210.54819573575
+        },
+        {
+          "date": "2019-02-06",
+          "common_cost_rule": 1170.4236907278987,
+          "common_cost_miqp": 1176.6066410171184
+        },
+        {
+          "date": "2019-02-07",
+          "common_cost_rule": 1400.7325702849564,
+          "common_cost_miqp": 1392.797696838694
+        },
+        {
+          "date": "2019-02-08",
+          "common_cost_rule": 1245.276989960877,
+          "common_cost_miqp": 1253.8781472866913
+        },
+        {
+          "date": "2019-02-11",
+          "common_cost_rule": 1097.900845825697,
+          "common_cost_miqp": 1082.0520022723572
+        },
+        {
+          "date": "2019-02-12",
+          "common_cost_rule": 1152.162132102737,
+          "common_cost_miqp": 1155.2987582797825
+        }
+      ]
+    },
+    {
+      "fee": 80,
+      "n_days": 30,
+      "seed": 20261085,
+      "rule_mean": 1744.6650612999629,
+      "miqp_mean": 1746.1032670510988,
+      "difference": -1.4382057511353499,
+      "ci95": [
+        -5.321074664190931,
+        2.8974106177280996
+      ],
+      "daily_pairs": [
+        {
+          "date": "2019-01-02",
+          "common_cost_rule": 1042.083854865721,
+          "common_cost_miqp": 1050.3243587993722
+        },
+        {
+          "date": "2019-01-03",
+          "common_cost_rule": 1089.2945197689892,
+          "common_cost_miqp": 1102.7652702400799
+        },
+        {
+          "date": "2019-01-04",
+          "common_cost_rule": 1194.1043622846032,
+          "common_cost_miqp": 1202.8477057671255
+        },
+        {
+          "date": "2019-01-07",
+          "common_cost_rule": 1605.1457702040716,
+          "common_cost_miqp": 1603.7595651242818
+        },
+        {
+          "date": "2019-01-08",
+          "common_cost_rule": 2208.902386826011,
+          "common_cost_miqp": 2218.9233630389763
+        },
+        {
+          "date": "2019-01-09",
+          "common_cost_rule": 2037.5185414584819,
+          "common_cost_miqp": 2015.4677391171863
+        },
+        {
+          "date": "2019-01-10",
+          "common_cost_rule": 1798.6434860370925,
+          "common_cost_miqp": 1803.943911644535
+        },
+        {
+          "date": "2019-01-11",
+          "common_cost_rule": 1786.2948077810147,
+          "common_cost_miqp": 1756.681960683726
+        },
+        {
+          "date": "2019-01-14",
+          "common_cost_rule": 1486.7839004814562,
+          "common_cost_miqp": 1507.9488063162778
+        },
+        {
+          "date": "2019-01-15",
+          "common_cost_rule": 1737.8154310373275,
+          "common_cost_miqp": 1773.3290434197531
+        },
+        {
+          "date": "2019-01-16",
+          "common_cost_rule": 1819.9520338658633,
+          "common_cost_miqp": 1853.5851912236124
+        },
+        {
+          "date": "2019-01-17",
+          "common_cost_rule": 2070.2237064378396,
+          "common_cost_miqp": 2053.4111188649467
+        },
+        {
+          "date": "2019-01-18",
+          "common_cost_rule": 2040.8823288920566,
+          "common_cost_miqp": 2017.9034450672714
+        },
+        {
+          "date": "2019-01-21",
+          "common_cost_rule": 1986.8181697742862,
+          "common_cost_miqp": 1973.266878097422
+        },
+        {
+          "date": "2019-01-22",
+          "common_cost_rule": 2114.1199383036196,
+          "common_cost_miqp": 2084.2714162296875
+        },
+        {
+          "date": "2019-01-23",
+          "common_cost_rule": 2329.3428170992283,
+          "common_cost_miqp": 2338.8164213657415
+        },
+        {
+          "date": "2019-01-24",
+          "common_cost_rule": 2166.840142167534,
+          "common_cost_miqp": 2171.806053981614
+        },
+        {
+          "date": "2019-01-25",
+          "common_cost_rule": 1700.584092294198,
+          "common_cost_miqp": 1707.7128649011806
+        },
+        {
+          "date": "2019-01-28",
+          "common_cost_rule": 1805.3803987013262,
+          "common_cost_miqp": 1789.6296500508404
+        },
+        {
+          "date": "2019-01-29",
+          "common_cost_rule": 1696.5238589402766,
+          "common_cost_miqp": 1715.8730943580526
+        },
+        {
+          "date": "2019-01-30",
+          "common_cost_rule": 2183.7255605503756,
+          "common_cost_miqp": 2174.8414100097352
+        },
+        {
+          "date": "2019-01-31",
+          "common_cost_rule": 2034.131033273265,
+          "common_cost_miqp": 2020.3938818996462
+        },
+        {
+          "date": "2019-02-01",
+          "common_cost_rule": 2209.0308127893536,
+          "common_cost_miqp": 2214.2410719844356
+        },
+        {
+          "date": "2019-02-04",
+          "common_cost_rule": 1488.1680323205746,
+          "common_cost_miqp": 1484.8354115066109
+        },
+        {
+          "date": "2019-02-05",
+          "common_cost_rule": 1431.1456239421655,
+          "common_cost_miqp": 1450.4093950809813
+        },
+        {
+          "date": "2019-02-06",
+          "common_cost_rule": 1400.423690727899,
+          "common_cost_miqp": 1420.226176599895
+        },
+        {
+          "date": "2019-02-07",
+          "common_cost_rule": 1690.7325702849564,
+          "common_cost_miqp": 1683.6415013189228
+        },
+        {
+          "date": "2019-02-08",
+          "common_cost_rule": 1485.2769899608775,
+          "common_cost_miqp": 1487.0340588444246
+        },
+        {
+          "date": "2019-02-11",
+          "common_cost_rule": 1327.9008458256972,
+          "common_cost_miqp": 1298.6650721112865
+        },
+        {
+          "date": "2019-02-12",
+          "common_cost_rule": 1372.1621321027374,
+          "common_cost_miqp": 1406.5421738853381
+        }
+      ]
+    }
+  ]
+}
